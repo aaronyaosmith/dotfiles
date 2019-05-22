@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo ifconfig tun1 down
+sudo openvpn --rmtun --dev tun1

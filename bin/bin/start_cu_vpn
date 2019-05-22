@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo openvpn --mktun --dev tun1
+sudo ifconfig tun1 up
+sudo openconnect cuvpn.cuvpn.cornell.edu --authgroup=CornellVPN --interface=tun1

@@ -1,0 +1,192 @@
+# i3 config. Aaron Yao-Smith.
+
+# Set mod key to Windows key
+set $mod Mod4
+
+# APPEARANCE
+############
+
+# Uses wpg tags
+set $coloract "#667648"
+set $colorin "#465131"
+set_from_resource $color15 i3wm.color15 "#d7fffd"
+set_from_resource $split i3wm.color10 "#87bb6c"
+set_from_resource $coloru i3wm.color2 "#6c855f"
+set_from_resource $color0 i3wm.color0 "#2b2727"
+set_from_resource $color8 i3wm.color8 "#403a3a"
+
+# class                 border    backgr    text    indicator child_border
+client.focused          $coloract $coloract $color15 $split  $coloract
+client.focused_inactive $coloract $coloract $color15 $split  $colorin
+client.unfocused        $colorin  $colorin  $color15 $split  $colorin
+client.urgent           $coloru   $coloru   $color15 $coloru $coloru
+client.placeholder      $color0   $color8   $color15 $color0 $color8
+client.background       $color0
+
+set $font Input Sans 8
+# set $font Input Mono Light 12px
+# set $font DejaVu Sans Mono 10
+# set $font Tamsyn 12
+
+# thin borders
+hide_edge_borders smart
+
+# no titlebar
+new_window 1pixel
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango:$font
+
+# KEYBINDINGS
+#############
+
+## i3 defaults
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+for_window [class="URxvt" instance="floating"] floating enable
+bindsym $mod+Return exec urxvt -name floating -g 80x24+1260+40
+bindsym $mod+Shift+Return exec urxvt
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bindsym $mod+b split h
+bindsym $mod+v split v
+bindsym $mod+f fullscreen toggle
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+bindsym $mod+z focus child
+
+# switch to workspace
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+set $workspace4 "4"
+set $workspace5 "5"
+set $workspace6 "6"
+set $workspace7 "7"
+set $workspace8 "8"
+set $workspace9 "9"
+set $workspace10 "10"
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+bindsym $mod+7 workspace $workspace7
+bindsym $mod+8 workspace $workspace8
+bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace10
+bindsym $mod+Shift+1 move container to workspace $workspace1
+bindsym $mod+Shift+2 move container to workspace $workspace2
+bindsym $mod+Shift+3 move container to workspace $workspace3
+bindsym $mod+Shift+4 move container to workspace $workspace4
+bindsym $mod+Shift+5 move container to workspace $workspace5
+bindsym $mod+Shift+6 move container to workspace $workspace6
+bindsym $mod+Shift+7 move container to workspace $workspace7
+bindsym $mod+Shift+8 move container to workspace $workspace8
+bindsym $mod+Shift+9 move container to workspace $workspace9
+bindsym $mod+Shift+0 move container to workspace $workspace10
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+
+        bindsym minus       gaps outer current plus 10
+        bindsym equal       gaps outer current minus 10
+        bindsym Shift+minus gaps inner current plus 10
+        bindsym Shift+equal gaps inner current minus 10
+
+        bindsym Shift+l move right 30
+        bindsym Shift+j move down 30
+        bindsym Shift+k move up 30
+        bindsym Shift+h move left 30
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+## personal
+
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id ~/bin/i3exit lock, mode "default"
+    bindsym e exec --no-startup-id ~/bin/i3exit logout, mode "default"
+    bindsym s exec --no-startup-id ~/bin/i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id ~/bin/i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id ~/bin/i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id ~/bin/i3exit shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Pause mode "$mode_system"
+
+bindsym $mod+d exec rofi -show run
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10
+bindsym $mod+F6 exec light -A -r 1
+bindsym $mod+F5 exec light -U -r 1
+bindsym $mod+Shift+F6 exec light -S 100
+bindsym $mod+Shift+F5 exec light -S -r 1
+bindsym XF86TouchpadToggle exec ~/.config/i3/toggletouchpad.sh
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86KbdBrightnessUp exec ~/bin/kbdbacklight up
+bindsym XF86KbdBrightnessDown exec ~/bin/kbdbacklight down
+bindsym $mod+Shift+b exec chromium-browser
+bindsym $mod+Shift+m exec ~/bin/monitor
+
+# STARTUP
+#########
+
+exec --no-startup-id redshift -l 42.44:-76.50 # Ithaca
+exec ~/bin/betterlockscreen -w
+# exec ~/bin/betterlockscreen --lock
+exec_always --no-startup-id fcitx
+exec --no-startup-id dunst
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id ~/.config/wpg/wp_init.sh
+exec_always --no-startup-id compton --backend glx --paint-on-overlay --vsync opengl-swc --blur-background --blur-method kawase --blur-strength 15

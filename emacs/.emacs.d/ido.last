@@ -1,0 +1,349 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/aaron/workspace/grassfed-cli/exchanges/" . "binance/")
+ ("/home/aaron/workspace/grassfed-cli/cmd/" . "grassfed/")
+ ("/home/aaron/workspace/grassfed-cli/" . "exchanges/")
+ ("/home/aaron/workspace/" . "grassfed-cli/")
+ ("/home/aaron/go/src/" . "hello/")
+ ("/home/aaron/go/" . "src/")
+ ("/home/" . "aaron/")
+ ("/ssh:aty25@ugclinux.cs.cornell.edu:/home/aty25/3410/aty25-zx36/" . "P6/")
+ ("/home/aaron/code/courses/4850/" . "python/")
+ ("/home/aaron/code/courses/" . "latex_hw/")
+ ("/home/aaron/code/work/challenges/" . "coinfund/")
+ ("/home/aaron/code/work/" . "recruiting/")
+ ("/home/aaron/code/3410/projects/" . "c/")
+ ("/home/aaron/code/3410/Logisim/" . "project_1/")
+ ("/home/aaron/code/4850/" . "python/")
+ ("/home/aaron/code/3410/" . "projects/")
+ ("/home/aaron/code/4820/" . "hw1/")
+ ("/home/aaron/org/school/" . "notes/")
+ ("/etc/X11/" . "xinit/")
+ ("/home/aaron/dotfiles/wpg/.config/wpg/" . "templates/")
+ ("/home/aaron/dotfiles/wpg/.config/" . "wpg/")
+ ("/home/aaron/dotfiles/wpg/" . ".config/")
+ ("/home/aaron/dotfiles/i3/.config/" . "i3/")
+ ("/home/aaron/dotfiles/i3/" . ".config/")
+ ("/etc/" . "X11/")
+ ("/home/aaron/.config/wpg/" . "templates/")
+ ("/home/aaron/dotfiles/emacs/" . ".emacs.d/")
+ ("/home/aaron/dotfiles/" . "wpg/")
+ ("/home/aaron/.i3/" . "scripts/")
+ ("/home/aaron/code/website/layouts/" . "partials/")
+ ("/home/aaron/code/website/themes/hugo-goa/layouts/" . "partials/")
+ ("/home/aaron/code/website/themes/hugo-goa/static/" . "css/")
+ ("/home/aaron/code/website/themes/hugo-goa/" . "layouts/")
+ ("/home/aaron/code/website/themes/saito-boilerplate/exampleSite/static/" . "js/")
+ ("/home/aaron/code/website/themes/saito-boilerplate/exampleSite/" . "layouts/")
+ ("/home/aaron/code/website/themes/saito-boilerplate/" . "exampleSite/")
+ ("/home/aaron/code/website/themes/" . "hugo-goa/")
+ ("/home/aaron/code/website/content/" . "about/")
+ ("/home/aaron/code/website/" . "themes/")
+ ("/home/aaron/code/cs3110/cs3110-a5/" . "EngineTest/")
+ ("/home/aaron/code/aguaclara/aguaclara/core/" . "data/")
+ ("/home/aaron/code/aguaclara/tests/" . "design/")
+ ("/usr/share/" . "i3blocks/")
+ ("/usr/" . "share/")
+ ("/" . "home/")
+ ("/home/aaron/.cache/" . "i3lock/")
+ ("/home/aaron/Downloads/cuair_test/auto-correct/" . "ac/")
+ ("/home/aaron/Downloads/cuair_test/" . "auto-correct/")
+ ("/home/aaron/Downloads/" . "a9/")
+ ("/home/aaron/code/auto-correct/auto-correct/" . "ac/")
+ ("/home/aaron/code/auto-correct/" . "auto-correct/")
+ ("/home/aaron/code/hgmd/HG_marker_detection/docs/" . "source/")
+ ("/home/aaron/code/cs3110/CS3110-A4/a4/" . "EngineTest/")
+ ("/home/aaron/code/cs3110/CS3110-A4/" . "a4/")
+ ("/home/aaron/code/aguaclara/aguaclara/" . "unit_process_design/")
+ ("/home/aaron/code/aguaclara/" . "tests/")
+ ("/home/aaron/code/hgmd/HGmd_old/" . "hgmd/")
+ ("/home/aaron/code/cs3110/cs3110-a2/" . "a2/")
+ ("/home/aaron/code/cs3110/a1/" . "cs3110-a1/")
+ ("/home/aaron/code/resumes/" . "resumes/")
+ ("/home/aaron/code/cs3110/cs3110-a1/" . "a1/")
+ ("/home/aaron/.config/" . "wpg/")
+ ("/home/aaron/org/" . "meeting_notes/")
+ ("/home/aaron/code/cs3110/" . "cs3110-a9/")
+ ("/home/aaron/.emacs.d/" . "lisp/")
+ ("/home/aaron/Documents/" . "other/")
+ ("/home/aaron/" . "org/")
+ ("/home/aaron/code/hgmd/HG_marker_detection/" . "docs/")
+ ("/home/aaron/code/hgmd/" . "HG_marker_detection/")
+ ("/home/aaron/code/" . "courses/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/aaron/bin/"
+ "/home/aaron/org/meeting_notes/"
+ "/home/aaron/workspace/grassfed-cli/exchanges/binance/"
+ "/home/aaron/workspace/grassfed-cli/cmd/grassfed/"
+ "/home/aaron/workspace/grassfed-cli/build/"
+ "/home/aaron/workspace/grassfed-cli/config/"
+ "/home/aaron/workspace/grassfed-cli/"
+ "/home/aaron/.emacs.d/"
+ "/home/aaron/org/"
+ "/home/aaron/"
+ "/home/aaron/go/src/"
+ "/home/aaron/go/src/hello/"
+ "/home/aaron/dotfiles/emacs/.emacs.d/"
+ "/home/aaron/Downloads/"
+ "/home/aaron/org/reading_notes/"
+ "/ssh:aty25@ugclinux.cs.cornell.edu:"
+ "/ssh:aty25@ugclinux.cs.cornell.edu:/home/aty25/3410/aty25-zx36/P6/"
+ "/home/aaron/org/journal/"
+ "/home/aaron/code/courses/latex_hw/"
+ "/home/aaron/Documents/"
+ "/home/aaron/code/courses/latex_hw_finished/"
+ "/home/aaron/.config/wpg/templates/"
+ "/home/aaron/code/work/recruiting/"
+ "/home/aaron/org/plans/"
+ "/home/aaron/code/work/challenges/coinfund/"
+ "/home/aaron/code/work/challenges/ctci/"
+ "/home/aaron/code/recruiting/"
+ "/home/aaron/code/latex_hw/"
+ "/home/aaron/code/latex_hw_finished/"
+ "/home/aaron/code/resumes/"
+ "/home/aaron/code/3410/projects/c/"
+ "/home/aaron/code/4820/hw3/"
+ "/home/aaron/code/3410/Logisim/project_1/"
+ "/home/aaron/.config/polybar/"
+ "/home/aaron/dotfiles/wpg/.config/wpg/templates/"
+ "/home/aaron/code/homework/"
+ "/home/aaron/code/4820/hw2/"
+ "/home/aaron/code/3410/Logisim/"
+ "/home/aaron/org/school/jobs/"
+ "/home/aaron/org/school/coursework/"
+ "/home/aaron/.config/rofi/"
+ "/home/aaron/.config/i3/"
+ "/home/aaron/code/4820/hw1/"
+ "/home/aaron/code/4820/"
+ "/home/aaron/code/aide_code/"
+ "/home/aaron/org/school/misc/"
+ "/home/aaron/org/school/notes/"
+ "/home/aaron/org/school/"
+ "/etc/X11/xinit/"
+ "/home/aaron/.ncmpcpp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "duplicity_filelist"
+ "duplicity_backup"
+ "coinfund.org"
+ "summary.go"
+ "cmd.go"
+ "main.go"
+ "tx.go"
+ "grassfed"
+ "config.go"
+ "Makefile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/aaron/bin/" (23781 24669 379065 798000) "cu_vpn" ".disable_mouse_accel.un~" "disable_mouse_accel~" "betterlockscreen" "start_cu_vpn~" "duplicity_filelist" "disable_mouse_accel" ".#duplicity_backup" "i3exit" "kbdbacklight" "start_cu_vpn" "quit_cu_vpn" ".duplicity_backup.un~" "duplicity_backup" "monitor" ".start_cu_vpn.un~" ".cu_vpn.un~" "./" ".quit_cu_vpn.un~" "../" "duplicity_backup~")
+
+ ("/home/aaron/" (23781 23899 956759 884000) "pydrivecreds.json" ".dropbox-dist/" "winehq.key" ".steampath" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".wget-hsts" ".local/" ".macromedia/" "Dropbox/" ".selected_editor" ".themes/" ".xsession-errors" "bin/" "id_rsa_github.pub" ".thumbnails/" "snap/" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".config/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "..bash_profile.un~" "Public/" ".mozilla/" ".pydrive.conf.un~" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "Templates/" ".steam/" ".anyconnect" ".gnupg/" "perl5/" ".bash_profile~" ".cat_installer/" ".gimp-2.8/" "pydrive.conf~" ".gvm/" ".ssh/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".irssi/" ".aws/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".gitconfig" ".dbus/" ".viminfo" "id_rsa_github" "./" ".fehbg" "..bashrc.un~" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".runelite/" "pydrive.conf" ".icons/" "org/" ".cache/" ".git-credentials" "Documents/" ".fonts/" "programs/" ".pki/" ".bashrc~" "Downloads/" "../" "cloud/" ".lyrics/" "books/" "dotfiles/" "random.dat" ".bashrc.swp")
+
+ ("/home/aaron/org/meeting_notes/" (23780 29760 37854 742000) "coinfund.org" "./" "../")
+
+ ("/home/aaron/dotfiles/emacs/.emacs.d/" (23780 23223 630502 262000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
+
+ ("/home/aaron/.emacs.d/" (23780 23223 630502 262000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
+
+ ("/home/aaron/workspace/grassfed-cli/build/" (23780 24964 994922 52000) "grassfed" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/" (23780 23798 177038 730000) "go.sum" ".git/" "cmd/" "README.md" "build/" "go.mod" "networks/" ".gitignore" "config/" "./" "Makefile" "../" "exchanges/")
+
+ ("/home/aaron/workspace/grassfed-cli/exchanges/binance/" (23780 24958 310826 430000) "cmd.go" "tx.go" "./" "summary.go" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/networks/" (23779 3948 745653 753000) "steem/" "decred/" "./" "../" "livepeer/")
+
+ ("/home/aaron/workspace/grassfed-cli/exchanges/" (23779 3948 741653 726000) "./" "binance/" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/config/" (23779 3948 741653 726000) "./" "../" "config.go")
+
+ ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/" (23779 3948 741653 726000) "main.go" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/cmd/" (23779 3948 741653 726000) "grassfed/" "./" "../")
+
+ ("/home/aaron/code/" (23779 2592 654156 515000) "courses/" "./" "../" "work/")
+
+ ("/home/aaron/org/" (23779 6530 976563 611000) "meeting_notes/" "plans/" "reading_notes/" "school/" "packing.org" "stuff.org" "./" "journal/" "../")
+
+ ("/home/aaron/workspace/" (23779 4146 395014 287000) "go-sandbox/" "pricing/" "grassfed-cli/" "./" "../")
+
+ ("/home/aaron/workspace/go-sandbox/" (23779 4146 395014 287000) "./" "../")
+
+ ("/home/aaron/go/src/" (23778 64475 6824 721000) "pic.go" "wc.go" "hello/" ".#closure.go" "./" "closure.go" "../" "golang.org/")
+
+ ("/home/aaron/go/src/hello/" (23778 61204 979262 178000) "hello.go" "./" "../")
+
+ ("/home/aaron/Downloads/" (23778 51643 633903 12000) "city_distances.m" "Computer-Organization-and-Design-The-Hardware-Software-Interface-RISC-V-Edition-.pdf" "Vineyard mgmt. pt. 2 - blackboard.pdf" "test-fonts.pl" "W&V Syllabus Spring 2019 (2).pdf" "Aging&Sherry-1.pdf" "intro_to_c.pptx" "Brother-HL-2240-hl1250.ppd" "IMG_20190315_112459.jpg" "Prelim_3_Review.pdf" "Subletter agreement.pdf" "Screenshot from 2019-03-04 17-30-02.png" "WinestyleRubric.docx" "4850_8.pdf" "Mindy.ics" "Sour Grapes essay.pdf" "lab11_combined_sol.pdf" "plot.fig" "tij_SFHH.dat_.gz" "go1.12.5.linux-amd64.tar.gz" "Subletter agreement (1).pdf" "designdocTemplate.zip" "riscv.circ" "W&Vintro.pdf" "testpalindrome.out" "light_1.2_amd64.deb" "GoogleSyncPlugin-3.0.1.zip" "unnamed (2).png" "CreasyCreasyChap1.pdf" "Picnic.jpg" "aty25-zx36-aty25 (2).zip" "prelim1-2018sp-soln (2).pdf" "doc/" "exploit.bin" "Framework (1).java" "SensoryEvaluationDay1.pdf" "Grapevine_Nutrition.pdf" "PairContract (4).txt" "execute_big.png" "pericles_20500416124.txt" "Internship Agreement - Aaron Yao-Smith.pdf" "Introduction to cultivars.pdf" "magit-2.13.1.zip" "unnamed (1).png" "Subletter-agreement-1.pdf" "INFECTIOUS_cumulative_daily_networks.tar.gz" "dropbox_2019.01.31_amd64.deb" "Aaron_Yao-Smith_resume (2).pdf" "s1_1.pdf" "Mechanizing Vineyard Development - Wines & Vines.pdf" "wall.jpg" "s1_2.pdf" "designdoc (1).pdf" "assem.txt" "BottleShockQuestions.pdf" "transcript.pdf" "science.txt" "Wine&Health.pdf" "s2_2.pdf" "New Member Interview Form (Responses).ods" "alu.circ" "hw2 (2).pdf" "2018-OCR-Tutorial-Final (1).ppsx" "transcript (1).pdf" "Designing and planting a vineyard - blackboard.pdf" "PairContract.txt" "designdoc.tex" "Where grapes grow.pdf" "s3_2.pdf" "Quiz 3_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "email-Enron.txt.gz" "05-memory-pre.pptx" "23019509_OfficialeTranscript.pdf" "Musto.pdf" "comet_draft_manuscript.docx" "2018-OCR-Tutorial-Final.ppsx" "Quiz 5_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "Moss - wines for lectures 2018.xlsx" "client_id.json" "Algorithm-design.djvu" "s3_1.pdf" "prelim2-2016sp.pdf" "prelim1-2018sp.pdf" "Spring 2019_enrollment.ics" "fetch.png" "Math124sec5[1].1.doc" "memory.png" "3161-5816-1-PB.pdf" "prelim1-2016sp.pdf" "BottleShockQuestions (1).pdf" "cataclysmdda-0.C-8398.tar.gz" "AARONS MC world - NEW 2-20170106-214100.zip" "20190315_comet_draft.docx" "s2_2 (1).pdf" "SecureMessage.pdf" "alu (1).circ" "book Jan 21, 2019.pdf" "com-amazon.ungraph.txt.gz" "aty25-zx36-aty25.zip" "Getty_superlative-154954029-58b970fd3df78c353cdb9cf5-5bacf5df46e0fb002523b1ac.jpg" "designdocTemplate (1).zip" "designdoc.pdf" "dropbox_2018.11.28_amd64.deb" "aty25@ugclinux.cs.cornell.edu" "prelim2-2018sp-soln.pdf" "4850_Assignment_2.pdf" "tests_3.c" "Vineyard mgmt. pt. 1 - blackboard.pdf" "PairContract (1).txt" "compton-vNext.zip" "hw0.pdf" "Phylloxera - Wine Folly.pdf" "problem (2).pdf" "compiled.out" ".test-fonts.pl.un~" "GuidetoAus_2013_final (2).pdf" "Stellaris.MegaCorp-CODEX-[rarbg.to].torrent" "anyconnect-linux64-4.6.03049-core-vpn-webdeploy-k9.sh" "0vfh7v6wzys21.jpg" "Wine Regions Paper Rubric.pdf" "prelim2-2017sp.pdf" "rf5W6Q9 - Imgur.jpg" "fontawesome-free-5.6.3-desktop.zip" "9020160.jpg" "05-fsm-pre.pptx" "COMET_figures_20190308_v2.pptx" "Vine Balance and the Role of Vineyard Design _ Viticulture and Enology.pdf" "README (1).txt" "README.txt" "prelim1-2017sp.pdf" "download" "aty25-zx36-aty25 (1).zip" "tests_2.c" "dropbox/" "Sparkling Wines.pdf" "3352e3.odt" "GaleShapley (1).java" "W&V Syllabus Spring 2019.pdf" "steam_latest.deb" "Sensory Lesson Activity Rubric (2).docx" "fibonacci.txt" "_New Member Pre-Interview Form (Responses).ods" "hw3.pdf" "leftshift32_template.circ" "COMET_figures_20190420.pdf" "a7 - Tarannum Pratap.zip" "Jon Kleinberg, Éva Tardos - Algorithm design-Pearson _ Addison-Wesley (2005).djvu" "linux_info.txt" "test_add.txt" "science (1).txt" "intro_to_c (1).pptx" "hw1.pdf" "aty25-zx36-aty25/" "pipelined_processor.png" "multimc_1.2-1.deb" "s1_2 (1).pdf" "prelim2-2018sp.pdf" "tests.c" "test_shift.txt" "lyre trellis.png" "unnamed.png" "Vine balance and yield - blackboard.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019.pdf" "fibonacci_to_x10.txt" "sol1.pdf" "CS 3410 Project 3 design doc.pdf" "W&V Syllabus Spring 2019 (3).pdf" "Aaron_Yao-Smith_resume.pdf" "new-york-sublease-agreement-template.pdf" "riscvtest.txt" "png" "mmc-stable-lin64.tar.gz" "s2_1.pdf" "arrlist.c" "20181129_091635.664-dl.pdf" "1104fc1.pdf" "Aaron_Yao-Smith_resume (1).pdf" "return_2018.pdf" "WineSpoilageSpring19-1.pdf" "Grapevine phenology - blackboard.pdf" "s2_1 (1).pdf" "cs4820-2019-01-23.pdf" "google-chrome-stable_current_amd64.deb" "palindrome.c" "Vallee.pdf" "GuidetoAus_2013_final (1).pdf" "prelim1-2016sp-soln.pdf" "Noble.pdf" "zoom_amd64.deb" "Exchange voucher _ Boarding Pass - Korean Air.pdf" "Sensory Lesson Activity Rubric.docx" "cache.c" "Exercise 8.1.pdf" "test_alu.txt" "Exercise 7.4.zip" "PairContract (3).txt" "W&VTopicsSpring2019.pdf" "hw2 (1).pdf" "execute_small.png" "Linux-Pocket-Guide.epub" "GoogleSyncPlugin.plgx" "W&V Syllabus Spring 2019 (1).pdf" "Peter Thiel, Blake Masters - Zero to One_ Notes on Startups, or How to Build the Future (2014, Crown Business).mobi" "Algorithm-Design.mobi" "CTAS eboard app.pdf" "tests_1.c" "hw4.pdf" "overwatch-dxvk-december-30th-2.json" "plot (1).fig" "Aaron_Yao-Smith_cover_letter.pdf" "slack-desktop-3.3.7-amd64.deb" "Varietal aroma - blackboard.pdf" "PS1.pdf" "Sensory Lesson Activity Rubric (1).docx" "eduroam-linux-Dartmouth_College.py" "compton-vNext/" "prelim2-2017sp-soln.pdf" "G5GTKD-e9a31845558f1c704fcffed5d360f119.pdf" "hw2.pdf" "roadNet-PA.txt.gz" "prelim1-2017sp-soln.pdf" "prelim1-2016sp (1).pdf" "Aaron_Yao-Smith_resume (3).pdf" "prelim2-2018sp (1).pdf" "aop14u.pdf" "CS_4850_Homework_3.pdf" "test.pdf" "Where grapes grow (1).pdf" "HoweSensory2009.pdf" "us.jpg" "GuidetoAus_2013_final.pdf" "gdb_27.html" "fibonacci (1).txt" "hello.c" "PairContract_P6.txt" "initiald.jpg" "prelim2-2017sp (1).pdf" "cs4820-2019-02-15.pdf" "magit-2.13.1/" "PairContract (2).txt" "GaleShapley.java" "FINAL-REPORT-Web.pdf" "../" "./")
+
+ ("/home/aaron/go/bin/" (23778 1985 184468 599000) "tour" "./" "../")
+
+ ("/home/aaron/go/" (23778 1985 184468 599000) "bin/" "./" "src/" "../")
+
+ ("/home/aaron/.config/wpg/" (23772 30843 876256 778000) ".current" "samples/" "wp_init.sh" "wallpapers/" "./" "wpg.conf" "sequences" "formats/" "../" "templates/" "schemes/")
+
+ ("/home/aaron/org/school/coursework/" (23761 65259 754086 482000) "3110finalreview.tex" "3110finalreview.org" "3352e1.org" "1104fc2.org" "3352e2.org" "1104fc1.org" "3352e1forreal.org" "3352final.org" "3110finalreview.pdf" "./" "3352e3.org" "3110e2.org" "../")
+
+ ("/home/aaron/org/reading_notes/" (23778 402 196292 639000) "coinfund.org" "zero_to_one.org" "reading_list.org" "comet.org" "./" "../")
+
+ ("/home/aaron/Documents/" (23761 65262 102119 752000) "dont_steal_me20190101.kdbx" "dont_steal_me20190122.kdbx" "sample.pdf" "Aaron_Yao-Smith_resume_coinfund.pdf" "1104fc2.odt" "transcript.pdf" "1104fc3.pdf" "signature.jpg" "1104fc2.pdf" "Internship Agreement - Aaron Yao-Smith countersigned.pdf" "retreat_absence.tex" "build/" "Aaron_SubletAgreement_countersigned.pdf" "PairContract_P5.txt" "dont_steal_me20190303.kdbx" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "Aaron_Yao-Smith_resume.pdf" "dont_steal_me20190306.kdbx" "1104fc1.pdf" "Aaron_Yao-Smith_resume (1).pdf" "./" "Aaron_SubletAgreement.pdf" "Aaron_Yao-Smith_CL.pdf" "1104fc1.odt" "Zoom/" "Makefile" "../" "Aaron_Yao-Smith_CL_coinfund.pdf" "1104fc3.odt" "dont_steal_me20190124.kdbx")
+
+ ("/etc/X11/xinit/" (23760 27633 468166 208000) "./" "xserverrc" "xinitrc" "../" "xinputrc")
+
+ ("/home/aaron/code/courses/latex_hw/" (23751 15002 34072 162000) "Exercise 7.4.tex" "4850_hw10.tex" "output_1_0.png" "4850_e7.4.tex" "build/" "4850_hw11.tex" "./" "Makefile" "../")
+
+ ("/home/aaron/org/journal/" (23746 26337 843101 142000) "2019-03-26.org" "2019-01-03.org" "2019-04-10.org" "2018-09-29.org" "2018-09-30.org" "2018-09-22.org" "./" "2019-03-20.org" "2018-10-27.org" "2018-09-02.org" "2019-04-21.org" "interactions.org" "../")
+
+ ("/home/aaron/code/courses/4850/python/" (23740 35916 474817 281000) "dog.jpg" "Pipfile" ".ipynb_checkpoints/" "HW4.ipynb" "Exercise 2.40.ipynb" "Exercise 7.4.ipynb" "./" "Pipfile.lock" "../")
+
+ ("/home/aaron/code/courses/4850/" (23639 50830 129391 373000) "python/" "./" "../")
+
+ ("/home/aaron/code/courses/latex_hw_finished/" (23733 64136 710810 72000) "4850_hw8.tex" "3410_p1.tex" "4850_hw4.tex" "4820_hw4-1.tex" "4850_base.tex" "4850_hw1.tex" "build/" "4850_hw3.tex" "4820_hw3-2.tex" "4850_hw6.tex" "./" "4820_hw1-1.tex" "4850_hw2.tex" "4820_hw1-2.tex" "images/" "4850_hw9.tex" "4820_hw3-1.tex" "4850_hw7.tex" "Makefile" "4820_hw2-1.tex" "../" "4850_hw5.tex" "4820_hw2-2.tex")
+
+ ("/home/aaron/code/work/recruiting/" (23714 46153 882861 387000) "cover_letter_generic.tex" "cover_letter_coinfund.tex" ".git/" "signature.jpg" "build/" "notes" "Aaron_Yao-Smith_cover_letter.tex" ".gitignore" "./" "Makefile" "../")
+
+ ("/home/aaron/org/plans/" (23724 63663 458283 797000) "behavioral.org" "life.org" "behavioral.pdf" "./" "behavioral.tex" "../")
+
+ ("/home/aaron/code/work/challenges/coinfund/" (23722 13939 984189 156000) "fifo.py" "Pipfile" ".git/" ".ipynb_checkpoints/" "staging.ipynb" "requirements.txt" ".gitignore" "./" "Pipfile.lock" "tests/" "../")
+
+ ("/home/aaron/code/work/challenges/ctci/" (23721 9744 705399 930000) "test.java" "Test.class" "./" "../")
+
+ ("/home/aaron/code/work/challenges/" (23721 9621 846720 579000) "coinfund/" "./" "ctci/" "../")
+
+ ("/home/aaron/code/work/" (23715 62863 137287 758000) "resumes/" "website/" "./" "recruiting/" "challenges/" "../")
+
+ ("/home/aaron/code/courses/" (23715 62833 782402 696000) "latex_hw_finished/" "3410/" "latex_hw/" "4820/" "./" "4850/" "../")
+
+ ("/home/aaron/code/recruiting/" (23708 59736 349482 268000) "cover_letter_generic.tex" "cover_letter_coinfund.tex" ".git/" "signature.jpg" "build/" "notes" "Aaron_Yao-Smith_cover_letter.tex" ".gitignore" "./" "Makefile" "../")
+
+ ("/home/aaron/code/latex_hw_finished/" (23696 61651 265036 963000) "3410_p1.tex" "4850_hw4.tex" "4820_hw4-1.tex" "4850_base.tex" "4850_hw1.tex" "build/" "4850_hw3.tex" "4820_hw3-2.tex" "4850_hw6.tex" "./" "4820_hw1-1.tex" "4850_hw2.tex" "4820_hw1-2.tex" "images/" "4820_hw3-1.tex" "4850_hw7.tex" "Makefile" "4820_hw2-1.tex" "../" "4850_hw5.tex" "4820_hw2-2.tex")
+
+ ("/home/aaron/code/latex_hw/" (23704 12665 161615 193000) "4850_hw8.tex" "build/" "./" "Makefile" "../")
+
+ ("/home/aaron/code/resumes/" (23691 8759 234694 566000) "tabto.sty" "ideas.org" ".git/" "fontawesome.sty" "cv_4.tex" "README.md" "build/" ".gitignore" "./" "Makefile" "resume.cls" "../" "resume.tex")
+
+ ("/home/aaron/dotfiles/wpg/.config/wpg/templates/" (23689 18496 83936 781000) "Xresources" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" "dunstrc")
+
+ ("/home/aaron/.config/wpg/templates/" (23689 18496 83936 781000) "Xresources" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" "dunstrc")
+
+ ("/home/aaron/.config/" (23689 18455 774312 230000) "update-notifier/" "chromium/" "gnome-session/" "dconf/" "lxpanel/" "menus/" "spotify/" "keepassxc/" "hexchat/" "rofi/" "deluge/" "i3/" "matplotlib/" "mimeapps.list" "polybar/" "cef_user_data/" "autostart/" "gtk-3.0/" "goa-1.0/" "gtk-4.0/" "evolution/" "pcmanfm/" "gtk-2.0/" "EgoSoft/" "QtProject.conf" "libreoffice/" "pulse/" "gnome-initial-setup-done" "mopidy/" "xfce4/" "google-chrome/" "dunst/" "user-dirs.locale" "zoomus.conf" "lutris/" "eog/" "ibus/" "user-dirs.dirs" "VirtualBox/" "opera/" "./" "mpv/" "environment.d/" "wal/" "enchant/" "Thunar/" "evince/" "calibre/" "gqrx/" "nautilus/" "gedit/" "wpg/" "../" "gpick/" "lxsession/" "Slack/")
+
+ ("/home/aaron/code/3410/projects/c/" (23672 6769 54084 921000) "testpalindrome.out" "./" "palindrome.c" "Makefile" "../")
+
+ ("/home/aaron/code/3410/projects/" (23672 4436 977481 318000) "python/" "project1/" "c/" "project0/" "project2/" "./" "../")
+
+ ("/home/aaron/code/3410/" (23672 4436 977481 318000) "projects/" "software/" "./" "../" "labs/")
+
+ ("/home/aaron/code/4820/" (23660 58798 634685 10000) "hw3/" "hw2/" "hw1/" "./" "../")
+
+ ("/home/aaron/code/4820/hw2/" (23661 22517 367605 445000) "java.io.PrintStream" "hamcrest-2.1.jar" "MSTTest.class" "Main.java" "UnionFind.class" "PrimVertex.class" "Edge.class" "Main.class" "Node.class" "junit-4.13-beta-2.jar" "Main_draft.java" "./" "UnionFind$Node.class" "MSTTest.java" "Makefile" "../")
+
+ ("/home/aaron/code/4820/hw3/" (23661 60125 65458 611000) "Pair.class" "Main.java" "Main.class" ".in3.txt.un~" "in1.txt" "./" "Main.java.bak" "in3.txt" "Makefile" "../")
+
+ ("/home/aaron/code/3410/Logisim/project_1/" (23652 59893 909552 903000) "LS_testvector.txt" "Add_testvector.txt" "ALU_template.circ" "ALU_testvector.txt" "README.txt" "./" "../")
+
+ ("/home/aaron/.config/polybar/" (23650 63267 399535 19000) "launch.sh" "spotify_status.py~" "spotify_status.py" "config" "./" "../" ".spotify_status.py.un~")
+
+ ("/home/aaron/code/3410/Logisim/" (23650 63737 260018 975000) "project_1/" "./" "../" "labs/")
+
+ ("/home/aaron/.cache/" (23639 50869 937690 984000) "chromium/" "dconf/" "update-manager-core/" "menus/" "spotify/" "ibus-table/" "pip/" "mesa_shader_cache/" "event-sound-cache.tdb.27710dd392a6485b938bb83f529760c4.x86_64-pc-linux-gnu" "ubuntu-report/" "gstreamer-1.0/" "libgweather/" "dmenu_run" "pipenv/" "motd.legal-displayed" "qtshadercache/" "evolution/" "rofi-3.runcache" "thumbnails/" "fontconfig/" "ctrlp/" "mopidy/" "mozilla/" "gnome-screenshot/" "blueman-applet-1000" "obexd/" "lutris/" "ibus/" "i3lock/" "zoom/" "gnome-software/" "duplicity/" "./" "winetricks/" "emacs/" "wal/" "calibre/" "qt_compose_cache_little_endian_27710dd392a6485b938bb83f529760c4" "../" "openbox/" "lxsession/" "wine/" "wallpaper/" "pip-tools/")
+
+ ("/home/aaron/code/homework/" (23648 56620 793226 888000) "4850_base.tex" "4850_hw1.tex" "build/" "4850_hw3.tex" "./" "4820_hw1-1.tex" "4850_hw2.tex" "4820_hw1-2.tex" "Makefile" "4820_hw2-1.tex" "../" "4820_hw2-2.tex")
+
+ ("/home/aaron/code/4850/python/" (23644 41032 102407 839000) "Pipfile" ".ipynb_checkpoints/" "Exercise 2.40.ipynb" "3410_lab2_test_vector.txt" "./" "3410_lab2.ipynb" "Pipfile.lock" "../")
+
+ ("/home/aaron/code/4850/" (23639 50830 129391 373000) "python/" "./" "../")
+
+ ("/home/aaron/org/school/jobs/" (23643 13287 93856 249000) "careerfair_sp19_priority.tex" "./" "careerfair_sp19.org" "careerfair_sp19_priority.pdf" "careerfair_sp19_priority.org" "../")
+
+ ("/home/aaron/org/school/" (23641 46387 832664 171000) "misc/" "plans/" "notes/" "./" "jobs/" "../" "coursework/")
+
+ ("/home/aaron/dotfiles/rofi/" (23582 30072 917125 675000) ".config/" "./" "../")
+
+ ("/home/aaron/dotfiles/rofi/.config/" (23582 30076 49151 339000) "rofi/" "./" "../")
+
+ ("/home/aaron/dotfiles/rofi/.config/rofi/" (23582 30078 297169 747000) "config" "./" "../")
+
+ ("/home/aaron/.config/rofi/" (23582 30078 297169 747000) "config" "./" "../")
+
+ ("/home/aaron/dotfiles/i3/.config/i3/" (23634 822 229374 866000) ".config.un~" "toggletouchpad.sh" "config~" "config" "./" "../")
+
+ ("/home/aaron/.config/i3/" (23634 822 229374 866000) ".config.un~" "toggletouchpad.sh" "config~" "config" "./" "../")
+
+ ("/home/aaron/code/aide_code/" (23633 61917 375859 614000) ".git/" "README.md" "./" "../")
+
+ ("/home/aaron/code/4820/hw1/" (23635 56108 843648 260000) "Framework$MatchedPair.class" "Test1out.txt" "Test2in.txt" "Framework.class" "Test0out.txt" "Test4out.txt" "Test5out.txt" "Framework.java" "output2.txt" "Test2out.txt" "Test4in.txt" "Test5in.txt" "output1.txt" "Test3out.txt" "Test1in.txt" "./" "output0.txt" "Test3in.txt" "../" "Test0in.txt")
+
+ ("/home/aaron/org/school/misc/" (23631 54998 938335 646000) "acapella.org" "ptapps.org" "jobs.org" "COMET.org" "pteams.org" "snake.org" "./" "agua_recruit.org" "frat.org" "travel.org" "../")
+
+ ("/home/aaron/code/website/" (23610 43232 897818 427000) "config.toml" ".git/" ".gitmodules" "themes/" "static/" "package.json" ".gitignore" "./" "content/" "public/" "../")
+
+ ("/home/aaron/code/website/themes/hugo-goa/archetypes/" (23610 40647 19474 738000) "default.md" "./" "../")
+
+ ("/home/aaron/code/website/themes/hugo-goa/static/css/" (23610 40647 23474 764000) "./" "../" "main.css")
+
+ ("/home/aaron/code/website/themes/hugo-goa/layouts/" (23610 40647 23474 764000) "_default/" "./" "partials/" "index.html" "../" "404.html")
+
+ ("/home/aaron/code/website/themes/hugo-goa/layouts/partials/" (23610 40647 23474 764000) "menu.html" "error.html" "sub_footer.html" "footer.html" "info.html" "main_menu.html" "avatar.html" "social.html" "./" "header.html" "content.html" "li.html" "../")
+
+ ("/home/aaron/org/school/notes/" (23610 45028 88741 654000) "./" "../" "job_search_2019.org")
+
+ ("/home/aaron/dotfiles/polybar/.config/polybar/" (23596 14300 788810 929000) "launch.sh" "spotify_status.py~" "spotify_status.py" "config" "./" "../" ".spotify_status.py.un~")
+
+ ("/home/aaron/dotfiles/i3/" (23582 30039 208848 236000) ".config/" "./" "../")
+
+ ("/home/aaron/dotfiles/i3/.config/" (23582 30042 524875 633000) "i3/" "./" "../")
+
+ ("/home/aaron/code/website/content/about/" (23585 33392 57558 662000) "index.md" "./" "../")
+
+ ("/etc/X11/" (23581 52947 564570 33000) "app-defaults/" "xkb/" "./" "cursors/" "XvMCConfig" "Xresources/" "Xreset" "default-display-manager" "Xsession.options" "openbox/" "Xsession" "Xsession.d/" "xsm/" "Xwrapper.config" "rgb.txt" "../" "Xreset.d/" "xinit/" "fonts/")
+
+ ("/etc/" (23582 64422 974624 296000) "dbus-1/" "gdm3/" "magic" "network/" "pki/" "apparmor/" "ca-certificates/" "systemd/" "menu-methods/" "papersize" "dictionaries-common/" "apm/" "opt/" "xml/" "protocols" "pnm2ppa.conf" "emacs/" "bonobo-activation/" "selinux/" "python/" "mtools.conf" "pcmcia/" "xdg/" "pulse/" "securetty" "sudoers.d/" "zsh_command_not_found" "skel/" "environment" "rc2.d/" "cups/" "dhcp/" "deluser.conf" "resolvconf/" "dpkg/" "sensors3.conf" "groff/" "gnome-vfs-2.0/" "lintianrc" "localtime" "kernel/" "acpi/" "inputrc" "python3.6/" "cracklib/" "ldap/" "cron.daily/" "networkd-dispatcher/" "init.d/" "cron.weekly/" "rc0.d/" "kerneloops.conf" "bash_completion.d/" "ghostscript/" "legal" "mtab" "lighttpd/" "update-notifier/" "glvnd/" "geoclue/" "alternatives/" "pam.conf" "sudoers" "newt/" "dconf/" "apport/" "fstab" "machine-id" "gdb/" "gnome/" "bluetooth/" "python3/" "lynx/" "pam.d/" "rc3.d/" "usb_modeswitch.d/" "modprobe.d/" "pm/" "rpc" "initramfs-tools/" "cupshelpers/" "thermald/" "hosts" "firefox/" "polkit-1/" "brlapi.key" "mopidy/" "hosts.allow" "libpaper.d/" "perl/" "popularity-contest.conf" "gtk-2.0/" "sgml/" "resolv.conf" ".pwd.lock" "appstream.conf" "debian_version" "ucf.conf" "ImageMagick-6/" "apache2/" "bash_completion" "nanorc" "python2.7/" "mailcap.order" "rmt" "udev/" "passwd-" "gtk-3.0/" "ca-certificates.conf" "chatscripts/" "grub.d/" "profile" "hostname" "asciidoc/" "gshadow" "ld.so.cache" "libao.conf" "debconf.conf" "timezone" "rc1.d/" "ssl/" "hdparm.conf" "update-manager/" "mke2fs.conf" "logrotate.conf" "login.defs" "sysctl.d/" "mime.types" "tmpfiles.d/" "anacrontab" "group" "modules" "PackageKit/" "mailcap" "brltty/" "wpa_supplicant/" "fuse.conf" "subgid" "shells" "UPower/" "security/" "depmod.d/" "ufw/" "sane.d/" "texmf/" "subgid-" "libnl-3/" "drirc" "os-release" "printcap" "ppp/" "NetworkManager/" "wgetrc" "gai.conf" "crontab" "ssh/" "sysctl.conf" "i3status.conf" "logrotate.d/" "libaudit.conf" "apt/" "rc4.d/" "update-motd.d/" "modules-load.d/" "shadow-" "X11/" "vtrgb" "avahi/" "subuid" "binfmt.d/" "rsyslog.d/" "cron.hourly/" "gss/" "nsswitch.conf" "cron.monthly/" "apg.conf" "sound/" "lsb-release" "calendar/" "speech-dispatcher/" "ld.so.conf" "hosts.deny" "networks" "apparmor.d/" "vdpau_wrapper.cfg" "default/" "i3/" "kernel-img.conf" "manpath.config" "bindresvport.blacklist" "rc5.d/" "console-setup/" "updatedb.conf" "logcheck/" "gconf/" "locale.gen" "issue" "profile.d/" "light/" "emacs25/" "fwupd/" "subuid-" "brltty.conf" "hp/" "init/" "bash.bashrc" "adduser.conf" "libblockdev/" "magic.mime" "rsyslog.conf" "vim/" "issue.net" "rcS.d/" "services" "ld.so.conf.d/" "netplan/" "sensors.d/" "shadow" "ltrace.conf" "udisks2/" "chromium-browser/" "ifplugd/" "usb_modeswitch.conf" "locale.alias" "host.conf" "terminfo/" "rc6.d/" "cron.d/" "gshadow-" "group-" "passwd" "fonts/" "iproute2/" "insserv.conf.d/" "../" "./")
+
+ ("/home/aaron/dotfiles/" (23582 50385 894150 335000) "Xresources/" "rofi/" ".git/" "i3/" "bin/" "polybar/" "README.md" "fonts/" "dunst/" ".gitignore" "./" "emacs/" "wpg/" "Makefile" "../" "vim/" "wallpaper/")
+
+ ("/home/aaron/.config/mopidy/" (23582 37235 997758 775000) "./" "mopidy.conf" "../")
+
+ ("/home/aaron/dotfiles/polybar/" (23582 30141 917686 752000) ".config/" "./" "../")
+
+ ("/home/aaron/dotfiles/polybar/.config/" (23582 30151 65760 494000) "polybar/" "./" "../")
+
+ ("/home/aaron/.ncmpcpp/" (23582 36647 393262 457000) "config" "./" "../" "error.log")
+
+ ("/home/aaron/dotfiles/Xresources/" (23582 31328 2706 644000) ".Xresources" "./" "../")
+
+ ("/home/aaron/dotfiles/wpg/.config/wpg/" (23582 29890 27589 249000) "./" "wpg.conf" "../" "templates/")
+
+ ("/home/aaron/dotfiles/wpg/.config/" (23582 29812 134907 943000) "./" "wpg/" "../")
+
+ ("/home/aaron/dotfiles/wpg/" (23582 29808 826878 594000) ".config/" "./" "../")
+
+ ("/home/aaron/.emacs.d/lisp/" (23582 29063 278666 805000) "hideshow-orgmode.el" "ocp-indent.el" "lineker.el" "./" "../")
+
+ ("/etc/i3/" (23581 48673 781601 683000) "./" "../" "config" "config.keycodes")
+
+ ("/home/" (23581 9983 192162 258000) "aaron/" "./" "lost+found/" "../")
+
+ ("/home/aaron/dotfiles/emacs/" (23581 43682 20597 892000) "./" ".emacs.d/" "../")
+
+ ("/home/aaron/.i3/scripts/" (23351 48553 180302 296000) "./" "../" "shadowsocks")
+
+ ("/home/aaron/.i3/" (23351 47969 293845 40000) "./" "scripts/" "../")
+
+ ("/home/aaron/code/cs3110/" (23565 55396 206789 138000) "./" "textbook/" "cs3110-a0/" "solutions-2018fa/" "cs3110-a2/" "test.v" "cs3110-a10/" "cs3110-a9/" "midterm-3110/" "cs3110-rec/" "min_absent.ml" "cs3110-a1/" "CS3110-A4/" "../" "cs3110-a5/")
+
+ ("/home/aaron/code/aguaclara/" (23565 26405 23302 847000) "./" "codecov.yml" "CI/" "appveyor.yml" ".travis.yml" ".gitignore" "requirements-dev.txt" "setup.py" ".onshapepy.enc" "tests/" ".git/" "LICENSE" "aguaclara/" "aguaclara.egg-info/" "docs/" ".eggs/" ".pytest_cache/" "Pipfile" "README.md" "../" "MANIFEST.in" "setup.cfg" "meta.yaml" "Pipfile.lock")
+
+ ("/home/aaron/code/aguaclara/aguaclara/unit_process_design/" (23558 55721 286237 751000) "__init__.py" "./" "cdc.py" "StaRS.py" "lfom.py" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

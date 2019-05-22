@@ -1,0 +1,1 @@
+duplicity -v8 --include-filelist /home/aaron/bin/duplicity_filelist / gdocs://aty25@cornell.edu/backup
