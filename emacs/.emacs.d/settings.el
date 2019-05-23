@@ -56,6 +56,24 @@
   (global-set-key (kbd "C-c h") 'hs-fold-all)
   (global-set-key (kbd "C-c s") 'hs-show-all))
 
+(use-package org-journal
+  :config
+  (setq org-journal-file-format "%Y-%m-%d.org")
+  (setq org-journal-time-format "")
+  (setq org-journal-time-prefix "")
+  (setq org-journal-dir "~/org/journal")
+  (setq org-extend-today-until 4))
+
+(use-package org-ref
+  :config
+  (setq org-ref-bibliography-notes "~/org/refs/refs.org"
+  org-ref-default-bibliography '("~/org/refs/refs.bib")
+  org-ref-pdf-directory "~/org/refs/pdfs/"))
+
+(use-package interleave)
+
+(use-package org-capture)
+
 (use-package ocp-indent)
 (use-package lineker)
 
@@ -89,14 +107,6 @@
 (autoload 'utop-minor-mode "utop" "Minor mode for utop" t)
 (add-hook 'tuareg-mode-hook 'utop-minor-mode)
 
-(use-package org-journal
-  :config
-  (setq org-journal-file-format "%Y-%m-%d.org")
-  (setq org-journal-time-format "")
-  (setq org-journal-time-prefix "")
-  (setq org-journal-dir "~/org/journal")
-  (setq org-extend-today-until 4))
-
 (add-to-list 'auto-mode-alist '("\\.base\\'" . conf-mode))
 
 (use-package go-mode
@@ -108,8 +118,8 @@
       (setq indent-tabs-mode 1))))
 
 (use-package flycheck
-  :ensure t
-  :init (global-flycheck-mode))
+  :config
+  (add-hook 'go-mode-hook 'flycheck-mode))
 
 (global-set-key (kbd "C-c g") 'magit-status)
 
@@ -132,3 +142,5 @@
       version-control t      ; Use version numbers on backups,                  
       kept-new-versions 5    ; keep some new versions                           
       kpept-old-versions 2)   ; and some old ones, too
+
+(setq browse-url-browser-function 'browse-url-chrome)

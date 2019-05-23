@@ -50,7 +50,7 @@
  ("/home/aaron/.cache/" . "i3lock/")
  ("/home/aaron/Downloads/cuair_test/auto-correct/" . "ac/")
  ("/home/aaron/Downloads/cuair_test/" . "auto-correct/")
- ("/home/aaron/Downloads/" . "a9/")
+ ("/home/aaron/Downloads/" . "wiki.wiki/")
  ("/home/aaron/code/auto-correct/auto-correct/" . "ac/")
  ("/home/aaron/code/auto-correct/" . "auto-correct/")
  ("/home/aaron/code/hgmd/HG_marker_detection/docs/" . "source/")
@@ -64,11 +64,11 @@
  ("/home/aaron/code/resumes/" . "resumes/")
  ("/home/aaron/code/cs3110/cs3110-a1/" . "a1/")
  ("/home/aaron/.config/" . "wpg/")
- ("/home/aaron/org/" . "meeting_notes/")
+ ("/home/aaron/org/" . "notes/")
  ("/home/aaron/code/cs3110/" . "cs3110-a9/")
  ("/home/aaron/.emacs.d/" . "lisp/")
  ("/home/aaron/Documents/" . "other/")
- ("/home/aaron/" . "org/")
+ ("/home/aaron/" . "Downloads/")
  ("/home/aaron/code/hgmd/HG_marker_detection/" . "docs/")
  ("/home/aaron/code/hgmd/" . "HG_marker_detection/")
  ("/home/aaron/code/" . "courses/")
@@ -76,19 +76,23 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/aaron/org/notes/"
+ "/home/aaron/Downloads/wiki.wiki/"
+ "/home/aaron/workspace/grassfed-cli/exchanges/binance/"
+ "/home/aaron/workspace/grassfed-cli/test/"
+ "/home/aaron/workspace/grassfed-cli/"
+ "/home/aaron/workspace/grassfed-cli/config/"
+ "/home/aaron/workspace/grassfed-cli/cmd/grassfed/"
+ "/home/aaron/dotfiles/emacs/.emacs.d/"
+ "/home/aaron/.emacs.d/"
+ "/home/aaron/workspace/go-sandbox/"
  "/home/aaron/bin/"
  "/home/aaron/org/meeting_notes/"
- "/home/aaron/workspace/grassfed-cli/exchanges/binance/"
- "/home/aaron/workspace/grassfed-cli/cmd/grassfed/"
  "/home/aaron/workspace/grassfed-cli/build/"
- "/home/aaron/workspace/grassfed-cli/config/"
- "/home/aaron/workspace/grassfed-cli/"
- "/home/aaron/.emacs.d/"
  "/home/aaron/org/"
  "/home/aaron/"
  "/home/aaron/go/src/"
  "/home/aaron/go/src/hello/"
- "/home/aaron/dotfiles/emacs/.emacs.d/"
  "/home/aaron/Downloads/"
  "/home/aaron/org/reading_notes/"
  "/ssh:aty25@ugclinux.cs.cornell.edu:"
@@ -122,67 +126,75 @@
  "/home/aaron/code/4820/"
  "/home/aaron/code/aide_code/"
  "/home/aaron/org/school/misc/"
- "/home/aaron/org/school/notes/"
- "/home/aaron/org/school/"
- "/etc/X11/xinit/"
- "/home/aaron/.ncmpcpp/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "duplicity_filelist"
- "duplicity_backup"
- "coinfund.org"
+ "coinfund_articles.org"
+ "reading_list.org"
+ "White-Paper.mediawiki"
  "summary.go"
+ "grassfed_cli_suite_test.go"
  "cmd.go"
- "main.go"
- "tx.go"
- "grassfed"
  "config.go"
- "Makefile"
+ "main.go"
+ "config.yml"
+ "settings.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/aaron/bin/" (23781 24669 379065 798000) "cu_vpn" ".disable_mouse_accel.un~" "disable_mouse_accel~" "betterlockscreen" "start_cu_vpn~" "duplicity_filelist" "disable_mouse_accel" ".#duplicity_backup" "i3exit" "kbdbacklight" "start_cu_vpn" "quit_cu_vpn" ".duplicity_backup.un~" "duplicity_backup" "monitor" ".start_cu_vpn.un~" ".cu_vpn.un~" "./" ".quit_cu_vpn.un~" "../" "duplicity_backup~")
+ ("/home/aaron/org/notes/" (23782 3530 864954 259000) "coinfund.org" "zero_to_one.org" "coinfund_articles.org" "coinfund_meeting.org" "reading_list.org" "comet.org" "./" "../")
 
- ("/home/aaron/" (23781 23899 956759 884000) "pydrivecreds.json" ".dropbox-dist/" "winehq.key" ".steampath" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".wget-hsts" ".local/" ".macromedia/" "Dropbox/" ".selected_editor" ".themes/" ".xsession-errors" "bin/" "id_rsa_github.pub" ".thumbnails/" "snap/" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".config/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "..bash_profile.un~" "Public/" ".mozilla/" ".pydrive.conf.un~" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "Templates/" ".steam/" ".anyconnect" ".gnupg/" "perl5/" ".bash_profile~" ".cat_installer/" ".gimp-2.8/" "pydrive.conf~" ".gvm/" ".ssh/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".irssi/" ".aws/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".gitconfig" ".dbus/" ".viminfo" "id_rsa_github" "./" ".fehbg" "..bashrc.un~" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".runelite/" "pydrive.conf" ".icons/" "org/" ".cache/" ".git-credentials" "Documents/" ".fonts/" "programs/" ".pki/" ".bashrc~" "Downloads/" "../" "cloud/" ".lyrics/" "books/" "dotfiles/" "random.dat" ".bashrc.swp")
+ ("/home/aaron/Downloads/wiki.wiki/" (23781 49819 297528 967000) "[Japanese]-Ethereum-2.0-Phase-0----The-Beacon-Chain.md" "Extra-Data.md" "Registrar-ABI.md" "Clients.md" "Sharding-roadmap.md" "[Chinese-Simplified]-Ethash-Design-Rationale中文翻译.md" "CC0-license.md" "EWasm-compendium.md" "Security-Categorization.md" "Adaptive-Peer-Time.md" "Inter-exchange-Client-Address-Protocol-(ICAP).md" "Chain-Fibers-Redux.md" "[Italian]-Libro-Bianco.md" "Contract.md" "[Italian]-Ethereum-TOC.md" "Swarm-Hash.md" "[English]-RLP.md" "Solidity,-Docs-and-ABI.md" "The-Solidity-Programming-Language.md" "[Spanish]Proof-of-Stake-FAQ.md" "[中文]-以太坊开发计划.md" "[Chinese-Simplified]-Ethash中文翻译.md" "Middleware-and-Dapp-Project-Ideas.md" "ICAP:-Inter-exchange-Client-Address-Protocol.md" "Deterministic_Wallet_Spec.md" "Adaptive-Message-IDs.md" "Ethereum-Chain-Spec-Format.md" "Solidity-Features.md" "Node-discovery-protocol.md" "[Romanian]-RLP.md" "Mix:-The-DApp-IDE.md" "[Chinese]-Design-Rationale-设计原理.md" "[Spanish]-Byzantium-Hard-Fork-changes.md" "Safety.md" "Wiki:-ethresear.ch-Sharding-Compendium.md" "Ethereum-White-Paper.md" "Blockchain-import-and-export-instructions.md" "List-of-other-Ethereum-wikis-and-documentation.md" "Programming-languages-intro.mediawiki" "Brain-Wallet.md" "[中文]-Serpent指南.md" "[Italian]-Introduzione-allo-sviluppo-su-Ethereum.md" ".git/" "Sharding-introduction-R&D-compendium.md" "[Persian]-Ethereum-TOC.md" "What-is-Ethereum.md" "Natspec-Example.md" "Getting-Ether:-further-info.md" "Ethereum-Wire-Protocol.md" "JavaScript-API.md" "Gitter-Channels.md" "Major-issues-resulting-in-lost-or-stuck-funds.md" "[Japanese]-Whisper.md" "[Chinese-Simplified]-Ethereum-白皮书中文版.md" "Getting-Ether.md" "Solidity.asciidoc" "5-strategies-of-contribution.md" "Byzantium-Hard-Fork-changes.md" "[中文]-以太坊白皮书.md" "0x8DE4e545C7C136fB5b6B1e2a8d0f121b929AA08c.md" "Sharding-introduction-and-R&D.md" "[Spanish]-Ethereum-TOC.md" "Outdated:-Proposal:-Reversion-Notification.md" "[Romanian]-Wire-Protocol.md" "Solidity-Glossary.md" "[German]-Ethereum-TOC.md" "libp2p-Whitepaper.md" "[Chinese]-Ethereum-白皮書.md" "Consensus-Datastructures.md" "[Arabic]-مرحبا--في-صفحة-الويكي-للأثيريوم.md" "Whisper-PoC-2-Wire-Protocol.md" "[Japanese]--Ethereum-Development-Tutorial.md" "Tt.md" "Ethereum-Development-Tutorial.md" "White-Paper.mediawiki" "Geth-Dapp-loading-proposal.md" "[Spanish]-Releases.md" "[中文]-RLP.md" "Problems.md" "Consortium-Chain-Development.md" "Contract-Metadata-Docs-(NatSpec,-ABI).md" "eπ-Programme.md" "web3js-api-reference.md" "Web3-Secret-Storage-DefDef.md" "[English]-White-Paper.md" "[Japanese]-Proof-of-Stake-FAQs.md" "العربية.asciidoc" "Outdated:-Proposal:-Transaction-Proxy-Hooks.md" "Bad-Block-Reporting.md" "R&D.md" "Ethash-DAG.md" "Serpent.md" "Sharding-FAQs.md" "Bad-Chain-Canary.md" "ethereum-wiki.org" "[Spanish]-White-Paper.md.md" "FAQs.md" "[Romanian]-Limbajul-de-programare-Serpent.md" "Contract-metadata.md" "FAQ.md" "Governance-compendium.md" "Grants-and-funding-sources.md" "[Arabic]-العربية.md" "[Chinese]-Ethereum-TOC.md" "[Japanese]-Whisper-PoC-2-Protocol-Spec.md" "Solidity-standard-library.md" "ÐApp-Development.md" "Serpent-[DEPRECATED].md" "Ethereum-Virtual-Machine-(EVM)-Awesome-List.md" "ERC-735:-Claim-Holder-Registry-vs.-in-contract.md" "Clients,-tools,-dapp-browsers,-wallets-and-other-projects.md" "Home.md" "URL-Hint-Protocol.md" "Ethereum-Client-Architecture.md" "[German]-RLP.md" "_EGP.md" "Web3-Secret-Storage-Definition.md" "Proof-of-Stake-FAQs.md" "Distributed-Preimage-Archive.md" "Ethereum.md" "HPOC_2015.md" "Whisper-pages.md" "Open-positions-&-Schemes.md" "Light-client-protocol.md" "Alternative-blockchains,-randomness,-economics,-and-other-research-topics.md" "Ethereum-Introduction.md" "_Footer.md" "RLP.md" "[Romanian]-Cuprins.md" "Ethereum-Sharding-Research-Compendium.md" "[Japanese]-ÐΞVp2p-Wire-Protocol.md" "[English]-Patricia-Tree.md" "[Spanish]-Glossary.md" "Decentralized-apps-(dapps).md" "Mix-improvement-proposal.md" "Token-Mining.md" "[中文]-以太坊术语表.md" "Wishlist.md" "[French]-Ethereum-TOC.md" "Proof-of-Stake-FAQ.md" "Bugs.md" "[Japanese]-RLP.md" "[Japanese]--Liscence.md" "[Portuguese]-White-Paper.md" "[Japanese]-Patricia-Tree.md" "[Japanese]-Javascript-API.md" "Ethash.md" "Mining.md" "[Japanese]-libp2p-whitepaper.md" "How-to-choose-Cheap-and-high-quality-Dedicated-Servers.md" "Scaling-projects-and-proposals-and-other-crypto-infrastructure-projects.md" "FREEDOM.IO.md" "c-value-class-SwitchParameter.md" "[Japanese]-Ethereum-TOC.md" "Benchmarks.md" "enode-url-format.md" "[German]-White-Paper.md" "Block-Protocol-2.0.md" ".gitignore" "Solidity-Changelog.md" "Dapp-using-Meteor.md" "Whisper-Wire-Protocol.md" "Ethash-C-API.md" "Morden.md" "Glossary.md" "[Japanese]-Design-Rationale.md" "FinCrypChain.md" "IPv6.md" "Topics-that-span-across-research-categories:-alternative-blockchains,-randomness,-economics,-etc..md" "ÐΞV-Technologies.md" "[Russian]-Руководство-по-Solidity.md" "wikinew.md" ".creole" "[German]-Clearinghaus.md" "_Sidebar.md" "ÐΞVp2p-Wire-Protocol.md" "Default-Extra-Data-Standard.md" "images/" "Mist-Troubleshooting-Guide.md" "SAYYAN​.md" "Ethereum-Natural-Specification-Format.md" "Ethereum-Contract-ABI.md" "Relay-projects.md" "Storage-projects.md" "[Italian]-Impostare-il-proprio-ambiente-di-sviluppo-Ethereum.md" "newBlockFilter-Improvement-Proposal.md" "[日本語]-Proof-of-Stake-FAQ.md" "Outdated:-Poll-for-token-proposal-EIP-20.md" "Security-Issue-Process.md" "Mix-Features.md" "[Indonesian]-Ethereum-akan-naik-karena-teknologi--terus-dikembangkan-dan-ditingkatkan.md" "[Japanese]-Cryptocurrency-Current-Problems.md" "Sharding-introduction-and-implementations.md" "Solidity-Tutorial.md" "[Japanese]-White-Paper.md" "Standardized_Contract_APIs.md" "Network-Status.md" "Whisper.md" "[中文]-以太坊Wiki目录.md" "Dapp-Developer-Resources.md" "Ethash-Design-Rationale.md" "Parallel-Block-Downloads.md" "web.js-0.9.md" "Casper-Proof-of-Stake-compendium.md" "[Spanish]Sharding-FAQ.md" "Sharding-FAQ.md" "Mindsnews.md" "Subtleties.md" "[中文]-网络状态.md" "[English]-RLP|RLP.md" "RPC-Testing.md" "[Arabic]-Home-in-Arabic.md" "[Simplified-Chinese]-Ethereum-TOC.md" "Whisper-Overview.md" "Contract-ERC20-ABI.org" "[Persian]-White-Paper.md" "[Japanese]-HPOC_2015.md" "Licensing.md" "SM1THBR3N-CONSENSUS-CORE-MINER.md" "[Japanese]-Meteorを使ってDappを作ろう.md" "Client-Version-Strings.md" "Solidity-Collections.md" "[Japanese]-Ethereum-Wire-Protocol.md" "[Romanian]-Patricia-Tree.md" "Raspberry-Pi-instructions.md" "Useful-Ðapp-Patterns.md" "[Chinese]ÐΞVp2p-Wire-Protocol中文翻译.md" "Design-Rationale.md" "JSON-RPC.md" "Whisper-PoC-2-Protocol-Spec.md" "[Spanish]-Home.md" "[Romanian]-White-Paper.md" "[Korean]-White-Paper.md" "Ethash-DAG-Disk-Storage-Format.md" "JSON-RPC-Error-Codes-Improvement-Proposal.md" "Dagger-Hashimoto.md" "Kademlia-Peer-Selection.md" "Patricia-Tree.md" "../" "./")
+
+ ("/home/aaron/Downloads/" (23781 49817 853516 481000) "city_distances.m" "Computer-Organization-and-Design-The-Hardware-Software-Interface-RISC-V-Edition-.pdf" "Vineyard mgmt. pt. 2 - blackboard.pdf" "test-fonts.pl" "W&V Syllabus Spring 2019 (2).pdf" "Aging&Sherry-1.pdf" "intro_to_c.pptx" "Brother-HL-2240-hl1250.ppd" "IMG_20190315_112459.jpg" "Prelim_3_Review.pdf" "Subletter agreement.pdf" "Screenshot from 2019-03-04 17-30-02.png" "WinestyleRubric.docx" "4850_8.pdf" "Mindy.ics" "Sour Grapes essay.pdf" "lab11_combined_sol.pdf" "plot.fig" "tij_SFHH.dat_.gz" "go1.12.5.linux-amd64.tar.gz" "Subletter agreement (1).pdf" "designdocTemplate.zip" "riscv.circ" "W&Vintro.pdf" "testpalindrome.out" "light_1.2_amd64.deb" "GoogleSyncPlugin-3.0.1.zip" "unnamed (2).png" "CreasyCreasyChap1.pdf" "Picnic.jpg" "aty25-zx36-aty25 (2).zip" "prelim1-2018sp-soln (2).pdf" "doc/" "exploit.bin" "Framework (1).java" "SensoryEvaluationDay1.pdf" "Grapevine_Nutrition.pdf" "PairContract (4).txt" "execute_big.png" "pericles_20500416124.txt" "Internship Agreement - Aaron Yao-Smith.pdf" "Introduction to cultivars.pdf" "magit-2.13.1.zip" "unnamed (1).png" "Subletter-agreement-1.pdf" "INFECTIOUS_cumulative_daily_networks.tar.gz" "dropbox_2019.01.31_amd64.deb" "Aaron_Yao-Smith_resume (2).pdf" "s1_1.pdf" "Mechanizing Vineyard Development - Wines & Vines.pdf" "wall.jpg" "s1_2.pdf" "designdoc (1).pdf" "assem.txt" "BottleShockQuestions.pdf" "transcript.pdf" "science.txt" "Wine&Health.pdf" "s2_2.pdf" "New Member Interview Form (Responses).ods" "alu.circ" "hw2 (2).pdf" "2018-OCR-Tutorial-Final (1).ppsx" "transcript (1).pdf" "Designing and planting a vineyard - blackboard.pdf" "PairContract.txt" "designdoc.tex" "Where grapes grow.pdf" "s3_2.pdf" "Quiz 3_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "email-Enron.txt.gz" "05-memory-pre.pptx" "23019509_OfficialeTranscript.pdf" "Musto.pdf" "comet_draft_manuscript.docx" "2018-OCR-Tutorial-Final.ppsx" "Quiz 5_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "Moss - wines for lectures 2018.xlsx" "client_id.json" "Algorithm-design.djvu" "s3_1.pdf" "prelim2-2016sp.pdf" "prelim1-2018sp.pdf" "Spring 2019_enrollment.ics" "fetch.png" "Math124sec5[1].1.doc" "memory.png" "3161-5816-1-PB.pdf" "prelim1-2016sp.pdf" "BottleShockQuestions (1).pdf" "cataclysmdda-0.C-8398.tar.gz" "AARONS MC world - NEW 2-20170106-214100.zip" "20190315_comet_draft.docx" "s2_2 (1).pdf" "SecureMessage.pdf" "alu (1).circ" "book Jan 21, 2019.pdf" "com-amazon.ungraph.txt.gz" "aty25-zx36-aty25.zip" "Getty_superlative-154954029-58b970fd3df78c353cdb9cf5-5bacf5df46e0fb002523b1ac.jpg" "designdocTemplate (1).zip" "designdoc.pdf" "dropbox_2018.11.28_amd64.deb" "aty25@ugclinux.cs.cornell.edu" "prelim2-2018sp-soln.pdf" "4850_Assignment_2.pdf" "tests_3.c" "Vineyard mgmt. pt. 1 - blackboard.pdf" "PairContract (1).txt" "compton-vNext.zip" "hw0.pdf" "Phylloxera - Wine Folly.pdf" "problem (2).pdf" "compiled.out" ".test-fonts.pl.un~" "GuidetoAus_2013_final (2).pdf" "Stellaris.MegaCorp-CODEX-[rarbg.to].torrent" "anyconnect-linux64-4.6.03049-core-vpn-webdeploy-k9.sh" "0vfh7v6wzys21.jpg" "Wine Regions Paper Rubric.pdf" "prelim2-2017sp.pdf" "rf5W6Q9 - Imgur.jpg" "fontawesome-free-5.6.3-desktop.zip" "9020160.jpg" "05-fsm-pre.pptx" "COMET_figures_20190308_v2.pptx" "Vine Balance and the Role of Vineyard Design _ Viticulture and Enology.pdf" "README (1).txt" "README.txt" "prelim1-2017sp.pdf" "download" "aty25-zx36-aty25 (1).zip" "tests_2.c" "dropbox/" "Sparkling Wines.pdf" "3352e3.odt" "GaleShapley (1).java" "W&V Syllabus Spring 2019.pdf" "steam_latest.deb" "Sensory Lesson Activity Rubric (2).docx" "fibonacci.txt" "_New Member Pre-Interview Form (Responses).ods" "hw3.pdf" "leftshift32_template.circ" "COMET_figures_20190420.pdf" "a7 - Tarannum Pratap.zip" "Jon Kleinberg, Éva Tardos - Algorithm design-Pearson _ Addison-Wesley (2005).djvu" "linux_info.txt" "test_add.txt" "science (1).txt" "intro_to_c (1).pptx" "hw1.pdf" "aty25-zx36-aty25/" "pipelined_processor.png" "multimc_1.2-1.deb" "s1_2 (1).pdf" "prelim2-2018sp.pdf" "tests.c" "test_shift.txt" "lyre trellis.png" "unnamed.png" "Vine balance and yield - blackboard.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019.pdf" "fibonacci_to_x10.txt" "sol1.pdf" "CS 3410 Project 3 design doc.pdf" "W&V Syllabus Spring 2019 (3).pdf" "Aaron_Yao-Smith_resume.pdf" "new-york-sublease-agreement-template.pdf" "riscvtest.txt" "png" "mmc-stable-lin64.tar.gz" "s2_1.pdf" "arrlist.c" "20181129_091635.664-dl.pdf" "1104fc1.pdf" "Aaron_Yao-Smith_resume (1).pdf" "return_2018.pdf" "WineSpoilageSpring19-1.pdf" "2019 PULSE initial results.pdf" "Grapevine phenology - blackboard.pdf" "s2_1 (1).pdf" "cs4820-2019-01-23.pdf" "google-chrome-stable_current_amd64.deb" "palindrome.c" "Vallee.pdf" "GuidetoAus_2013_final (1).pdf" "prelim1-2016sp-soln.pdf" "Noble.pdf" "zoom_amd64.deb" "wiki.wiki/" "Exchange voucher _ Boarding Pass - Korean Air.pdf" "Sensory Lesson Activity Rubric.docx" "cache.c" "Exercise 8.1.pdf" "test_alu.txt" "Exercise 7.4.zip" "PairContract (3).txt" "W&VTopicsSpring2019.pdf" "hw2 (1).pdf" "execute_small.png" "Linux-Pocket-Guide.epub" "GoogleSyncPlugin.plgx" "W&V Syllabus Spring 2019 (1).pdf" "Peter Thiel, Blake Masters - Zero to One_ Notes on Startups, or How to Build the Future (2014, Crown Business).mobi" "Algorithm-Design.mobi" "CTAS eboard app.pdf" "tests_1.c" "hw4.pdf" "overwatch-dxvk-december-30th-2.json" "plot (1).fig" "Aaron_Yao-Smith_cover_letter.pdf" "slack-desktop-3.3.7-amd64.deb" "Varietal aroma - blackboard.pdf" "PS1.pdf" "2019 PULSE initial results (1).pdf" "Sensory Lesson Activity Rubric (1).docx" "eduroam-linux-Dartmouth_College.py" "compton-vNext/" "prelim2-2017sp-soln.pdf" "G5GTKD-e9a31845558f1c704fcffed5d360f119.pdf" "hw2.pdf" "roadNet-PA.txt.gz" "prelim1-2017sp-soln.pdf" "prelim1-2016sp (1).pdf" "Aaron_Yao-Smith_resume (3).pdf" "prelim2-2018sp (1).pdf" "aop14u.pdf" "CS_4850_Homework_3.pdf" "test.pdf" "Where grapes grow (1).pdf" "HoweSensory2009.pdf" "us.jpg" "GuidetoAus_2013_final.pdf" "gdb_27.html" "fibonacci (1).txt" "hello.c" "PairContract_P6.txt" "initiald.jpg" "prelim2-2017sp (1).pdf" "cs4820-2019-02-15.pdf" "magit-2.13.1/" "PairContract (2).txt" "GaleShapley.java" "FINAL-REPORT-Web.pdf" "../" "./")
+
+ ("/home/aaron/" (23781 49859 77872 818000) "pydrivecreds.json" ".dropbox-dist/" "winehq.key" ".steampath" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".wget-hsts" ".local/" ".macromedia/" "Dropbox/" ".selected_editor" ".themes/" ".xsession-errors" "bin/" "id_rsa_github.pub" ".thumbnails/" "snap/" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".config/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "..bash_profile.un~" "Public/" ".mozilla/" ".pydrive.conf.un~" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "Templates/" ".steam/" ".anyconnect" ".gnupg/" "perl5/" ".bash_profile~" ".cat_installer/" ".gimp-2.8/" "pydrive.conf~" ".gvm/" ".ssh/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".irssi/" ".aws/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".gitconfig" ".dbus/" ".viminfo" "id_rsa_github" "./" ".fehbg" "..bashrc.un~" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".runelite/" "pydrive.conf" ".icons/" "org/" ".cache/" ".git-credentials" "Documents/" ".fonts/" "programs/" ".pki/" ".bashrc~" "Downloads/" "../" "cloud/" ".lyrics/" "books/" "dotfiles/" "random.dat" ".bashrc.swp")
+
+ ("/home/aaron/workspace/grassfed-cli/test/" (23781 45905 612293 563000) "grassfed_cli_suite_test.go" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/" (23781 45117 554198 532000) "go.sum" "config.yml" "test/" ".git/" "cmd/" "README.md" "build/" "go.mod" "networks/" ".gitignore" "config/" "./" "Makefile" "../" "exchanges/")
+
+ ("/home/aaron/workspace/grassfed-cli/exchanges/binance/" (23781 43350 890126 592000) "cmd.go" "tx.go" "./" "summary.go" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/" (23781 42653 246415 847000) "main.go" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/config/" (23781 42654 210424 367000) "./" "../" "config.go")
+
+ ("/home/aaron/.emacs.d/" (23781 28017 415358 976000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
+
+ ("/home/aaron/dotfiles/emacs/.emacs.d/" (23781 28017 415358 976000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
+
+ ("/home/aaron/dotfiles/" (23781 25581 925341 535000) "Xresources/" "rofi/" ".git/" "i3/" "bin/" "polybar/" "README.md" "fonts/" "dunst/" ".gitignore" "./" "emacs/" "wpg/" "Makefile" "../" "vim/" "wallpaper/")
+
+ ("/home/aaron/workspace/go-sandbox/" (23781 25927 344196 535000) "hello.go" "./" "../")
+
+ ("/home/aaron/.config/i3/" (23780 49524 473186 931000) ".config.un~" "toggletouchpad.sh" "config~" "config" "./" "../")
+
+ ("/home/aaron/org/journal/" (23781 22909 997340 634000) "2019-03-26.org" "2019-01-03.org" "2019-04-10.org" "2018-09-29.org" "2018-09-30.org" "2018-09-22.org" "./" "2019-03-20.org" "2018-10-27.org" "2018-09-02.org" "2019-04-21.org" "interactions.org" "../")
+
+ ("/home/aaron/org/" (23781 23686 79971 921000) "archive/" "notes/" "./" "journal/" "../" "uncategorized/")
+
+ ("/home/aaron/bin/" (23781 24735 991541 377000) "cu_vpn" ".disable_mouse_accel.un~" "disable_mouse_accel~" "betterlockscreen" "start_cu_vpn~" "duplicity_filelist" "disable_mouse_accel" "i3exit" "kbdbacklight" "start_cu_vpn" "quit_cu_vpn" ".duplicity_backup.un~" "duplicity_backup" "monitor" ".start_cu_vpn.un~" ".cu_vpn.un~" "./" ".quit_cu_vpn.un~" "../" "duplicity_backup~")
 
  ("/home/aaron/org/meeting_notes/" (23780 29760 37854 742000) "coinfund.org" "./" "../")
 
- ("/home/aaron/dotfiles/emacs/.emacs.d/" (23780 23223 630502 262000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
-
- ("/home/aaron/.emacs.d/" (23780 23223 630502 262000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
-
  ("/home/aaron/workspace/grassfed-cli/build/" (23780 24964 994922 52000) "grassfed" "./" "../")
-
- ("/home/aaron/workspace/grassfed-cli/" (23780 23798 177038 730000) "go.sum" ".git/" "cmd/" "README.md" "build/" "go.mod" "networks/" ".gitignore" "config/" "./" "Makefile" "../" "exchanges/")
-
- ("/home/aaron/workspace/grassfed-cli/exchanges/binance/" (23780 24958 310826 430000) "cmd.go" "tx.go" "./" "summary.go" "../")
 
  ("/home/aaron/workspace/grassfed-cli/networks/" (23779 3948 745653 753000) "steem/" "decred/" "./" "../" "livepeer/")
 
  ("/home/aaron/workspace/grassfed-cli/exchanges/" (23779 3948 741653 726000) "./" "binance/" "../")
 
- ("/home/aaron/workspace/grassfed-cli/config/" (23779 3948 741653 726000) "./" "../" "config.go")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/" (23779 3948 741653 726000) "main.go" "./" "../")
-
  ("/home/aaron/workspace/grassfed-cli/cmd/" (23779 3948 741653 726000) "grassfed/" "./" "../")
 
  ("/home/aaron/code/" (23779 2592 654156 515000) "courses/" "./" "../" "work/")
 
- ("/home/aaron/org/" (23779 6530 976563 611000) "meeting_notes/" "plans/" "reading_notes/" "school/" "packing.org" "stuff.org" "./" "journal/" "../")
-
  ("/home/aaron/workspace/" (23779 4146 395014 287000) "go-sandbox/" "pricing/" "grassfed-cli/" "./" "../")
-
- ("/home/aaron/workspace/go-sandbox/" (23779 4146 395014 287000) "./" "../")
 
  ("/home/aaron/go/src/" (23778 64475 6824 721000) "pic.go" "wc.go" "hello/" ".#closure.go" "./" "closure.go" "../" "golang.org/")
 
  ("/home/aaron/go/src/hello/" (23778 61204 979262 178000) "hello.go" "./" "../")
-
- ("/home/aaron/Downloads/" (23778 51643 633903 12000) "city_distances.m" "Computer-Organization-and-Design-The-Hardware-Software-Interface-RISC-V-Edition-.pdf" "Vineyard mgmt. pt. 2 - blackboard.pdf" "test-fonts.pl" "W&V Syllabus Spring 2019 (2).pdf" "Aging&Sherry-1.pdf" "intro_to_c.pptx" "Brother-HL-2240-hl1250.ppd" "IMG_20190315_112459.jpg" "Prelim_3_Review.pdf" "Subletter agreement.pdf" "Screenshot from 2019-03-04 17-30-02.png" "WinestyleRubric.docx" "4850_8.pdf" "Mindy.ics" "Sour Grapes essay.pdf" "lab11_combined_sol.pdf" "plot.fig" "tij_SFHH.dat_.gz" "go1.12.5.linux-amd64.tar.gz" "Subletter agreement (1).pdf" "designdocTemplate.zip" "riscv.circ" "W&Vintro.pdf" "testpalindrome.out" "light_1.2_amd64.deb" "GoogleSyncPlugin-3.0.1.zip" "unnamed (2).png" "CreasyCreasyChap1.pdf" "Picnic.jpg" "aty25-zx36-aty25 (2).zip" "prelim1-2018sp-soln (2).pdf" "doc/" "exploit.bin" "Framework (1).java" "SensoryEvaluationDay1.pdf" "Grapevine_Nutrition.pdf" "PairContract (4).txt" "execute_big.png" "pericles_20500416124.txt" "Internship Agreement - Aaron Yao-Smith.pdf" "Introduction to cultivars.pdf" "magit-2.13.1.zip" "unnamed (1).png" "Subletter-agreement-1.pdf" "INFECTIOUS_cumulative_daily_networks.tar.gz" "dropbox_2019.01.31_amd64.deb" "Aaron_Yao-Smith_resume (2).pdf" "s1_1.pdf" "Mechanizing Vineyard Development - Wines & Vines.pdf" "wall.jpg" "s1_2.pdf" "designdoc (1).pdf" "assem.txt" "BottleShockQuestions.pdf" "transcript.pdf" "science.txt" "Wine&Health.pdf" "s2_2.pdf" "New Member Interview Form (Responses).ods" "alu.circ" "hw2 (2).pdf" "2018-OCR-Tutorial-Final (1).ppsx" "transcript (1).pdf" "Designing and planting a vineyard - blackboard.pdf" "PairContract.txt" "designdoc.tex" "Where grapes grow.pdf" "s3_2.pdf" "Quiz 3_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "email-Enron.txt.gz" "05-memory-pre.pptx" "23019509_OfficialeTranscript.pdf" "Musto.pdf" "comet_draft_manuscript.docx" "2018-OCR-Tutorial-Final.ppsx" "Quiz 5_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "Moss - wines for lectures 2018.xlsx" "client_id.json" "Algorithm-design.djvu" "s3_1.pdf" "prelim2-2016sp.pdf" "prelim1-2018sp.pdf" "Spring 2019_enrollment.ics" "fetch.png" "Math124sec5[1].1.doc" "memory.png" "3161-5816-1-PB.pdf" "prelim1-2016sp.pdf" "BottleShockQuestions (1).pdf" "cataclysmdda-0.C-8398.tar.gz" "AARONS MC world - NEW 2-20170106-214100.zip" "20190315_comet_draft.docx" "s2_2 (1).pdf" "SecureMessage.pdf" "alu (1).circ" "book Jan 21, 2019.pdf" "com-amazon.ungraph.txt.gz" "aty25-zx36-aty25.zip" "Getty_superlative-154954029-58b970fd3df78c353cdb9cf5-5bacf5df46e0fb002523b1ac.jpg" "designdocTemplate (1).zip" "designdoc.pdf" "dropbox_2018.11.28_amd64.deb" "aty25@ugclinux.cs.cornell.edu" "prelim2-2018sp-soln.pdf" "4850_Assignment_2.pdf" "tests_3.c" "Vineyard mgmt. pt. 1 - blackboard.pdf" "PairContract (1).txt" "compton-vNext.zip" "hw0.pdf" "Phylloxera - Wine Folly.pdf" "problem (2).pdf" "compiled.out" ".test-fonts.pl.un~" "GuidetoAus_2013_final (2).pdf" "Stellaris.MegaCorp-CODEX-[rarbg.to].torrent" "anyconnect-linux64-4.6.03049-core-vpn-webdeploy-k9.sh" "0vfh7v6wzys21.jpg" "Wine Regions Paper Rubric.pdf" "prelim2-2017sp.pdf" "rf5W6Q9 - Imgur.jpg" "fontawesome-free-5.6.3-desktop.zip" "9020160.jpg" "05-fsm-pre.pptx" "COMET_figures_20190308_v2.pptx" "Vine Balance and the Role of Vineyard Design _ Viticulture and Enology.pdf" "README (1).txt" "README.txt" "prelim1-2017sp.pdf" "download" "aty25-zx36-aty25 (1).zip" "tests_2.c" "dropbox/" "Sparkling Wines.pdf" "3352e3.odt" "GaleShapley (1).java" "W&V Syllabus Spring 2019.pdf" "steam_latest.deb" "Sensory Lesson Activity Rubric (2).docx" "fibonacci.txt" "_New Member Pre-Interview Form (Responses).ods" "hw3.pdf" "leftshift32_template.circ" "COMET_figures_20190420.pdf" "a7 - Tarannum Pratap.zip" "Jon Kleinberg, Éva Tardos - Algorithm design-Pearson _ Addison-Wesley (2005).djvu" "linux_info.txt" "test_add.txt" "science (1).txt" "intro_to_c (1).pptx" "hw1.pdf" "aty25-zx36-aty25/" "pipelined_processor.png" "multimc_1.2-1.deb" "s1_2 (1).pdf" "prelim2-2018sp.pdf" "tests.c" "test_shift.txt" "lyre trellis.png" "unnamed.png" "Vine balance and yield - blackboard.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019.pdf" "fibonacci_to_x10.txt" "sol1.pdf" "CS 3410 Project 3 design doc.pdf" "W&V Syllabus Spring 2019 (3).pdf" "Aaron_Yao-Smith_resume.pdf" "new-york-sublease-agreement-template.pdf" "riscvtest.txt" "png" "mmc-stable-lin64.tar.gz" "s2_1.pdf" "arrlist.c" "20181129_091635.664-dl.pdf" "1104fc1.pdf" "Aaron_Yao-Smith_resume (1).pdf" "return_2018.pdf" "WineSpoilageSpring19-1.pdf" "Grapevine phenology - blackboard.pdf" "s2_1 (1).pdf" "cs4820-2019-01-23.pdf" "google-chrome-stable_current_amd64.deb" "palindrome.c" "Vallee.pdf" "GuidetoAus_2013_final (1).pdf" "prelim1-2016sp-soln.pdf" "Noble.pdf" "zoom_amd64.deb" "Exchange voucher _ Boarding Pass - Korean Air.pdf" "Sensory Lesson Activity Rubric.docx" "cache.c" "Exercise 8.1.pdf" "test_alu.txt" "Exercise 7.4.zip" "PairContract (3).txt" "W&VTopicsSpring2019.pdf" "hw2 (1).pdf" "execute_small.png" "Linux-Pocket-Guide.epub" "GoogleSyncPlugin.plgx" "W&V Syllabus Spring 2019 (1).pdf" "Peter Thiel, Blake Masters - Zero to One_ Notes on Startups, or How to Build the Future (2014, Crown Business).mobi" "Algorithm-Design.mobi" "CTAS eboard app.pdf" "tests_1.c" "hw4.pdf" "overwatch-dxvk-december-30th-2.json" "plot (1).fig" "Aaron_Yao-Smith_cover_letter.pdf" "slack-desktop-3.3.7-amd64.deb" "Varietal aroma - blackboard.pdf" "PS1.pdf" "Sensory Lesson Activity Rubric (1).docx" "eduroam-linux-Dartmouth_College.py" "compton-vNext/" "prelim2-2017sp-soln.pdf" "G5GTKD-e9a31845558f1c704fcffed5d360f119.pdf" "hw2.pdf" "roadNet-PA.txt.gz" "prelim1-2017sp-soln.pdf" "prelim1-2016sp (1).pdf" "Aaron_Yao-Smith_resume (3).pdf" "prelim2-2018sp (1).pdf" "aop14u.pdf" "CS_4850_Homework_3.pdf" "test.pdf" "Where grapes grow (1).pdf" "HoweSensory2009.pdf" "us.jpg" "GuidetoAus_2013_final.pdf" "gdb_27.html" "fibonacci (1).txt" "hello.c" "PairContract_P6.txt" "initiald.jpg" "prelim2-2017sp (1).pdf" "cs4820-2019-02-15.pdf" "magit-2.13.1/" "PairContract (2).txt" "GaleShapley.java" "FINAL-REPORT-Web.pdf" "../" "./")
 
  ("/home/aaron/go/bin/" (23778 1985 184468 599000) "tour" "./" "../")
 
@@ -199,8 +211,6 @@
  ("/etc/X11/xinit/" (23760 27633 468166 208000) "./" "xserverrc" "xinitrc" "../" "xinputrc")
 
  ("/home/aaron/code/courses/latex_hw/" (23751 15002 34072 162000) "Exercise 7.4.tex" "4850_hw10.tex" "output_1_0.png" "4850_e7.4.tex" "build/" "4850_hw11.tex" "./" "Makefile" "../")
-
- ("/home/aaron/org/journal/" (23746 26337 843101 142000) "2019-03-26.org" "2019-01-03.org" "2019-04-10.org" "2018-09-29.org" "2018-09-30.org" "2018-09-22.org" "./" "2019-03-20.org" "2018-10-27.org" "2018-09-02.org" "2019-04-21.org" "interactions.org" "../")
 
  ("/home/aaron/code/courses/4850/python/" (23740 35916 474817 281000) "dog.jpg" "Pipfile" ".ipynb_checkpoints/" "HW4.ipynb" "Exercise 2.40.ipynb" "Exercise 7.4.ipynb" "./" "Pipfile.lock" "../")
 
@@ -276,8 +286,6 @@
 
  ("/home/aaron/dotfiles/i3/.config/i3/" (23634 822 229374 866000) ".config.un~" "toggletouchpad.sh" "config~" "config" "./" "../")
 
- ("/home/aaron/.config/i3/" (23634 822 229374 866000) ".config.un~" "toggletouchpad.sh" "config~" "config" "./" "../")
-
  ("/home/aaron/code/aide_code/" (23633 61917 375859 614000) ".git/" "README.md" "./" "../")
 
  ("/home/aaron/code/4820/hw1/" (23635 56108 843648 260000) "Framework$MatchedPair.class" "Test1out.txt" "Test2in.txt" "Framework.class" "Test0out.txt" "Test4out.txt" "Test5out.txt" "Framework.java" "output2.txt" "Test2out.txt" "Test4in.txt" "Test5in.txt" "output1.txt" "Test3out.txt" "Test1in.txt" "./" "output0.txt" "Test3in.txt" "../" "Test0in.txt")
@@ -308,8 +316,6 @@
 
  ("/etc/" (23582 64422 974624 296000) "dbus-1/" "gdm3/" "magic" "network/" "pki/" "apparmor/" "ca-certificates/" "systemd/" "menu-methods/" "papersize" "dictionaries-common/" "apm/" "opt/" "xml/" "protocols" "pnm2ppa.conf" "emacs/" "bonobo-activation/" "selinux/" "python/" "mtools.conf" "pcmcia/" "xdg/" "pulse/" "securetty" "sudoers.d/" "zsh_command_not_found" "skel/" "environment" "rc2.d/" "cups/" "dhcp/" "deluser.conf" "resolvconf/" "dpkg/" "sensors3.conf" "groff/" "gnome-vfs-2.0/" "lintianrc" "localtime" "kernel/" "acpi/" "inputrc" "python3.6/" "cracklib/" "ldap/" "cron.daily/" "networkd-dispatcher/" "init.d/" "cron.weekly/" "rc0.d/" "kerneloops.conf" "bash_completion.d/" "ghostscript/" "legal" "mtab" "lighttpd/" "update-notifier/" "glvnd/" "geoclue/" "alternatives/" "pam.conf" "sudoers" "newt/" "dconf/" "apport/" "fstab" "machine-id" "gdb/" "gnome/" "bluetooth/" "python3/" "lynx/" "pam.d/" "rc3.d/" "usb_modeswitch.d/" "modprobe.d/" "pm/" "rpc" "initramfs-tools/" "cupshelpers/" "thermald/" "hosts" "firefox/" "polkit-1/" "brlapi.key" "mopidy/" "hosts.allow" "libpaper.d/" "perl/" "popularity-contest.conf" "gtk-2.0/" "sgml/" "resolv.conf" ".pwd.lock" "appstream.conf" "debian_version" "ucf.conf" "ImageMagick-6/" "apache2/" "bash_completion" "nanorc" "python2.7/" "mailcap.order" "rmt" "udev/" "passwd-" "gtk-3.0/" "ca-certificates.conf" "chatscripts/" "grub.d/" "profile" "hostname" "asciidoc/" "gshadow" "ld.so.cache" "libao.conf" "debconf.conf" "timezone" "rc1.d/" "ssl/" "hdparm.conf" "update-manager/" "mke2fs.conf" "logrotate.conf" "login.defs" "sysctl.d/" "mime.types" "tmpfiles.d/" "anacrontab" "group" "modules" "PackageKit/" "mailcap" "brltty/" "wpa_supplicant/" "fuse.conf" "subgid" "shells" "UPower/" "security/" "depmod.d/" "ufw/" "sane.d/" "texmf/" "subgid-" "libnl-3/" "drirc" "os-release" "printcap" "ppp/" "NetworkManager/" "wgetrc" "gai.conf" "crontab" "ssh/" "sysctl.conf" "i3status.conf" "logrotate.d/" "libaudit.conf" "apt/" "rc4.d/" "update-motd.d/" "modules-load.d/" "shadow-" "X11/" "vtrgb" "avahi/" "subuid" "binfmt.d/" "rsyslog.d/" "cron.hourly/" "gss/" "nsswitch.conf" "cron.monthly/" "apg.conf" "sound/" "lsb-release" "calendar/" "speech-dispatcher/" "ld.so.conf" "hosts.deny" "networks" "apparmor.d/" "vdpau_wrapper.cfg" "default/" "i3/" "kernel-img.conf" "manpath.config" "bindresvport.blacklist" "rc5.d/" "console-setup/" "updatedb.conf" "logcheck/" "gconf/" "locale.gen" "issue" "profile.d/" "light/" "emacs25/" "fwupd/" "subuid-" "brltty.conf" "hp/" "init/" "bash.bashrc" "adduser.conf" "libblockdev/" "magic.mime" "rsyslog.conf" "vim/" "issue.net" "rcS.d/" "services" "ld.so.conf.d/" "netplan/" "sensors.d/" "shadow" "ltrace.conf" "udisks2/" "chromium-browser/" "ifplugd/" "usb_modeswitch.conf" "locale.alias" "host.conf" "terminfo/" "rc6.d/" "cron.d/" "gshadow-" "group-" "passwd" "fonts/" "iproute2/" "insserv.conf.d/" "../" "./")
 
- ("/home/aaron/dotfiles/" (23582 50385 894150 335000) "Xresources/" "rofi/" ".git/" "i3/" "bin/" "polybar/" "README.md" "fonts/" "dunst/" ".gitignore" "./" "emacs/" "wpg/" "Makefile" "../" "vim/" "wallpaper/")
-
  ("/home/aaron/.config/mopidy/" (23582 37235 997758 775000) "./" "mopidy.conf" "../")
 
  ("/home/aaron/dotfiles/polybar/" (23582 30141 917686 752000) ".config/" "./" "../")
@@ -337,12 +343,6 @@
  ("/home/aaron/.i3/scripts/" (23351 48553 180302 296000) "./" "../" "shadowsocks")
 
  ("/home/aaron/.i3/" (23351 47969 293845 40000) "./" "scripts/" "../")
-
- ("/home/aaron/code/cs3110/" (23565 55396 206789 138000) "./" "textbook/" "cs3110-a0/" "solutions-2018fa/" "cs3110-a2/" "test.v" "cs3110-a10/" "cs3110-a9/" "midterm-3110/" "cs3110-rec/" "min_absent.ml" "cs3110-a1/" "CS3110-A4/" "../" "cs3110-a5/")
-
- ("/home/aaron/code/aguaclara/" (23565 26405 23302 847000) "./" "codecov.yml" "CI/" "appveyor.yml" ".travis.yml" ".gitignore" "requirements-dev.txt" "setup.py" ".onshapepy.enc" "tests/" ".git/" "LICENSE" "aguaclara/" "aguaclara.egg-info/" "docs/" ".eggs/" ".pytest_cache/" "Pipfile" "README.md" "../" "MANIFEST.in" "setup.cfg" "meta.yaml" "Pipfile.lock")
-
- ("/home/aaron/code/aguaclara/aguaclara/unit_process_design/" (23558 55721 286237 751000) "__init__.py" "./" "cdc.py" "StaRS.py" "lfom.py" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -15,4 +15,4 @@ URxvt*loginShell: true
 
 ! transparency
 URxvt.depth: 32
-URxvt.background: rgba:1111/1111/1111/9999
+URxvt.background: rgba:1111/1111/1111/dddd

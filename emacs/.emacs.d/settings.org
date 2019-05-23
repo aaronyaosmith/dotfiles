@@ -72,7 +72,7 @@
       (sequence "WAITING(w@/!)" "HOLD(h@/!)" "|" "CANCELLED(c@/!)" "PHONE" "MEETING"))))
   (add-hook 'org-mode-hook #'visual-line-mode))
 #+END_SRC
-** orgmode-hideshow
+*** orgmode-hideshow
 #+BEGIN_SRC emacs-lisp
 (use-package hideshow-orgmode
   :config
@@ -80,6 +80,32 @@
   (global-set-key (kbd "C-c C") 'hs-cycle-all)
   (global-set-key (kbd "C-c h") 'hs-fold-all)
   (global-set-key (kbd "C-c s") 'hs-show-all))
+#+END_SRC
+*** org-journal
+#+BEGIN_SRC emacs-lisp
+(use-package org-journal
+  :config
+  (setq org-journal-file-format "%Y-%m-%d.org")
+  (setq org-journal-time-format "")
+  (setq org-journal-time-prefix "")
+  (setq org-journal-dir "~/org/journal")
+  (setq org-extend-today-until 4))
+#+END_SRC
+*** org-ref
+#+BEGIN_SRC emacs-lisp
+(use-package org-ref
+  :config
+  (setq org-ref-bibliography-notes "~/org/refs/refs.org"
+  org-ref-default-bibliography '("~/org/refs/refs.bib")
+  org-ref-pdf-directory "~/org/refs/pdfs/"))
+#+END_SRC
+*** interleave
+#+BEGIN_SRC emacs-lisp
+(use-package interleave)  
+#+END_SRC
+*** org-capture
+#+BEGIN_SRC emacs-lisp
+(use-package org-capture)
 #+END_SRC
 ** OCaml
 #+BEGIN_SRC emacs-lisp
@@ -116,16 +142,6 @@
 (autoload 'utop-minor-mode "utop" "Minor mode for utop" t)
 (add-hook 'tuareg-mode-hook 'utop-minor-mode)
 #+END_SRC
-** org-journal
-#+BEGIN_SRC emacs-lisp
-(use-package org-journal
-  :config
-  (setq org-journal-file-format "%Y-%m-%d.org")
-  (setq org-journal-time-format "")
-  (setq org-journal-time-prefix "")
-  (setq org-journal-dir "~/org/journal")
-  (setq org-extend-today-until 4))
-#+END_SRC
 ** wpg base files
 #+BEGIN_SRC emacs-lisp
 (add-to-list 'auto-mode-alist '("\\.base\\'" . conf-mode))
@@ -145,8 +161,8 @@
 ** flycheck
 #+BEGIN_SRC emacs-lisp
 (use-package flycheck
-  :ensure t
-  :init (global-flycheck-mode))
+  :config
+  (add-hook 'go-mode-hook 'flycheck-mode))
 #+END_SRC
 * Keybindings
 ** magit
@@ -177,4 +193,8 @@
       version-control t      ; Use version numbers on backups,                  
       kept-new-versions 5    ; keep some new versions                           
       kpept-old-versions 2)   ; and some old ones, too  
+#+END_SRC
+* Behavior
+#+BEGIN_SRC emacs-lisp
+(setq browse-url-browser-function 'browse-url-chrome)
 #+END_SRC
