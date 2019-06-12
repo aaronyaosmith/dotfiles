@@ -121,6 +121,10 @@
   :config
   (add-hook 'go-mode-hook 'flycheck-mode))
 
+(use-package whitespace-cleanup-mode
+  :config
+  (global-whitespace-cleanup-mode 1))
+
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (setq vc-follow-symlinks t)

@@ -178,3 +178,13 @@ nnoremap <space> za
 
 " F5 toggle dark/light
 " call togglebg#map("<F5>")
+
+" move backup and swap dirs
+set directory=~/.vim_files/swap//
+set backupdir=~/.vim_files/backup//
+set undodir=~/.vim_files/undo//
+
+" disable modelines for security
+set modelines=0
+set nomodeline
+

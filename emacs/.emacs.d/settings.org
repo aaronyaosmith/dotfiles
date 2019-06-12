@@ -164,6 +164,12 @@
   :config
   (add-hook 'go-mode-hook 'flycheck-mode))
 #+END_SRC
+** whitespace-cleanup-mode
+#+BEGIN_SRC emacs-lisp
+(use-package whitespace-cleanup-mode
+  :config
+  (global-whitespace-cleanup-mode 1))
+#+END_SRC
 * Keybindings
 ** magit
 #+BEGIN_SRC emacs-lisp

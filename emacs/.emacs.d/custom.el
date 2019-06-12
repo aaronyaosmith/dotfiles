@@ -10,7 +10,7 @@
  '(org-agenda-files (quote ("~/org/stuff.org")))
  '(package-selected-packages
    (quote
-    (helm-bibtexkey org-capture-pop-frame interleave org-ref py-autopep8 pyenv-mode elpy gruvbox-theme org-edna))))
+    (whitespace-cleanup-mode py-autopep8 pyenv-mode elpy gruvbox-theme org-edna))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
