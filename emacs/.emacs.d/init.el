@@ -55,7 +55,6 @@
  '(custom-safe-themes
    (quote
     ("a5956ec25b719bf325e847864e16578c61d8af3e8a3d95f60f9040d02497e408" "420459d6eeb45aadf5db5fbcc3d6990b65141c104911f7359454fc29fa9d87a0" default)))
- '(org-agenda-files (quote ("~/org/stuff.org")))
  '(package-selected-packages
    (quote
     (py-autopep8 pyenv-mode elpy gruvbox-theme org-edna))))

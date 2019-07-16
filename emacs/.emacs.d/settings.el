@@ -37,6 +37,7 @@
 
 (use-package org
   :config
+  (setq org-agenda-files '("~/org/agenda"))
   (setq org-startup-indented t)
   (setq org-directory "~/org")
   (global-set-key "\C-cl" 'org-store-link)

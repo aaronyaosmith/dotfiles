@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <19/06/07 11:37:35 /home/aaron/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <19/06/14 15:50:17 /home/aaron/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -27,8 +27,6 @@
   ("uid-integer" 1237268)
   ("ls" "/bin/ls --color=never")
   ("ls-dired" t))
- (["scp" nil "ssh" nil nil]
-  nil)
  (["ssh" "ubuntu" "ec2-34-228-39-126.compute-1.amazonaws.com" nil nil]
   ("uname" "Linux 4.4.0-1084-aws")
   ("locale" "LC_ALL=en_US.utf8")
@@ -48,4 +46,31 @@
   ("file-exists" "test -e")
   ("readlink" "\\readlink")
   ("gid-string" "ubuntu")
-  ("git" "\\git")))
+  ("git" "\\git"))
+ (["scp" nil "ssh" nil nil]
+  nil)
+ (["ssh" nil "18.215.233.146" nil nil]
+  nil)
+ (["ssh" "ubuntu" "18.215.233.146" nil nil]
+  ("uname" "Linux 4.15.0-1039-aws")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/ubuntu")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("file-exists" "test -e")
+  ("readlink" "\\readlink")
+  ("gid-string" "ubuntu")
+  ("git" "\\git")
+  ("tmpdir" "/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")))

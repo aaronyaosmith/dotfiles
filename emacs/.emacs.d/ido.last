@@ -2,6 +2,21 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/aaron/code/work/lein-proj/src/" . "lein_proj/")
+ ("/home/aaron/code/work/lein-proj/" . "src/")
+ ("/home/aaron/workspace/cfexec/pkg/" . "kafka/")
+ ("/home/aaron/workspace/cfexec/cmd/" . "cfexec/")
+ ("/home/aaron/workspace/cfexec/" . "pkg/")
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/pkg/" . "bitmex/")
+ ("/home/aaron/go/src/github.com/coinfund/" . "cfexec/")
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/cmd/" . "cfexec/")
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/" . "cmd/")
+ ("/home/aaron/go/src/cfexec/cmd/" . "cfexec/")
+ ("/home/aaron/go/src/cfexec/pkg/" . "aoledger/")
+ ("/home/aaron/go/src/cfexec/" . "cmd/")
+ ("/home/aaron/code/work/jekyll-site/" . "_posts/")
+ ("/home/aaron/workspace/bittrex/" . "bittrex_cli/")
+ ("/home/aaron/workspace/pricing/plugins/" . "bitmex/")
  ("/home/aaron/workspace/grassfed-live/ansible/roles/ebs/" . "tasks/")
  ("/home/aaron/workspace/grassfed-live/ansible/templates/pricingd/etc/systemd/" . "system/")
  ("/home/aaron/workspace/grassfed-live/ansible/templates/pricingd/etc/" . "systemd/")
@@ -22,11 +37,11 @@
  ("/home/aaron/workspace/grassfed-live/ansible/templates/" . "pricingd/")
  ("/home/aaron/workspace/grassfed-live/ansible/roles/common/" . "tasks/")
  ("/home/aaron/workspace/grassfed-live/ansible/roles/" . "ebs/")
- ("/home/aaron/workspace/grassfed-live/ansible/" . "roles/")
- ("/home/aaron/workspace/grassfed-live/terraform/" . "pricingd/")
+ ("/home/aaron/workspace/grassfed-live/ansible/" . "scripts/")
+ ("/home/aaron/workspace/grassfed-live/terraform/" . "ethereum/")
  ("/home/aaron/workspace/grassfed-live/" . "ansible/")
- ("/home/aaron/workspace/pricing-data/" . "db/")
- ("/home/aaron/workspace/pricing/" . "price/")
+ ("/home/aaron/workspace/pricing-data/" . "daemon/")
+ ("/home/aaron/workspace/pricing/" . "plugins/")
  ("/home/aaron/Dropbox/org/notes/" . "meetings/")
  ("/home/aaron/Dropbox/org/" . "notes/")
  ("/home/aaron/workspace/grassfed-cli/test/" . "mock/")
@@ -39,7 +54,7 @@
  ("/home/aaron/workspace/grassfed-cli/exchanges/" . "binance/")
  ("/home/aaron/workspace/grassfed-cli/cmd/" . "grassfed/")
  ("/home/aaron/workspace/grassfed-cli/" . "test/")
- ("/home/aaron/workspace/" . "grassfed-live/")
+ ("/home/aaron/workspace/" . "cfexec/")
  ("/home/aaron/go/src/" . "hello/")
  ("/home/aaron/go/" . "src/")
  ("/home/" . "aaron/")
@@ -47,7 +62,7 @@
  ("/home/aaron/code/courses/4850/" . "python/")
  ("/home/aaron/code/courses/" . "latex_hw/")
  ("/home/aaron/code/work/challenges/" . "coinfund/")
- ("/home/aaron/code/work/" . "website/")
+ ("/home/aaron/code/work/" . "lein-proj/")
  ("/home/aaron/code/3410/projects/" . "c/")
  ("/home/aaron/code/3410/Logisim/" . "project_1/")
  ("/home/aaron/code/4850/" . "python/")
@@ -97,12 +112,12 @@
  ("/home/aaron/code/cs3110/a1/" . "cs3110-a1/")
  ("/home/aaron/code/resumes/" . "resumes/")
  ("/home/aaron/code/cs3110/cs3110-a1/" . "a1/")
- ("/home/aaron/.config/" . "wpg/")
+ ("/home/aaron/.config/" . "i3/")
  ("/home/aaron/org/" . "notes/")
  ("/home/aaron/code/cs3110/" . "cs3110-a9/")
  ("/home/aaron/.emacs.d/" . "lisp/")
  ("/home/aaron/Documents/" . "other/")
- ("/home/aaron/" . ".emacs.d/")
+ ("/home/aaron/" . "dotfiles/")
  ("/home/aaron/code/hgmd/HG_marker_detection/" . "docs/")
  ("/home/aaron/code/hgmd/" . "HG_marker_detection/")
  ("/home/aaron/code/" . "work/")
@@ -110,85 +125,251 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/aaron/.emacs.d/"
- "/home/aaron/workspace/grassfed-live/ansible/"
- "/home/aaron/workspace/grassfed-live/"
- "/home/aaron/.ansible/"
- "/home/aaron/workspace/grassfed-live/packer/"
- "/home/aaron/workspace/grassfed-live/ansible/roles/ebs/tasks/"
- "/home/aaron/workspace/grassfed-live/ansible/scripts/pricingd/"
- "/home/aaron/workspace/grassfed-live/terraform/pricingd/"
- "/home/aaron/workspace/grassfed-live/terraform/decred/"
- "/home/aaron/bin/"
- "/home/aaron/workspace/grassfed-live/terraform/ethereum/"
- "/home/aaron/workspace/grassfed-live/terraform/"
- "/home/aaron/.aws/"
- "/home/aaron/workspace/grassfed-cli/"
- "/home/aaron/workspace/grassfed-live/ansible/templates/pricingd/etc/systemd/system/"
- "/home/aaron/workspace/grassfed-cli/test/"
- "/home/aaron/workspace/grassfed-cli/cmd/grassfed/cli/"
- "/home/aaron/workspace/grassfed-cli/cmd/grassfed/"
- "/home/aaron/workspace/grassfed-cli/provider/"
+ "/home/aaron/dotfiles/"
+ "/home/aaron/.config/i3/"
+ "/home/aaron/.config/wpg/templates/"
  "/home/aaron/org/notes/meetings/"
- "/home/aaron/org/notes/papers/"
- "/home/aaron/workspace/pricingd-deployment/"
- "/home/aaron/workspace/pricingd-deployment/ansible/"
- "/home/aaron/workspace/pricingd-deployment/ansible/templates/etc/systemd/system/"
- "/home/aaron/workspace/pricingd-deployment/packer/"
- "/home/aaron/workspace/pricingd-deployment/terraform/"
- "/home/aaron/workspace/grassfed-live/ansible/templates/decred/etc/systemd/system/"
- "/home/aaron/code/work/website/"
- "/home/aaron/workspace/pricing-data/db/"
- "/home/aaron/"
- "/ssh:ubuntu@ec2-34-228-39-126.compute-1.amazonaws.com:"
- "/ssh:ubuntu@"
- "/home/aaron/.ssh/"
- "/home/aaron/.vim/"
- "/home/aaron/workspace/pricingd-deployment/ansible/scripts/"
- "/home/aaron/workspace/pricing-data/"
- "/home/aaron/workspace/"
- "/home/aaron/workspace/devops-sandbox/ansible/"
- "/home/aaron/workspace/devops-sandbox/"
- "/home/aaron/workspace/grassfed-live/ansible/roles/common/tasks/"
- "/home/aaron/workspace/pricing-data/daemon/"
- "/home/aaron/workspace/pricing-data/cmd/"
- "/home/aaron/workspace/grassfed-live/ansible/templates/ethereum/.local/share/io.parity.ethereum/"
- "/etc/ansible/"
- "/home/aaron/workspace/grassfed-live/terraform/.ansible/"
- "/home/aaron/workspace/docker-curriculum/"
- "/home/aaron/org/journal/"
- "/home/aaron/workspace/pricing-data/config/"
- "/home/aaron/workspace/pricing-data/sql/"
+ "/home/aaron/workspace/cfexec/pkg/kafka/"
+ "/home/aaron/workspace/cfexec/cmd/cfexec/"
+ "/home/aaron/workspace/cfexec/pkg/bitmex/"
+ "/home/aaron/workspace/cfexec/"
+ "/home/aaron/workspace/cfexec/cmd/test/"
+ "/home/aaron/workspace/cfexec/pkg/"
+ "/home/aaron/workspace/steemarb/"
+ "/home/aaron/code/work/lein-proj/src/lein_proj/"
+ "/home/aaron/code/work/lein-proj/"
+ "/home/aaron/workspace/cfexec/pkg/aoledger/"
+ "/home/aaron/workspace/grassfed-cli/"
+ "/home/aaron/workspace/cfexec/cmd/"
  "/home/aaron/workspace/pricing/"
+ "/home/aaron/go/src/github.com/coinfund/cfexec/cmd/cfexec/"
+ "/home/aaron/go/src/github.com/coinfund/cfexec/pkg/bitmex/"
+ "/home/aaron/go/src/github.com/coinfund/cfexec/pkg/kafka/"
+ "/home/aaron/go/src/github.com/coinfund/cfexec/"
+ "/home/aaron/go/src/cfexec/cmd/cfexec/"
+ "/home/aaron/go/src/cfexec/"
+ "/home/aaron/go/src/cfexec/pkg/aoledger/"
+ "/home/aaron/workspace/order-framework/"
+ "/home/aaron/workspace/frp-sandbox/"
+ "/home/aaron/workspace/coinbase-pro/"
+ "/home/aaron/org/agenda/"
+ "/home/aaron/workspace/orderbook/"
+ "/home/aaron/workspace/orderbook-gdax/"
+ "/home/aaron/workspace/sandbox/"
+ "/home/aaron/"
+ "/home/aaron/workspace/bittrex/"
+ "/home/aaron/workspace/data/"
+ "/home/aaron/workspace/"
+ "/home/aaron/workspace/pricing/plugins/bitmex/"
+ "/home/aaron/workspace/bittrex/bittrex_cli/"
+ "/home/aaron/code/work/jekyll-site/_posts/"
+ "/home/aaron/code/work/jekyll-site/"
+ "/home/aaron/org/uncategorized/"
+ "/home/aaron/org/notes/papers/"
+ "/home/aaron/org/notes/"
+ "/home/aaron/code/work/website/"
+ "/home/aaron/workspace/pricing/price/"
+ "/home/aaron/org/notes/books/"
+ "/home/aaron/workspace/pricing-data/daemon/"
+ "/home/aaron/workspace/pricing/types/"
+ "/home/aaron/workspace/pricing/plugins/datastore/"
+ "/home/aaron/org/journal/"
+ "/home/aaron/workspace/pricing/config/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "settings.org"
- "pricingd.yml"
+ ".gitignore"
  "Makefile"
- "hosts"
- "secrets.yml"
- "init_pricingd.sh"
- "pricingd.json"
- "main.yml"
- "pricingd_init.sql"
- "pricing-data_config.yml"
+ "config"
+ "i3.base"
+ "cf_grassfed.org"
+ "kafka.go"
+ "main.go"
+ "bitmex.go"
+ "types.go"
+ "signal.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/aaron/.emacs.d/" (23809 17455 593815 755000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
+ ("/home/aaron/dotfiles/" (23853 52787 453654 409000) "Xresources/" "rofi/" ".git/" "i3/" "bin/" "polybar/" "README.md" "status.log" "fonts/" "dunst/" ".gitignore" "./" "emacs/" "wpg/" "Makefile" "../" "vim/" "wallpaper/")
 
- ("/home/aaron/workspace/grassfed-live/ansible/" (23809 17125 542635 568000) "cosmos.yml" "scripts/" "roles/" "sawtooth.yml" "secrets.yml" "decred.yml" "pricingd.yml" "./" "nucypher.yml" "../" "ethereum.yml" "templates/")
+ ("/home/aaron/" (23853 52852 725534 262000) "pydrivecreds.json" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".steampath" ".m2/" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" ".nvm/" "Dropbox/" ".selected_editor" ".node_repl_history" "test" ".themes/" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".test.un~" ".config/" ".hsandbox/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".ssh/" ".eclipse/" "node_modules/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gem/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".clojure_history" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".runelite/" "pydrive.conf" ".clojure/" ".icons/" "org/" ".cache/" ".pricingd/" ".cpanm/" ".lein/" "Documents/" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" ".xmodmap" "dotfiles/" "go/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
 
- ("/home/aaron/workspace/grassfed-live/" (23809 17404 693323 773000) ".git/" "README.md" "terraform/" "packer/" ".gitignore" "./" "ansible/" "Makefile" "../")
+ ("/home/aaron/dotfiles/wpg/.config/wpg/templates/" (23853 52519 20077 37000) "Xresources" "Xresources.base~" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" ".Xresources.base.un~" "dunstrc")
 
- ("/home/aaron/.ansible/" (23809 17038 165798 676000) "cp/" "hosts" "roles/" "tmp/" "./" "../")
+ ("/home/aaron/.config/" (23852 34290 423227 491000) "update-notifier/" "chromium/" "gnome-session/" "pulse.old/" "dconf/" "lxpanel/" "menus/" "spotify/" "configstore/" "keepassxc/" "hexchat/" "rofi/" "deluge/" "i3/" "Sqlectron/" "matplotlib/" "mimeapps.list" "polybar/" "pavucontrol.ini" "cef_user_data/" "autostart/" "gtk-3.0/" "goa-1.0/" "gtk-4.0/" "evolution/" "pcmanfm/" "gtk-2.0/" "EgoSoft/" "dlv/" "QtProject.conf" "libreoffice/" "pulse/" "gnome-initial-setup-done" "mopidy/" "xfce4/" "google-chrome/" "dunst/" "user-dirs.locale" "zoomus.conf" "lutris/" "eog/" "ibus/" "user-dirs.dirs" "VirtualBox/" "opera/" "./" "mpv/" "environment.d/" "wal/" "enchant/" "Thunar/" "evince/" "calibre/" "gqrx/" "nautilus/" "gedit/" "wpg/" "../" "gpick/" "lxsession/" "Slack/" "Signal/")
 
- ("/home/aaron/" (23809 16135 945101 26000) "pydrivecreds.json" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".steampath" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" "Dropbox/" ".selected_editor" "test" ".themes/" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".test.un~" ".config/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".gvm/" ".ssh/" ".eclipse/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".runelite/" "pydrive.conf" ".icons/" "org/" ".cache/" ".pricingd/" "Documents/" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" "dotfiles/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
+ ("/home/aaron/workspace/cfexec/cmd/" (23852 62399 403889 295000) "cfexec/" "./" "../")
 
- ("/home/aaron/workspace/grassfed-live/packer/" (23809 15806 817757 270000) "nucypher.json" "manifest.json" "steem-orderbook.json" "dcrwallet.json" "init_pricingd.sh" "geth.json" "sawtooth.json" "dcrd.json" "cosmos-sdk.json" "parity.json" "./" "stakepoold.json" "dcrstakepool.json" "../" "pricingd.json")
+ ("/home/aaron/workspace/cfexec/pkg/" (23852 62399 407889 361000) "bitmex/" "ledger/" "./" "kafka/" "../")
+
+ ("/home/aaron/workspace/cfexec/" (23852 63052 363375 155000) "go.sum" ".git/" "cmd/" "go.mod" "cfexec" ".gitignore" "./" "pkg/" "Makefile" "../" "configs/" "output.log")
+
+ ("/home/aaron/workspace/cfexec/pkg/bitmex/" (23852 62399 407889 361000) "bitmex.go" "types.go" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/cmd/cfexec/" (23852 63037 434937 727000) "main.go" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/pkg/kafka/" (23852 62399 407889 361000) "kafka.go" "types.go" "./" "../")
+
+ ("/home/aaron/org/notes/meetings/" (23852 59425 409290 706000) "cf_grassfed.org" "cf_intro.org" "cf_orders.org" "./" "coding_practice.org" "../")
+
+ ("/home/aaron/code/work/lein-proj/" (23847 22905 514645 704000) "CHANGELOG.md" "doc/" "test/" "target/" "README.md" "LICENSE" "project.clj" "resources/" ".gitignore" ".lein-repl-history" ".hgignore" "./" "src/" "../")
+
+ ("/home/aaron/code/work/lein-proj/src/lein_proj/" (23846 19921 525885 833000) "core.clj" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/cmd/test/" (23846 20143 916409 658000) "main.go" "test" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/pkg/util/" (23846 11707 475752 114000) "./" "util.go" "../")
+
+ ("/home/aaron/workspace/steemarb/util/" (23843 29442 81695 946000) "data.go" "./" "util.go" "../")
+
+ ("/home/aaron/workspace/steemarb/" (23843 29777 966809 79000) "main.go" "go.sum" ".git/" "convert.sh" "README.md" "steem.sh" "go.mod" "./" "execution/" "util/" "sbd.sh" "../")
+
+ ("/home/aaron/code/work/lein-proj/src/" (23845 9194 731319 687000) "lein_proj/" "./" "../")
+
+ ("/home/aaron/code/work/" (23845 9194 727319 616000) "resumes/" "jekyll-site/" "lein-proj/" "website/" "./" "recruiting/" "challenges/" "../")
+
+ ("/home/aaron/code/" (23793 39635 876259 644000) "courses/" "./" "../" "work/")
+
+ ("/home/aaron/workspace/grassfed-cli/" (23844 53840 113544 755000) "go.sum" "test/" ".git/" "cmd/" "README.md" "build/" "go.mod" "networks/" ".gitignore" "config/" "./" "Makefile" "../" "exchanges/")
+
+ ("/home/aaron/workspace/" (23844 60490 288697 311000) "script.py" "docker-curriculum/" "order-framework/" "data/" "grassfed-live/" "pricing-data/" "cfexec/" "orderbook/" "pricing/" "steemarb/" "grassfed-cli/" "nock/" "./" "wiki.wiki/" "pricingd-deployment/" "bittrex/" "streisand/" "coinbase-pro/" "frp-sandbox/" "kafka/" "sandbox/" "pricing_dump.sql" "secp256k1/" "../" "pricing_dump_201906181358")
+
+ ("/home/aaron/workspace/cfexec/pkg/aoledger/" (23844 38694 494014 379000) "aoledger.go" "./" "../")
+
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/pkg/bitmex/" (23844 60185 570637 195000) "bitmex.go" "./" "../")
+
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/pkg/" (23844 60172 598548 368000) "aoledger/" "bitmex/" "./" "kafka/" "../")
+
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/pkg/kafka/" (23844 60178 30585 578000) "kafka.go" "./" "../")
+
+ ("/home/aaron/workspace/sandbox/" (23835 50406 828630 76000) "orderbook.go" "livepeerjs/" "./" "graph-node/" "../")
+
+ ("/home/aaron/workspace/orderbook/" (23843 20638 751691 167000) "original_output.txt" "mocks.go" "order.go" "go.sum" "metrics.go" "provider.go" ".git/" "side.go" "metrics_test.go" "updated_output.html" "README.md" "go.mod" "orderbook.go" "original_output.html" "list.go" "execution_test.go" "execution.go" "updated_output.txt" "side_test.go" ".gitignore" "./" "message.go" "orderbook_suite_test.go" "../" "orderbook_test.go" "list_test.go")
+
+ ("/home/aaron/org/agenda/" (23843 47067 302252 159000) "CoinFund.org" "./" "../")
+
+ ("/home/aaron/workspace/order-framework/" (23844 36751 702084 88000) "./" "../")
+
+ ("/home/aaron/go/src/github.com/coinfund/" (23844 58681 333475 207000) "cfexec/" "./" "../")
+
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/cmd/cfexec/" (23844 58788 110388 100000) "main.go" "./" "../")
+
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/" (23844 58788 110388 100000) ".git/" "cmd/" ".gitignore" "./" "pkg/" "../" "configs/")
+
+ ("/home/aaron/go/src/github.com/coinfund/cfexec/cmd/" (23844 37057 732152 865000) "cfexec/" "./" "../")
+
+ ("/home/aaron/go/src/cfexec/" (23844 43506 103604 468000) "test.go" ".git/" "cmd/" ".gitignore" "./" "pkg/" "../" "configs/")
+
+ ("/home/aaron/go/src/cfexec/cmd/cfexec/" (23844 37120 284569 278000) "main.go" "./" "../")
+
+ ("/home/aaron/go/src/cfexec/cmd/" (23844 37057 732152 865000) "cfexec/" "./" "../")
+
+ ("/home/aaron/go/src/cfexec/pkg/aoledger/" (23844 38694 494014 379000) "aoledger.go" "./" "../")
+
+ ("/home/aaron/go/src/cfexec/pkg/" (23844 36804 542445 865000) "aoledger/" "./" "../")
+
+ ("/home/aaron/workspace/frp-sandbox/" (23843 34487 85529 477000) "bitmex_data.csv" "package-lock.json" ".git/" "bitmex_data.ts" "package.json" "test.ts" "node_modules/" "sandbox.ts" "server.ts" "bitmex_data_bak.csv" ".gitignore" "./" "bitmex_futures_spot.csv" "../" "bitmex.ts" "output.log")
+
+ ("/home/aaron/workspace/coinbase-pro/" (23837 515 678683 597000) "main.go" "go.sum" ".git/" "go.mod" "./" "orderbook-gdax" "../")
+
+ ("/home/aaron/org/" (23834 13678 709231 803000) "archive/" "notes/" "stuff.org" "./" "journal/" "agenda/" "../" "uncategorized/")
+
+ ("/home/aaron/.config/i3/" (23809 18569 136796 182000) ".config.un~" "toggletouchpad.sh" "config~" "config" "./" "../")
+
+ ("/home/aaron/workspace/orderbook-gdax/" (23835 53472 453831 897000) "main.go" "go.sum" "go.mod" "./" "orderbook-gdax" "../")
+
+ ("/home/aaron/.emacs.d/" (23835 25143 124772 381000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
+
+ ("/home/aaron/workspace/pricing-data/types/" (23790 41538 378278 196000) "candles.go" "window.go" "./" "../")
+
+ ("/home/aaron/workspace/pricing/config/" (23779 3258 992564 211000) "config.json" "./" "../")
+
+ ("/home/aaron/workspace/bittrex/bittrex_cli/" (23834 25169 107500 579000) "main.go" "bittrex_cli" "./" "../")
+
+ ("/home/aaron/workspace/data/" (23834 22545 875177 136000) "bitmex_XBTU19.csv" "bitmex_XBTUSD.csv" "bitmex_.BXBT_2019.csv" "bitmex.py" "bitmex_.BXBT.csv" "./" "bitmex_XBTM19.csv" "scraping.go" "bitmex_XBTZ19.csv" "../" "bitmex_XBTUSD_2019.csv")
+
+ ("/home/aaron/.config/wpg/templates/" (23835 26240 371538 233000) "Xresources" "Xresources.base~" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" ".Xresources.base.un~" "dunstrc")
+
+ ("/home/aaron/dotfiles/wpg/" (23582 29808 826878 594000) ".config/" "./" "../")
+
+ ("/home/aaron/dotfiles/wpg/.config/" (23582 29812 134907 943000) "./" "wpg/" "../")
+
+ ("/home/aaron/dotfiles/wpg/.config/wpg/" (23582 29890 27589 249000) "./" "wpg.conf" "../" "templates/")
+
+ ("/home/aaron/.config/wpg/" (23834 226 480484 423000) ".current" "samples/" "wp_init.sh" "wallpapers/" "./" "wpg.conf" "sequences" "formats/" "../" "templates/" "schemes/")
+
+ ("/home/aaron/workspace/bittrex/" (23834 7269 63459 9000) "go.sum" "client.go" ".git/" "bittrex_cli/" "messages.go" "README.md" "bittrex_test.go" "msg_number.go" "go.mod" "execution.go" "orderfuncs.go" "./" "bittrex_suite_test.go" "../")
+
+ ("/tmp/hsandbox-YN3UW8/" (23834 29136 170783 188000) "./" ".hsandbox-editor-running" "sandbox.go" "../")
+
+ ("/home/aaron/workspace/pricing/" (23834 6404 885043 317000) "candles.go" "plugins/" "pricing.go" "go.sum" "request.go" "provider.go" ".git/" "granularity.go" "price.go" "daemon.go" "README.md" "price/" "go.mod" "request_test.go" "resolution.go" "resolved_request.go" "pair_test.go" "resolution_test.go" ".gitignore" "config/" "./" "pair.go" "plugins.go" "Makefile" "../" "pricing_suite_test.go" "config.go" "parsing.go")
+
+ ("/home/aaron/workspace/pricing/plugins/bitmex/" (23817 24811 202612 667000) "bitmexProvider.go" "./" "../")
+
+ ("/home/aaron/bin/" (23830 26238 365922 332000) "cu_vpn" ".disable_mouse_accel.un~" "disable_mouse_accel~" "betterlockscreen" "start_cu_vpn~" "duplicity_filelist" "disable_mouse_accel" "i3exit" "kbdbacklight" "start_cu_vpn" "hsandbox" "quit_cu_vpn" ".duplicity_backup.un~" "duplicity_backup" "monitor" ".start_cu_vpn.un~" ".cu_vpn.un~" "terraform" "packer" ".colors.un~" "./" ".quit_cu_vpn.un~" "colors" "../" "whitespace_cleanup" "duplicity_backup~")
+
+ ("/home/aaron/code/work/jekyll-site/_posts/" (23832 3898 26412 535000) "2019-06-29-welcome-to-jekyll.markdown" "2019-06-28-aaron.md" "./" "../")
+
+ ("/home/aaron/code/work/website/" (23831 50907 197348 454000) "config.toml" ".git/" ".gitmodules" "themes/" "static/" "package.json" ".gitignore" "./" "content/" "public/" "../")
+
+ ("/home/aaron/org/uncategorized/" (23831 54722 669412 101000) "thoughts20190629.org" "./" "../")
+
+ ("/home/aaron/code/work/jekyll-site/" (23832 3501 483337 38000) "about.md" "js/" "_site/" "css/" "_posts/" "_layouts/" "_sass/" "feed.xml" "_includes/" "./" ".sass-cache/" "_config.yml" "index.html" "../")
+
+ ("/home/aaron/org/notes/papers/" (23828 60161 390518 391000) "su_articles.org" "cf_articles.org" "comet.org" "./" "../" "cf_prearrival.org")
+
+ ("/home/aaron/org/notes/" (23827 30965 401830 61000) "reading_list.org" "pitch/" "papers/" "writing/" "./" "meetings/" "../" "books/" "coursework/")
+
+ ("/home/aaron/workspace/pricing/plugins/datastore/" (23818 17701 936566 799000) "datastoreProvider.go" "./" "../")
+
+ ("/home/aaron/workspace/pricing/price/" (23818 24368 41169 463000) "main.go" "README.md" "./" "../")
+
+ ("/home/aaron/org/notes/books/" (23784 1723 747722 703000) "the_lean_startup.org" "zero_to_one.org" "./" "../")
+
+ ("/home/aaron/workspace/pricing-data/daemon/" (23817 15672 609128 657000) "pricing.go" "./" "../")
+
+ ("/home/aaron/workspace/pricing-data/" (23817 14317 563453 49000) "main.go" "go.sum" "config.yml" ".git/" "cmd/" "daemon/" "go.mod" "db/" "sql/" ".gitignore" "config/" "./" "Makefile" "../" "types/")
+
+ ("/home/aaron/.vim/" (23809 18569 136796 182000) ".netrwhist" "vimrc" "bundle/" "./" "../")
+
+ ("/home/aaron/.ssh/" (23811 55307 395837 471000) "id_rsa" "staging-pricingd.pem" "config" "known_hosts" "./" "id_rsa.pub" "../")
+
+ ("/home/aaron/workspace/pricing-data/db/" (23815 62883 833018 861000) "types.go" "postgres.go" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-live/ansible/templates/decred/etc/systemd/system/" (23808 5253 26262 182000) "dcrstakepool.service.j2" "dcrwallet.service.j2" "stakepoold.service.j2" "dcrd.service.j2" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/provider/" (23807 64318 718670 889000) "provider.go" "bittrex.go" "./" "binance.go" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/test/" (23807 64318 722670 764000) "mock/" "grassfed_cli_suite_test.go" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-live/ansible/templates/pricingd/etc/systemd/system/" (23811 62345 903379 754000) "price.service.j2" "pricingd.service.j2" "./" "../")
+
+ ("/home/aaron/.aws/" (23809 23806 443665 425000) "./" "credentials" "../")
+
+ ("/home/aaron/workspace/grassfed-live/packer/" (23811 56838 409936 539000) "nucypher.json" "manifest.json" "steem-orderbook.json" "dcrwallet.json" "init_pricingd.sh" "geth.json" "sawtooth.json" "dcrd.json" "cosmos-sdk.json" "parity.json" "./" "stakepoold.json" "dcrstakepool.json" "../" "pricingd.json")
+
+ ("/home/aaron/.ansible/" (23811 55495 544191 632000) "cp/" "hosts" "roles/" "tmp/" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-live/terraform/pricingd/" (23811 56838 409936 539000) "variables.tf" "main.tf" "./" "outputs.tf" "../")
+
+ ("/home/aaron/workspace/pricing-data/cmd/" (23815 62883 833018 861000) "pricingd.go" "./" "../")
+
+ ("/home/aaron/workspace/pricing-data/sql/" (23815 62991 585982 209000) "pricing.sql" "./" "../")
+
+ ("/home/aaron/workspace/grassfed-live/ansible/" (23815 62805 944326 840000) "cosmos.yml" "scripts/" "roles/" "sawtooth.yml" "secrets.yml" "decred.yml" "secrets.yml.bak" "pricingd.yml" "./" "nucypher.yml" "../" "ethereum.yml" "templates/")
+
+ ("/home/aaron/org/journal/" (23816 53154 903931 105000) "2019-05-29.org" "2019-06-16.org" "2019-05-28.org" "2019-03-26.org" "2019-01-03.org" "2019-04-10.org" "2019-05-24.org" "2018-09-29.org" "2019-06-17.org" "2019-06-03.org" "2018-09-30.org" "2018-09-22.org" "./" "2019-03-20.org" "2018-10-27.org" "2018-09-02.org" "2019-04-21.org" "interactions.org" "../" "2019-05-31.org")
+
+ ("/home/aaron/workspace/pricing/plugins/coinbase/" (23815 45613 600062 731000) "README.md" "./" "coinbaseProvider.go" "../")
+
+ ("/home/aaron/workspace/pricing/plugins/" (23815 45613 600062 731000) "bitmex/" "datastore/" "poloniex/" "mock/" "./" "binance/" "../" "coinbase/")
+
+ ("/home/aaron/workspace/grassfed-live/terraform/" (23811 56838 409936 539000) "variables.tf" "terraform.tfstate.gpg" "cosmos/" "main.tf" ".ansible/" "terraform.tfstate" "ethereum/" "terraform.tfstate.backup" "terraform.tfvars" "grassfed/" "decred/" "pricingd/" ".terraform/" "./" "nucypher/" "../" "sawtooth/")
+
+ ("/home/aaron/workspace/grassfed-live/" (23811 56838 409936 539000) ".git/" "README.md" "terraform/" "packer/" ".gitignore" "./" "ansible/" "Makefile" "../")
 
  ("/home/aaron/workspace/grassfed-live/ansible/roles/" (23809 15340 28825 537000) "ebs/" "./" "ansible-role-yedit/" "common/" "ansible-role-pip/" "../")
 
@@ -200,19 +381,9 @@
 
  ("/home/aaron/workspace/grassfed-live/ansible/scripts/pricingd/" (23809 10818 289659 34000) "pricingd_init.sql" "pricing_config.yml" "pricing-data_config.yml" "./" "../")
 
- ("/home/aaron/workspace/grassfed-live/terraform/pricingd/" (23809 7661 962189 738000) "variables.tf" "main.tf" "./" "outputs.tf" "../")
-
- ("/home/aaron/workspace/grassfed-live/terraform/" (23809 8459 30754 716000) "variables.tf" "terraform.tfstate.gpg" "cosmos/" "main.tf" ".ansible/" "terraform.tfstate" "ethereum/" "terraform.tfstate.backup" "terraform.tfvars" "grassfed/" "decred/" "pricingd/" ".terraform/" "./" "nucypher/" "../" "sawtooth/")
-
  ("/home/aaron/workspace/grassfed-live/terraform/decred/" (23808 5345 211931 569000) "variables.tf" "main.tf" "./" "outputs.tf" "../")
 
- ("/home/aaron/bin/" (23809 1888 565987 430000) "cu_vpn" ".disable_mouse_accel.un~" "disable_mouse_accel~" "betterlockscreen" "start_cu_vpn~" "duplicity_filelist" "disable_mouse_accel" "i3exit" "kbdbacklight" "start_cu_vpn" "quit_cu_vpn" ".duplicity_backup.un~" "duplicity_backup" "monitor" ".start_cu_vpn.un~" ".cu_vpn.un~" "terraform" "packer" ".colors.un~" "./" ".quit_cu_vpn.un~" "colors" "../" "whitespace_cleanup" "duplicity_backup~")
-
- ("/home/aaron/.aws/" (23808 4966 989168 396000) "config" "./" "credentials" "../")
-
  ("/home/aaron/workspace/grassfed-live/terraform/ethereum/" (23808 5325 199568 267000) "variables.tf" "main.tf" "./" "outputs.tf" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/pricingd/etc/systemd/system/" (23808 1870 658507 307000) "pricingd.service.j2" "./" "../")
 
  ("/home/aaron/workspace/grassfed-live/ansible/templates/pricingd/etc/systemd/" (23806 48704 151894 914000) "system/" "./" "../")
 
@@ -221,162 +392,6 @@
  ("/home/aaron/workspace/grassfed-live/ansible/templates/pricingd/" (23806 48704 151894 914000) "etc/" "./" "../")
 
  ("/home/aaron/workspace/grassfed-live/ansible/templates/" (23806 48704 151894 914000) "cosmos/" "ethereum/" "grassfed/" "decred/" "pricingd/" "./" "nucypher/" "../" "sawtooth/")
-
- ("/home/aaron/workspace/grassfed-cli/" (23807 64318 722670 764000) "provider/" "go.sum" "test/" ".git/" "cmd/" "README.md" "build/" "go.mod" ".gitignore" "config/" "./" "Makefile" "../")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/" (23807 64318 718670 889000) "main.go" "cli/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/cli/" (23807 64318 722670 764000) "./" "../" "cli.go")
-
- ("/home/aaron/.ssh/" (23806 50251 837704 767000) "id_rsa" "known_hosts" "./" "id_rsa.pub" "../")
-
- ("/home/aaron/workspace/grassfed-cli/provider/" (23784 19560 680536 964000) "provider.go" "bittrex.go" "./" "binance.go" "../")
-
- ("/home/aaron/workspace/" (23807 50022 207281 483000) "docker-curriculum/" "grassfed-live/" "pricing-data/" "pricing/" "grassfed-cli/" "nock/" "./" "pricingd-deployment/" "streisand/" "sandbox/" "../")
-
- ("/home/aaron/org/" (23781 23686 79971 921000) "archive/" "notes/" "./" "journal/" "../" "uncategorized/")
-
- ("/home/aaron/workspace/grassfed-live/ansible/scripts/" (23806 48704 151894 914000) "monit/" "cosmos/" "grassfed/" "decred/" "pricingd/" "cloudwatch/" "./" "nucypher/" "../")
-
- ("/home/aaron/workspace/pricingd-deployment/terraform/" (23806 48842 392897 782000) "variables.tf" "main.tf" "terraform.tfstate" "terraform.tfstate.backup" ".terraform/" "./" "outputs.tf" "../")
-
- ("/home/aaron/workspace/pricingd-deployment/ansible/" (23806 48809 652653 292000) "pricingd.retry" "scripts/" "secrets.yml" ".vault_pass" "pricingd.yml" "./" "../" "templates/")
-
- ("/etc/ansible/" (23806 28127 822579 161000) "ansible.cfg" "./" "hosts" "roles/" "../")
-
- ("/home/aaron/workspace/pricingd-deployment/ansible/scripts/" (23806 47970 55877 582000) "pricingd/" "./" "../")
-
- ("/home/aaron/code/work/website/" (23804 38360 968493 664000) "config.toml" ".git/" ".gitmodules" "themes/" "static/" "package.json" ".gitignore" "./" "content/" "public/" "../")
-
- ("/home/aaron/workspace/pricingd-deployment/packer/" (23806 45661 672547 448000) "init_pricingd.sh" "./" "../" "pricingd.json")
-
- ("/home/aaron/workspace/pricingd-deployment/" (23806 48467 366403 562000) "manifest.json" ".git/" ".gitmodules" "pricing-data/" "pricing/" "terraform/" "packer/" ".gitignore" "./" "ansible/" "Makefile" "../")
-
- ("/home/aaron/workspace/pricingd-deployment/ansible/templates/etc/systemd/system/" (23806 46909 807486 690000) "pricingd.service.j2" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/scripts/decred/" (23790 39399 630346 321000) "./" "../" "create_dcrwallet.sh")
-
- ("/home/aaron/workspace/pricingd-deployment/ansible/templates/etc/systemd/" (23806 37613 853019 233000) "system/" "./" "../")
-
- ("/home/aaron/workspace/pricingd-deployment/ansible/templates/etc/" (23806 37613 853019 233000) "systemd/" "./" "../")
-
- ("/home/aaron/workspace/pricingd-deployment/ansible/templates/" (23806 37613 853019 233000) "etc/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/decred/etc/systemd/system/" (23790 39399 634345 378000) "dcrstakepool.service.j2" "dcrwallet.service.j2" "stakepoold.service.j2" "dcrd.service.j2" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/decred/etc/systemd/" (23790 39399 634345 378000) "system/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/decred/etc/" (23790 39399 634345 378000) "systemd/" "nginx/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/decred/" (23790 39399 634345 378000) "dcrwallet/" "dcrstakepool/" "dcrd/" "etc/" "dcrctl/" "sql/" "./" "../")
-
- ("/home/aaron/code/work/" (23715 62863 137287 758000) "resumes/" "website/" "./" "recruiting/" "challenges/" "../")
-
- ("/home/aaron/code/" (23793 39635 876259 644000) "courses/" "./" "../" "work/")
-
- ("/home/aaron/workspace/pricingd-deployment/terraform/$HOME/" (23802 51484 626738 954000) ".ssh/" "./" "../")
-
- ("/home/aaron/workspace/pricing-data/" (23802 48188 537487 137000) "pricingd.yml~" "main.go" "go.sum" "config.yml" ".config.yml.un~" ".git/" "cmd/" "pricing-data" "daemon/" "go.mod" ".pricingd.yml.un~" "db/" "pricing-db/" "pricingd.log" "sql/" ".gitignore" "pricingd.yml" "config/" "./" ".go.mod.un~" "config.yml~" "go.mod~" "Makefile" "../" "types/")
-
- ("/home/aaron/workspace/pricingd-deployment/terraform/.terraform/" (23802 46796 463158 750000) "plugins/" "./" "../")
-
- ("/home/aaron/dotfiles/emacs/.emacs.d/" (23801 36248 342554 640000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
-
- ("/home/aaron/.vim/" (23801 12397 604897 78000) ".netrwhist" "vimrc" "bundle/" "./" "../")
-
- ("/home/aaron/workspace/devops-sandbox/" (23798 36330 36170 24000) "packer/" "./" "ansible/" "../")
-
- ("/home/aaron/workspace/devops-sandbox/ansible/" (23798 36330 40170 71000) "pricingd.yml" "./" "../")
-
- ("/home/aaron/workspace/devops-sandbox/packer/" (23798 36317 156016 453000) "./" "../" "pricingd.json")
-
- ("/home/aaron/Dropbox/org/notes/meetings/" (23797 31923 700338 957000) "cf_grassfed.org" "cf_intro.org" "./" "../")
-
- ("/home/aaron/org/journal/" (23797 25310 955612 562000) "2019-05-29.org" "2019-05-28.org" "2019-03-26.org" "2019-01-03.org" "2019-04-10.org" "2019-05-24.org" "2018-09-29.org" "2019-06-03.org" "2018-09-30.org" "2018-09-22.org" "./" "2019-03-20.org" "2018-10-27.org" "2018-09-02.org" "2019-04-21.org" "interactions.org" "../" "2019-05-31.org")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/ethereum/.local/share/io.parity.ethereum/" (23790 39399 634345 378000) "config.toml.j2" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/ethereum/.local/share/" (23790 39399 634345 378000) "io.parity.ethereum/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/ethereum/.local/" (23790 39399 634345 378000) "share/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/ethereum/" (23790 39399 634345 378000) ".local/" "etc/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/roles/common/" (23790 39399 630346 321000) "files/" "tasks/" "./" "../")
-
- ("/home/aaron/org/notes/meetings/" (23797 31923 700338 957000) "cf_grassfed.org" "cf_intro.org" "./" "../")
-
- ("/etc/" (23797 18190 105206 835000) "dbus-1/" "gdm3/" "magic" "network/" "pki/" "apparmor/" "ca-certificates/" "systemd/" "menu-methods/" "papersize" "dictionaries-common/" "apm/" "opt/" "xml/" "protocols" "pnm2ppa.conf" "openvpn/" "emacs/" "bonobo-activation/" "selinux/" "python/" "mtools.conf" "pcmcia/" "xdg/" "java-8-openjdk/" "pulse/" "securetty" "sudoers.d/" "zsh_command_not_found" "skel/" "environment" "rc2.d/" "cups/" "dhcp/" "deluser.conf" "resolvconf/" "dpkg/" "libibverbs.d/" "sensors3.conf" "LatexMk" "groff/" "gnome-vfs-2.0/" "postgresql-common/" "lintianrc" "localtime" "kernel/" "acpi/" "inputrc" "python3.6/" "cracklib/" "ldap/" "gnuradio/" "cron.daily/" "networkd-dispatcher/" "init.d/" "cron.weekly/" "rc0.d/" "kerneloops.conf" "bash_completion.d/" "ghostscript/" "legal" "mtab" "lighttpd/" "update-notifier/" "glvnd/" "geoclue/" "alternatives/" "pam.conf" "sudoers" "newt/" "dconf/" "apport/" "fstab" "machine-id" "gdb/" "gnome/" "bluetooth/" "python3/" "lynx/" "pam.d/" "rc3.d/" "slack.conf" "usb_modeswitch.d/" "modprobe.d/" "pm/" "rpc" "initramfs-tools/" "cupshelpers/" "thermald/" "hosts" "firefox/" "polkit-1/" "irssi.conf" "brlapi.key" "mopidy/" "hosts.allow" "docker/" "libpaper.d/" "perl/" "popularity-contest.conf" "gtk-2.0/" "sgml/" "resolv.conf" ".pwd.lock" "appstream.conf" "debian_version" "ucf.conf" "ImageMagick-6/" "apache2/" "bash_completion" "nanorc" "python2.7/" "mailcap.order" "rmt" "dnsmasq.d/" "jupyter/" "udev/" "passwd-" "gtk-3.0/" "ca-certificates.conf" "chatscripts/" "grub.d/" "profile" ".java/" "hostname" "asciidoc/" "gshadow" "ld.so.cache" "libao.conf" "debconf.conf" "timezone" "rc1.d/" "ssl/" "hdparm.conf" "mysql/" "update-manager/" "mke2fs.conf" "logrotate.conf" "login.defs" "sysctl.d/" "matplotlibrc" "mime.types" "tmpfiles.d/" "anacrontab" "group" "modules" "ansible/" "PackageKit/" "mailcap" "brltty/" "wpa_supplicant/" "fuse.conf" "subgid" "shells" "UPower/" "security/" "depmod.d/" "ufw/" "sane.d/" "texmf/" "subgid-" "libnl-3/" "gimp/" "timidity/" "drirc" "os-release" "printcap" "libreoffice/" "dkms/" "ppp/" "NetworkManager/" "wgetrc" "gai.conf" "crontab" "ssh/" "sysctl.conf" "i3status.conf" "logrotate.d/" "libaudit.conf" "apt/" "rc4.d/" "update-motd.d/" "modules-load.d/" "shadow-" "openal/" "ffserver.conf" "X11/" "vtrgb" "avahi/" "subuid" "binfmt.d/" "rsyslog.d/" "cron.hourly/" "gss/" "nsswitch.conf" "cron.monthly/" "apg.conf" "qemu-ifup" "sound/" "lsb-release" "calendar/" "speech-dispatcher/" "ld.so.conf" "hosts.deny" "networks" "apparmor.d/" "vdpau_wrapper.cfg" "default/" "i3/" "kernel-img.conf" "qemu-ifdown" "manpath.config" "bindresvport.blacklist" "rc5.d/" "console-setup/" "updatedb.conf" "logcheck/" "gconf/" "locale.gen" "java-11-openjdk/" "issue" "profile.d/" "light/" "emacs25/" "fwupd/" "subuid-" "brltty.conf" "hp/" "init/" "bash.bashrc" "adduser.conf" "libblockdev/" "magic.mime" "rsyslog.conf" "vim/" "issue.net" "rcS.d/" "services" "ld.so.conf.d/" "netplan/" "sensors.d/" "shadow" "ltrace.conf" "udisks2/" "chromium-browser/" "mpv/" "ifplugd/" "usb_modeswitch.conf" "locale.alias" "host.conf" "terminfo/" "rc6.d/" "cron.d/" "gshadow-" "group-" "passwd" "fonts/" "iproute2/" "insserv.conf.d/" "../" "./")
-
- ("/home/aaron/workspace/grassfed-live/terraform/.ansible/" (23790 39399 634345 378000) "./" "../" "ansible.cfg")
-
- ("/home/aaron/workspace/docker-curriculum/" (23797 12653 904236 977000) "tutorial/" "package-lock.json" ".git/" "README.md" "package.json" "nodemon.json" "Dockerfile" "flask-app/" ".gitignore" "./" "static-site/" ".firebaserc" "../")
-
- ("/home/aaron/workspace/pricing-data/db/" (23793 27110 845549 664000) "types.go" "postgres.go" "./" "../")
-
- ("/home/aaron/workspace/pricing-data/sql/" (23793 27110 845549 664000) "pricing.sql" "./" "../")
-
- ("/home/aaron/workspace/pricing-data/cmd/" (23793 27110 845549 664000) "pricingd.go" "./" "../")
-
- ("/home/aaron/workspace/pricing-data/daemon/" (23793 15873 433638 293000) "pricing.go" "./" "../")
-
- ("/home/aaron/Dropbox/org/journal/" (23793 13928 219668 525000) "2019-05-29.org" "2019-05-28.org" "2019-03-26.org" "2019-01-03.org" "2019-04-10.org" "2019-05-24.org" "2018-09-29.org" "2018-09-30.org" "2018-09-22.org" "./" "2019-03-20.org" "2018-10-27.org" "2018-09-02.org" "2019-04-21.org" "interactions.org" "../" "2019-05-31.org")
-
- ("/home/aaron/Downloads/" (23792 2099 345233 335000) "city_distances.m" "Computer-Organization-and-Design-The-Hardware-Software-Interface-RISC-V-Edition-.pdf" "Vineyard mgmt. pt. 2 - blackboard.pdf" "test-fonts.pl" "W&V Syllabus Spring 2019 (2).pdf" "Aging&Sherry-1.pdf" "intro_to_c.pptx" "Brother-HL-2240-hl1250.ppd" "IMG_20190315_112459.jpg" "Prelim_3_Review.pdf" "Subletter agreement.pdf" "Screenshot from 2019-03-04 17-30-02.png" "WinestyleRubric.docx" "4850_8.pdf" "Mindy.ics" "Sour Grapes essay.pdf" "lab11_combined_sol.pdf" "plot.fig" "tij_SFHH.dat_.gz" "go1.12.5.linux-amd64.tar.gz" "Subletter agreement (1).pdf" "designdocTemplate.zip" "riscv.circ" "W&Vintro.pdf" "testpalindrome.out" "light_1.2_amd64.deb" "GoogleSyncPlugin-3.0.1.zip" "unnamed (2).png" "CreasyCreasyChap1.pdf" "Picnic.jpg" "aty25-zx36-aty25 (2).zip" "prelim1-2018sp-soln (2).pdf" "doc/" "exploit.bin" "multimc_1.2-1 (1).deb" "Framework (1).java" "SensoryEvaluationDay1.pdf" "gparted-live-0.33.0-2-amd64.iso" "Grapevine_Nutrition.pdf" "PairContract (4).txt" "execute_big.png" "pericles_20500416124.txt" "Internship Agreement - Aaron Yao-Smith.pdf" "Introduction to cultivars.pdf" "magit-2.13.1.zip" "unnamed (1).png" "Subletter-agreement-1.pdf" "INFECTIOUS_cumulative_daily_networks.tar.gz" "dropbox_2019.01.31_amd64.deb" "Aaron_Yao-Smith_resume (2).pdf" "s1_1.pdf" "Mechanizing Vineyard Development - Wines & Vines.pdf" "wall.jpg" "s1_2.pdf" "designdoc (1).pdf" "assem.txt" "BottleShockQuestions.pdf" "transcript.pdf" "science.txt" "Wine&Health.pdf" "s2_2.pdf" "New Member Interview Form (Responses).ods" "alu.circ" "hw2 (2).pdf" "2018-OCR-Tutorial-Final (1).ppsx" "transcript (1).pdf" "Designing and planting a vineyard - blackboard.pdf" "PairContract.txt" "designdoc.tex" "Where grapes grow.pdf" "s3_2.pdf" "Quiz 3_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "StackEdit.pdf" "email-Enron.txt.gz" "05-memory-pre.pptx" "23019509_OfficialeTranscript.pdf" "Musto.pdf" "comet_draft_manuscript.docx" "2018-OCR-Tutorial-Final.ppsx" "Quiz 5_ Wines & Vines_ Introduction to Wines & Vines Arnink,K.pdf" "Moss - wines for lectures 2018.xlsx" "client_id.json" "Algorithm-design.djvu" "pgadmin4-4.6/" "s3_1.pdf" "prelim2-2016sp.pdf" "prelim1-2018sp.pdf" "Spring 2019_enrollment.ics" "fetch.png" "Math124sec5[1].1.doc" "memory.png" "3161-5816-1-PB.pdf" "prelim1-2016sp.pdf" "BottleShockQuestions (1).pdf" "cataclysmdda-0.C-8398.tar.gz" "AARONS MC world - NEW 2-20170106-214100.zip" "20190315_comet_draft.docx" "s2_2 (1).pdf" "SecureMessage.pdf" "alu (1).circ" "book Jan 21, 2019.pdf" "com-amazon.ungraph.txt.gz" "aty25-zx36-aty25.zip" "Getty_superlative-154954029-58b970fd3df78c353cdb9cf5-5bacf5df46e0fb002523b1ac.jpg" "designdocTemplate (1).zip" "designdoc.pdf" "dropbox_2018.11.28_amd64.deb" "aty25@ugclinux.cs.cornell.edu" "prelim2-2018sp-soln.pdf" "4850_Assignment_2.pdf" "tests_3.c" "Vineyard mgmt. pt. 1 - blackboard.pdf" "PairContract (1).txt" "compton-vNext.zip" "Jason Fried, David Heinemeier Hansson - Rework_ Change The Way You Work Forever-Vermilion (2010).mobi" "hw0.pdf" "Phylloxera - Wine Folly.pdf" "problem (2).pdf" "compiled.out" ".test-fonts.pl.un~" "GuidetoAus_2013_final (2).pdf" "gparted-live-0.33.0-2-amd64.zip" "Stellaris.MegaCorp-CODEX-[rarbg.to].torrent" "anyconnect-linux64-4.6.03049-core-vpn-webdeploy-k9.sh" "0vfh7v6wzys21.jpg" "Wine Regions Paper Rubric.pdf" "prelim2-2017sp.pdf" "rf5W6Q9 - Imgur.jpg" "fontawesome-free-5.6.3-desktop.zip" "terraform_0.12.0_linux_amd64.zip" "9020160.jpg" "Eric Ries - The Lean Startup_ How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses-Crown Business (2011).epub" "05-fsm-pre.pptx" "COMET_figures_20190308_v2.pptx" "pgadmin4-4.6.tar.gz" "Vine Balance and the Role of Vineyard Design _ Viticulture and Enology.pdf" "README (1).txt" "README.txt" "prelim1-2017sp.pdf" "download" "aty25-zx36-aty25 (1).zip" "tests_2.c" "dropbox/" "Sparkling Wines.pdf" "3352e3.odt" "GaleShapley (1).java" "W&V Syllabus Spring 2019.pdf" "steam_latest.deb" "Sensory Lesson Activity Rubric (2).docx" "fibonacci.txt" "_New Member Pre-Interview Form (Responses).ods" "hw3.pdf" "leftshift32_template.circ" "COMET_figures_20190420.pdf" "a7 - Tarannum Pratap.zip" "Jon Kleinberg, Éva Tardos - Algorithm design-Pearson _ Addison-Wesley (2005).djvu" "linux_info.txt" "test_add.txt" "science (1).txt" "intro_to_c (1).pptx" "hw1.pdf" "aty25-zx36-aty25/" "pipelined_processor.png" "multimc_1.2-1.deb" "s1_2 (1).pdf" "prelim2-2018sp.pdf" "tests.c" "test_shift.txt" "lyre trellis.png" "unnamed.png" "Vine balance and yield - blackboard.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019.pdf" "fibonacci_to_x10.txt" "sol1.pdf" "CS 3410 Project 3 design doc.pdf" "W&V Syllabus Spring 2019 (3).pdf" "Aaron_Yao-Smith_resume.pdf" "new-york-sublease-agreement-template.pdf" "riscvtest.txt" "png" "mmc-stable-lin64.tar.gz" "s2_1.pdf" "arrlist.c" "20181129_091635.664-dl.pdf" "1104fc1.pdf" "Aaron_Yao-Smith_resume (1).pdf" "Sqlectron_1.30.0_amd64.deb" "return_2018.pdf" "WineSpoilageSpring19-1.pdf" "2019 PULSE initial results.pdf" "Grapevine phenology - blackboard.pdf" "s2_1 (1).pdf" "cs4820-2019-01-23.pdf" "google-chrome-stable_current_amd64.deb" "dbeaver-ce_6.0.5_amd64.deb" "palindrome.c" "Vallee.pdf" "GuidetoAus_2013_final (1).pdf" "prelim1-2016sp-soln.pdf" "Noble.pdf" "zoom_amd64.deb" "wiki.wiki/" "Exchange voucher _ Boarding Pass - Korean Air.pdf" "Sensory Lesson Activity Rubric.docx" "cache.c" "Exercise 8.1.pdf" "test_alu.txt" "Exercise 7.4.zip" "PairContract (3).txt" "W&VTopicsSpring2019.pdf" "hw2 (1).pdf" "execute_small.png" "Linux-Pocket-Guide.epub" "GoogleSyncPlugin.plgx" "W&V Syllabus Spring 2019 (1).pdf" "Peter Thiel, Blake Masters - Zero to One_ Notes on Startups, or How to Build the Future (2014, Crown Business).mobi" "Algorithm-Design.mobi" "CTAS eboard app.pdf" "tests_1.c" "hw4.pdf" "overwatch-dxvk-december-30th-2.json" "plot (1).fig" "Aaron_Yao-Smith_cover_letter.pdf" "slack-desktop-3.3.7-amd64.deb" "Varietal aroma - blackboard.pdf" "PS1.pdf" "2019 PULSE initial results (1).pdf" "Sensory Lesson Activity Rubric (1).docx" "eduroam-linux-Dartmouth_College.py" "compton-vNext/" "prelim2-2017sp-soln.pdf" "Screenshot from 2019-05-24 17-37-52.png" "G5GTKD-e9a31845558f1c704fcffed5d360f119.pdf" "hw2.pdf" "roadNet-PA.txt.gz" "prelim1-2017sp-soln.pdf" "T11919_.10.119.200.19.exe" "prelim1-2016sp (1).pdf" "Aaron_Yao-Smith_resume (3).pdf" "Dave Logan, John King, Halee Fischer-Wright - Tribal Leadership_ Leveraging Natural Groups to Build a Thriving Organization  -Harper Paperbacks (2011).epub" "prelim2-2018sp (1).pdf" "aop14u.pdf" "CS_4850_Homework_3.pdf" "test.pdf" "Where grapes grow (1).pdf" "HoweSensory2009.pdf" "Josh Kaufman - The First 20 Hours_ How to Learn Anything . . . Fast!-Portfolio Hardcover (2013).mobi" "us.jpg" "GuidetoAus_2013_final.pdf" "gdb_27.html" "fibonacci (1).txt" "hello.c" "PairContract_P6.txt" "initiald.jpg" "prelim2-2017sp (1).pdf" "cs4820-2019-02-15.pdf" "magit-2.13.1/" "PairContract (2).txt" "GaleShapley.java" "FINAL-REPORT-Web.pdf" "../" "./")
-
- ("/home/aaron/workspace/pricing-data/config/" (23790 41538 378278 196000) "database.go" "./" "../" "server.go" "config.go")
-
- ("/home/aaron/workspace/pricing-data/types/" (23790 41538 378278 196000) "candles.go" "window.go" "./" "../")
-
- ("/home/aaron/workspace/grassfed-cli/build/" (23789 42972 123975 374000) "grassfed" "./" "../")
-
- ("/home/aaron/workspace/pricing-data/pricing-db/" (23726 3749 0 0) "grassfed.sql" "pricing_schema.sql" "pricing.sql" "adhoc-pricing.sql" "./" "grassfed_schema.sql" "../")
-
- ("/home/" (23581 9983 192162 258000) "aaron/" "./" "lost+found/" "../")
-
- ("/home/aaron/workspace/grassfed-cli/test/" (23789 44339 117219 879000) "mock/" "grassfed_cli_suite_test.go" "./" "../")
-
- ("/home/aaron/workspace/grassfed-cli/test/mock/" (23789 43002 364287 623000) "mock_provider.go" "./" "../")
-
- ("/home/aaron/workspace/pricing/plugins/" (23779 3258 996564 243000) "datastore/" "poloniex/" "mock/" "./" "binance/" "../" "coinbase/")
-
- ("/home/aaron/org/notes/papers/" (23789 26922 852702 220000) "cf_articles.org" "comet.org" "./" "../" "cf_prearrival.org")
-
- ("/home/aaron/workspace/pricing/price/" (23789 18620 675500 58000) "main.go" "README.md" "./" "../")
-
- ("/home/aaron/workspace/pricing/config/" (23779 3258 992564 211000) "config.json" "./" "../")
-
- ("/home/aaron/workspace/pricing/" (23789 16827 254788 892000) "candles.go" "plugins/" "pricing.go" "go.sum" "request.go" "provider.go" ".git/" "granularity.go" "price.go" "daemon.go" "README.md" "price/" "go.mod" "request_test.go" "resolution.go" "resolved_request.go" "pair_test.go" "resolution_test.go" ".gitignore" "config/" "./" "pair.go" "plugins.go" "Makefile" "../" "pricing_suite_test.go" "config.go" "parsing.go")
-
- ("/home/aaron/Dropbox/org/notes/" (23784 42923 431418 452000) "reading_list.org" "pitch/" "papers/" "writing/" "./" "meetings/" "../" "books/" "coursework/")
-
- ("/home/aaron/Dropbox/org/" (23781 23686 79971 921000) "archive/" "notes/" "./" "journal/" "../" "uncategorized/")
-
- ("/home/aaron/org/notes/" (23784 42923 431418 452000) "reading_list.org" "pitch/" "papers/" "writing/" "./" "meetings/" "../" "books/" "coursework/")
-
- ("/home/aaron/org/uncategorized/" (23784 43039 534614 589000) "./" "../")
-
- ("/home/aaron/org/notes/articles/" (23784 42663 713117 904000) "./" "../")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/provider/" (23784 19560 680536 964000) "provider.go" "bittrex.go" "./" "binance.go" "../")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/bittrex/" (23784 5461 399412 0) "cmd.go" "./" "summary.go" "../")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/binance/" (23784 17115 439612 865000) "cmd.go" "tx.go" "./" "summary.go" "../")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/grassfed/steem/" (23784 5495 248409 301000) "cmd.go" "tx.go" "./" "summary.go" "../")
-
- ("/home/aaron/workspace/grassfed-cli/config/" (23784 4449 578381 67000) "./" "../" "config.go")
-
- ("/home/aaron/workspace/go-sandbox/" (23784 11255 580643 797000) "hello.go" "./" "../")
-
- ("/home/aaron/workspace/grassfed-cli/cmd/" (23784 11313 372988 310000) "grassfed/" "./" "../")
-
- ("/home/aaron/workspace/grassfed-cli/command/decred/" (23784 5471 707714 799000) "cmd.go" "tx.go" "./" "summary.go" "../")
-
- ("/home/aaron/workspace/grassfed-cli/command/" (23784 6078 154532 212000) "command.go" "steem/" "decred/" "./" "binance/" "bittrex/" "../" "livepeer/")
-
- ("/home/aaron/workspace/grassfed-cli/plugins/" (23784 6075 270439 581000) "./" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----
