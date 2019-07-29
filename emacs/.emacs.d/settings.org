@@ -176,6 +176,11 @@
 #+BEGIN_SRC emacs-lisp
 (global-set-key (kbd "C-c g") 'magit-status)
 #+END_SRC
+** Scrolling
+#+BEGIN_SRC emacs-lisp
+(global-set-key "\M-n" 'scroll-up-line)
+(global-set-key "\M-p" 'scroll-down-line)
+#+END_SRC
 * File organization
 ** Ignore symlink version control warning
 #+BEGIN_SRC emacs-lisp
@@ -204,4 +209,11 @@
 * Behavior
 #+BEGIN_SRC emacs-lisp
 (setq browse-url-browser-function 'browse-url-chrome)
+;; Always show column numbers.
+(setq-default column-number-mode t)
+
+;; Display full pathname for files.
+(add-hook 'find-file-hooks
+          '(lambda ()
+             (setq mode-line-buffer-identification 'buffer-file-truename)))
 #+END_SRC

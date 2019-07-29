@@ -10,7 +10,7 @@
  '(org-agenda-files nil)
  '(package-selected-packages
    (quote
-    (clojure-mode py-autopep8 pyenv-mode elpy gruvbox-theme org-edna))))
+    (paredit cider py-autopep8 pyenv-mode elpy gruvbox-theme org-edna))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

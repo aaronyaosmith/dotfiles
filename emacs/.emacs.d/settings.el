@@ -128,6 +128,9 @@
 
 (global-set-key (kbd "C-c g") 'magit-status)
 
+(global-set-key "\M-n" 'scroll-up-line)
+(global-set-key "\M-p" 'scroll-down-line)
+
 (setq vc-follow-symlinks t)
 
 ;; Put backup files neatly away                                                 
@@ -149,3 +152,10 @@
       kpept-old-versions 2)   ; and some old ones, too
 
 (setq browse-url-browser-function 'browse-url-chrome)
+;; Always show column numbers.
+(setq-default column-number-mode t)
+
+;; Display full pathname for files.
+(add-hook 'find-file-hooks
+          '(lambda ()
+             (setq mode-line-buffer-identification 'buffer-file-truename)))
