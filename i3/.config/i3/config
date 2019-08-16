@@ -7,8 +7,8 @@ set $mod Mod4
 ############
 
 # Uses wpg tags
-set $coloract "#6c9556"
-set $colorin "#4a663b"
+set $coloract "#667648"
+set $colorin "#465131"
 set_from_resource $color15 i3wm.color15 "#d7fffd"
 set_from_resource $split i3wm.color10 "#87bb6c"
 set_from_resource $coloru i3wm.color2 "#6c855f"
@@ -23,7 +23,7 @@ client.urgent           $coloru   $coloru   $color15 $coloru $coloru
 client.placeholder      $color0   $color8   $color15 $color0 $color8
 client.background       $color0
 
-set $font Input Sans 8
+set $font Input Sans Condensed Light 8
 # set $font Input Mono Light 12px
 # set $font DejaVu Sans Mono 10
 # set $font Tamsyn 12

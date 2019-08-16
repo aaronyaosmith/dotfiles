@@ -18,13 +18,13 @@
     horizontal_padding = 12
     frame_width = 3
 
-    frame_color = "#6c9556"
+    frame_color = "#667648"
     separator_color = auto
     sort = yes
     idle_threshold = 120
 
     ### Text ###
-    font = Input Sans 8
+    font = Input Sans Condensed Light 8
     line_height = 0
 
     markup = full

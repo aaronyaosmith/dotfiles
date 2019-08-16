@@ -2,11 +2,11 @@ rofi.modi:                           window,run,ssh
 rofi.width:                          12
 rofi.lines:                          2
 rofi.columns:                        1
-rofi.font:                           Input Sans 8
-rofi.color-normal:                   #2b2727, #d7fffd, #2b2727, #6c9556, #d7fffd
+rofi.font:                           Input Sans Condensed Light 8
+rofi.color-normal:                   #2b2727, #d7fffd, #2b2727, #667648, #d7fffd
 rofi.color-urgent:                   #2b2727, #d6b48d, #22231D, #d6b48d, #d7fffd
 rofi.color-active:                   #2b2727, #72afc4, #2b2727, #72afc4, #2b2727
-rofi.color-window:                   #2b2727, #6c9556, #4a663b
+rofi.color-window:                   #2b2727, #667648, #465131
 rofi.bw:                             0
 rofi.location:                       0
 rofi.padding:                        5

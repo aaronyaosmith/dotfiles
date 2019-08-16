@@ -6,9 +6,10 @@
 
 (setq-default fill-column 79)
 
-(setq myfont 
-  (font-spec 
+(setq myfont
+  (font-spec
   :name "InputMono"
+  :style "Light"
   :size 12))
 (cond
  ((string-equal system-name "aaron-UX330UAK")
@@ -133,7 +134,7 @@
 
 (setq vc-follow-symlinks t)
 
-;; Put backup files neatly away                                                 
+;; Put backup files neatly away
 (let ((backup-dir "~/.cache/emacs/backups")
       (auto-saves-dir "~/.cache/emacs/auto-saves/"))
   (dolist (dir (list backup-dir auto-saves-dir))
@@ -145,17 +146,12 @@
         tramp-backup-directory-alist `((".*" . ,backup-dir))
         tramp-auto-save-directory auto-saves-dir))
 
-(setq backup-by-copying t    ; Don't delink hardlinks                           
-      delete-old-versions t  ; Clean up the backups                             
-      version-control t      ; Use version numbers on backups,                  
-      kept-new-versions 5    ; keep some new versions                           
+(setq backup-by-copying t    ; Don't delink hardlinks
+      delete-old-versions t  ; Clean up the backups
+      version-control t      ; Use version numbers on backups,
+      kept-new-versions 5    ; keep some new versions
       kpept-old-versions 2)   ; and some old ones, too
 
 (setq browse-url-browser-function 'browse-url-chrome)
 ;; Always show column numbers.
 (setq-default column-number-mode t)
-
-;; Display full pathname for files.
-(add-hook 'find-file-hooks
-          '(lambda ()
-             (setq mode-line-buffer-identification 'buffer-file-truename)))

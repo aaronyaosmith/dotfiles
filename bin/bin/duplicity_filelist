@@ -6,6 +6,9 @@
 - /home/aaron/.config/chromium 
 - /home/aaron/.config/google-chrome 
 - /home/aaron/.config/Slack
+- /home/aaron/.wine
+- /home/aaron/go
+- /home/aaron/.gdfuse
 + /home/aaron
 + /etc
 + /opt

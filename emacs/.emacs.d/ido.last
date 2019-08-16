@@ -2,10 +2,16 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/aaron/workspace/oee-coinbase/" . "cmd/")
+ ("/home/aaron/workspace/float/cmd/" . "float-with-timeout/")
+ ("/home/aaron/workspace/float/" . "cmd/")
+ ("/home/aaron/workspace/rxgo/" . "observer/")
+ ("/home/aaron/workspace/kafka-stream/" . ".circleci/")
+ ("/home/aaron/workspace/autotrader/exchange-simulator/" . ".circleci/")
  ("/home/aaron/workspace/autotrader/order-execution/" . "exchanges/")
  ("/home/aaron/workspace/order-execution/" . "exchanges/")
  ("/home/aaron/workspace/kafka/" . "bin/")
- ("/home/aaron/workspace/autotrader/" . "order-execution/")
+ ("/home/aaron/workspace/autotrader/" . "exchange-simulator/")
  ("/home/aaron/go/src/github.com/DataDog/" . "zstd/")
  ("/home/aaron/go/src/github.com/" . "DataDog/")
  ("/home/aaron/code/work/lein-proj/src/" . "lein_proj/")
@@ -60,7 +66,7 @@
  ("/home/aaron/workspace/grassfed-cli/exchanges/" . "binance/")
  ("/home/aaron/workspace/grassfed-cli/cmd/" . "grassfed/")
  ("/home/aaron/workspace/grassfed-cli/" . "test/")
- ("/home/aaron/workspace/" . "autotrader/")
+ ("/home/aaron/workspace/" . "oee-coinbase/")
  ("/home/aaron/go/src/" . "github.com/")
  ("/home/aaron/go/" . "src/")
  ("/home/" . "aaron/")
@@ -68,7 +74,7 @@
  ("/home/aaron/code/courses/4850/" . "python/")
  ("/home/aaron/code/courses/" . "latex_hw/")
  ("/home/aaron/code/work/challenges/" . "coinfund/")
- ("/home/aaron/code/work/" . "lein-proj/")
+ ("/home/aaron/code/work/" . "resumes/")
  ("/home/aaron/code/3410/projects/" . "c/")
  ("/home/aaron/code/3410/Logisim/" . "project_1/")
  ("/home/aaron/code/4850/" . "python/")
@@ -123,7 +129,7 @@
  ("/home/aaron/code/cs3110/" . "cs3110-a9/")
  ("/home/aaron/.emacs.d/" . "lisp/")
  ("/home/aaron/Documents/" . "other/")
- ("/home/aaron/" . "workspace/")
+ ("/home/aaron/" . ".emacs.d/")
  ("/home/aaron/code/hgmd/HG_marker_detection/" . "docs/")
  ("/home/aaron/code/hgmd/" . "HG_marker_detection/")
  ("/home/aaron/code/" . "work/")
@@ -131,139 +137,221 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/aaron/workspace/autotrader/order-execution/"
- "/home/aaron/workspace/autotrader/order-execution/config/"
- "/home/aaron/workspace/autotrader/order-execution/coinbase/"
- "/home/aaron/"
- "/home/aaron/workspace/autotrader/order-execution/exchanges/"
- "/home/aaron/workspace/pricing-data/cmd/"
- "/home/aaron/workspace/pricing-data/"
- "/home/aaron/workspace/pricing-data/config/"
- "/home/aaron/workspace/autotrader/"
- "/home/aaron/workspace/autotrader/cfexec/"
- "/home/aaron/workspace/order-execution/"
- "/home/aaron/workspace/cfexec/"
- "/home/aaron/workspace/cfexec/pkg/kafka/"
- "/home/aaron/workspace/cfexec/cmd/test/"
- "/home/aaron/workspace/cfexec/cmd/order/"
- "/home/aaron/workspace/cfexec/pkg/actor/"
- "/home/aaron/workspace/cfexec/pkg/ledger/"
- "/home/aaron/workspace/order-execution/exchanges/"
- "/home/aaron/workspace/rxgo/"
- "/home/aaron/workspace/autotrader/exchange-simulator/"
- "/home/aaron/workspace/kafka/bin/"
- "/home/aaron/workspace/data/"
- "/home/aaron/workspace/"
- "/home/aaron/workspace/kafka/"
- "/home/aaron/workspace/cfexec/cmd/cfexec/"
- "/home/aaron/workspace/cfexec/scripts/"
- "/home/aaron/workspace/cfexec/pkg/bitmex/"
- "/home/aaron/org/notes/meetings/"
- "/home/aaron/org/agenda/"
  "/home/aaron/.emacs.d/"
- "/home/aaron/code/work/lein-proj/src/lein_proj/"
- "/home/aaron/code/work/lein-proj/"
- "/home/aaron/dotfiles/emacs/.emacs.d/"
- "/home/aaron/go/src/github.com/DataDog/zstd/"
- "/home/aaron/dotfiles/"
- "/home/aaron/.config/i3/"
- "/home/aaron/.config/wpg/templates/"
- "/home/aaron/workspace/cfexec/pkg/"
+ "/home/aaron/"
+ "/home/aaron/workspace/oee-coinbase/cmd/"
+ "/home/aaron/workspace/oee-coinbase/"
+ "/home/aaron/workspace/float/"
+ "/home/aaron/workspace/float/cmd/float-with-timeout/"
+ "/home/aaron/workspace/autotrader/"
+ "/home/aaron/workspace/top-of-book/"
+ "/home/aaron/workspace/aarons-scripts/"
+ "/home/aaron/workspace/kafka-rxpy/"
  "/home/aaron/workspace/steemarb/"
- "/home/aaron/workspace/cfexec/pkg/aoledger/"
- "/home/aaron/workspace/grassfed-cli/"
- "/home/aaron/workspace/cfexec/cmd/"
+ "/home/aaron/workspace/kafka-stream/"
+ "/home/aaron/workspace/pricing-data/"
+ "/home/aaron/workspace/orderbook/"
+ "/home/aaron/workspace/rxgo/"
+ "/home/aaron/workspace/exchange-simulator/"
+ "/home/aaron/workspace/coinbase-pro/"
  "/home/aaron/workspace/pricing/"
- "/home/aaron/go/src/github.com/coinfund/cfexec/cmd/cfexec/"
- "/home/aaron/go/src/github.com/coinfund/cfexec/pkg/bitmex/"
- "/home/aaron/go/src/github.com/coinfund/cfexec/pkg/kafka/"
- "/home/aaron/go/src/github.com/coinfund/cfexec/"
- "/home/aaron/go/src/cfexec/cmd/cfexec/"
- "/home/aaron/go/src/cfexec/"
- "/home/aaron/go/src/cfexec/pkg/aoledger/"
+ "/home/aaron/workspace/bittrex/"
+ "/home/aaron/workspace/grassfed-cli/test/"
+ "/home/aaron/workspace/order-execution/"
+ "/home/aaron/workspace/frp-sandbox/"
+ "/home/aaron/workspace/oee-coinbase/names/"
+ "/home/aaron/workspace/oee-coinbase/types/"
+ "/home/aaron/workspace/float/cmd/refloater/"
+ "/home/aaron/workspace/float/cmd/filler/"
+ "/home/aaron/workspace/float/.circleci/"
+ "/home/aaron/workspace/float/types/"
+ "/home/aaron/workspace/float/names/"
+ "/home/aaron/workspace/oee-coinbase/test/"
+ "/home/aaron/workspace/order-execution/exchanges/"
+ "/home/aaron/workspace/order-execution/ordertypes/"
+ "/home/aaron/workspace/rxpy/"
+ "/home/aaron/org/notes/meetings/"
+ "/home/aaron/org/notes/pitch/"
+ "/home/aaron/code/work/resumes/"
+ "/home/aaron/Downloads/"
+ "/home/aaron/Documents/"
+ "/home/aaron/org/journal/"
+ "/home/aaron/workspace/float/cmd/cli/"
+ "/home/aaron/workspace/bot/"
+ "/home/aaron/workspace/rxgo/observer/"
+ "/ssh:aty25@ugclinux.cs.cornell.edu:"
+ "/home/aaron/workspace/rxgo/observable/"
+ "/home/aaron/workspace/autotrader/exchange-simulator/"
+ "/home/aaron/workspace/autotrader/order-execution/"
+ "/home/aaron/workspace/kafka-stream/.circleci/"
+ "/home/aaron/workspace/"
+ "/home/aaron/workspace/sandbox/"
+ "/home/aaron/workspace/autotrader/exchange-simulator/.circleci/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "config.yml"
- "config.go"
- "coinbase.go"
- ".order_execution.yml"
- "pricingd.go"
+ "settings.org"
+ ".Xresources"
  "main.go"
- "database.go"
- "server.go"
+ "cmd"
+ "oee.go"
+ ".env"
+ "logic.go"
+ "fwt.go"
+ ".env.bak"
  "docker-compose.yml"
- "Dockerfile"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/aaron/workspace/autotrader/order-execution/config/" (23871 14763 892790 907000) "config.yml" "./" "../" "config.go")
+ ("/home/aaron/.emacs.d/" (23894 53372 278312 699000) "snippets/" "themes/" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
 
- ("/home/aaron/workspace/autotrader/order-execution/" (23871 14752 676659 19000) "main.go" "go.sum" "config.yml" ".git" ".#config.go" "README.md" "go.mod" ".#main.go" ".dockerignore" "Dockerfile" ".gitignore" "config/" "./" "../" "coinbase/" "config.go" "exchanges/")
+ ("/home/aaron/" (23894 53308 23317 173000) "pydrivecreds.json" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".m2/" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".docker/" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" ".nvm/" "Dropbox/" ".selected_editor" ".node_repl_history" "test" ".themes/" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".test.un~" ".config/" ".hsandbox/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".ssh/" ".eclipse/" "node_modules/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gem/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".order_execution.yml" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".clojure_history" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".pyenv/" ".runelite/" "pydrive.conf" ".clojure/" ".icons/" "org/" ".cache/" ".pricingd/" ".cpanm/" ".lein/" "Documents/" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" ".xmodmap" "dotfiles/" "go/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
 
- ("/home/aaron/workspace/autotrader/order-execution/coinbase/" (23871 14711 356171 839000) ".#coinbase.go" "./" "coinbase.go" "../")
+ ("/home/aaron/dotfiles/Xresources/" (23894 53245 737109 619000) ".Xresources" "./" "../")
 
- ("/home/aaron/" (23871 14622 187112 837000) "pydrivecreds.json" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".steampath" ".m2/" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".docker/" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" ".nvm/" "Dropbox/" ".selected_editor" ".node_repl_history" "test" ".themes/" ".#.order_execution.yml" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".test.un~" ".config/" ".hsandbox/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".ssh/" ".eclipse/" "node_modules/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gem/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".order_execution.yml" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".clojure_history" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".runelite/" "pydrive.conf" ".clojure/" ".icons/" "org/" ".cache/" ".pricingd/" ".cpanm/" ".lein/" "Documents/" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" ".xmodmap" "dotfiles/" "go/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
+ ("/home/aaron/workspace/autotrader/" (23894 49269 570145 669000) "oee-coinbase/" ".git/" ".gitmodules" "docker-compose.yml" "top-of-book/" "float-with-timeout/" ".env" ".gitignore" "./" "Makefile" "../")
 
- ("/home/aaron/workspace/autotrader/order-execution/exchanges/" (23871 14626 215160 921000) ".#coinbase.go" "./" "coinbase.go" "../")
+ ("/home/aaron/workspace/oee-coinbase/cmd/" (23894 49332 478330 909000) "main.go" "cmd" "./" "../")
+
+ ("/home/aaron/workspace/oee-coinbase/" (23894 49288 442201 672000) "main.go.bak" "go.sum" "oee.go" ".git/" ".env.bak" "cmd/" "names/" "go.mod" ".env" "test.go.bak" "./" "../" "types/")
+
+ ("/home/aaron/workspace/float/" (23894 49192 417912 100000) "go.sum" "test/" "fwt.go" ".git/" "cmd/" "names/" "logic.go" "go.mod" ".gitignore" "./" ".circleci/" "Makefile" "../" "types/" "fwt-bot")
+
+ ("/home/aaron/workspace/float/cmd/float-with-timeout/" (23894 49186 893895 55000) "main.go" "./" "../")
+
+ ("/home/aaron/workspace/" (23894 48616 384129 719000) "aarons-scripts.zip" "oee-coinbase/" "autotrader/" "top-of-book/" "float/" "./" "kafka/" "../" "aarons-scripts/")
+
+ ("/home/aaron/workspace/aarons-scripts/" (23893 39737 677262 508000) "test.py" "bitmex_XBTU19.csv" "script.py" "bitmex_XBTUSD.csv" "kafka.py" "__pycache__/" "bitmex_.BXBT_2019.csv" "async.py" "bitmex.py" "bitmex_.BXBT.csv" "obv.py" "./" "bitmex_XBTM19.csv" "scraping.go" "bitmex_XBTZ19.csv" "custom_stream.py" "pricing_dump.sql" "../" "script2.py" "bitmex_XBTUSD_2019.csv" "pricing_dump_201906181358")
+
+ ("/home/aaron/workspace/coinbase-pro/" (23837 515 678683 597000) "main.go" "go.sum" ".git/" "go.mod" "./" "orderbook-gdax" "../")
+
+ ("/home/aaron/workspace/pricing/" (23834 6404 885043 317000) "candles.go" "plugins/" "pricing.go" "go.sum" "request.go" "provider.go" ".git/" "granularity.go" "price.go" "daemon.go" "README.md" "price/" "go.mod" "request_test.go" "resolution.go" "resolved_request.go" "pair_test.go" "resolution_test.go" ".gitignore" "config/" "./" "pair.go" "plugins.go" "Makefile" "../" "pricing_suite_test.go" "config.go" "parsing.go")
+
+ ("/home/aaron/workspace/bittrex/" (23834 7269 63459 9000) "go.sum" "client.go" ".git/" "bittrex_cli/" "messages.go" "README.md" "bittrex_test.go" "msg_number.go" "go.mod" "execution.go" "orderfuncs.go" "./" "bittrex_suite_test.go" "../")
+
+ ("/home/aaron/workspace/grassfed-cli/test/" (23844 53840 113544 755000) "grassfed_cli_suite_test.go" "./" "../")
+
+ ("/home/aaron/workspace/top-of-book/" (23893 35404 356088 114000) "main.go" "go.sum" ".git/" "go.mod" "top-of-book" "./" "../")
+
+ ("/home/aaron/workspace/float/cmd/" (23893 37952 265853 268000) "filler/" "float-with-timeout/" "./" "refloater/" "../")
+
+ ("/home/aaron/workspace/float/cmd/filler/" (23893 29778 475818 851000) "filler" "main.go" "./" "../")
+
+ ("/home/aaron/workspace/float/cmd/refloater/" (23893 29683 382093 243000) "main.go" "./" "refloater" "../")
+
+ ("/home/aaron/code/work/resumes/" (23892 22384 127606 837000) "resume_datasci.tex" "2020_tech_new.tex" "tabto.sty" "ideas.org" ".git/" "fontawesome.sty" "cv_4.tex" "2020_tech.tex" "README.md" "build/" "res.cls" ".gitignore" "./" "examples/" "resume_backend.tex" "Makefile" "resume.cls" "../" "resume.tex")
+
+ ("/home/aaron/workspace/exchange-simulator/" (23891 10371 99030 418000) "main.go" "go.sum" ".git/" "README.md" "go.mod" "Dockerfile" ".gitignore" "exchange_simulator_test.go" "./" ".circleci/" "exchange-simulator" "exchange_simulator_suite_test.go" "../")
+
+ ("/home/aaron/workspace/float/.circleci/" (23893 27626 221864 298000) "config.yml" "./" "../")
+
+ ("/home/aaron/workspace/float/types/" (23892 31102 599303 192000) "types.go" "./" "../")
+
+ ("/home/aaron/workspace/oee-coinbase/types/" (23892 29654 430377 107000) "types.go" "./" "../")
+
+ ("/home/aaron/workspace/oee-coinbase/names/" (23892 29647 310376 960000) "names.go" "./" "../")
+
+ ("/home/aaron/workspace/float/names/" (23892 28429 352956 692000) "names.go" "./" "../")
+
+ ("/home/aaron/workspace/order-execution/" (23892 7229 84209 273000) "main.go" "go.sum" "config.yml" ".git/" "README.md" "go.mod" ".dockerignore" "ordertypes/" "Dockerfile" "order-execution" ".gitignore" "./" ".circleci/" "../" "order_execution_suite_test.go" "exchanges/" "order_execution_test.go")
+
+ ("/home/aaron/workspace/oee-coinbase/test/" (23892 9736 562776 898000) "test.go" "test" "./" "../")
+
+ ("/home/aaron/workspace/kafka-stream/" (23892 10849 420064 354000) "kafka.go" "go.sum" "kafka_stream_test.go" ".git/" "types.go" "go.mod" "kafka_stream_suite_test.go" "./" ".circleci/" "../")
+
+ ("/home/aaron/workspace/frp-sandbox/" (23891 3714 754094 521000) "bitmex_data.csv" "package-lock.json" ".git/" "bitmex_data.ts" "package.json" "test.ts" "node_modules/" "sandbox.ts" "server.ts" "bitmex_data_bak.csv" ".gitignore" "./" "coinbase.go" "bitmex_futures_spot.csv" "../" "bitmex.ts" "output.log")
+
+ ("/home/aaron/workspace/order-execution/exchanges/" (23891 284 92416 611000) "./" "exchange-simulator.go" "../")
+
+ ("/home/aaron/workspace/order-execution/ordertypes/" (23890 63314 820525 443000) "fwt-types.go" "./" "../")
+
+ ("/home/aaron/org/notes/meetings/" (23889 54350 528485 521000) "cf_grassfed.org" "cf_intro.org" "frp_notes.org" "cf_orders.org" "./" "coding_practice.org" "cf_summary.org" "../")
+
+ ("/home/aaron/workspace/cfexec/cmd/order/" (23884 16003 361508 107000) "main.go" "config.yml" "config.json" "types.go" "./" "order" "../" "app.go")
+
+ ("/home/aaron/workspace/cfexec/cmd/test/" (23883 28639 312522 165000) "main.go" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/" (23884 15984 609352 870000) "scripts/" "go.sum" ".git/" "cmd/" "docker-compose.yml" "go.mod" "cfexec" "Dockerfile" ".gitignore" "./" "pkg/" "Makefile" "../" "configs/")
+
+ ("/home/aaron/workspace/sandbox/" (23883 28585 875939 333000) "main.go" "__pycache__/" "cmd/" "stuff.py" "docker_sandbox/" "LICENSE" "orderbook.go" "repo/" "./" "../")
+
+ ("/home/aaron/Documents/" (23887 5409 539065 916000) "dont_steal_me20190101.kdbx" "dont_steal_me20190122.kdbx" "oee_lib.txt" "sample.pdf" "Aaron_Yao-Smith_resume_coinfund.pdf" "1104fc2.odt" "transcript.pdf" "pseudo.txt" "1104fc3.pdf" "signature.jpg" "1104fc2.pdf" "Written_Consent_Form.pdf" "Libra.pdf" "pubsub2.txt" "Archive.zip" "bulkin.txt" "Internship Agreement - Aaron Yao-Smith countersigned.pdf" "Luciano Ramalho - Fluent Python-O'Reilly Media (2015).pdf" "pricing-bug/" "retreat_absence.tex" "build/" "Aaron_SubletAgreement_countersigned.pdf" "PairContract_P5.txt" "dont_steal_me20190303.kdbx" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "Aaron_Yao-Smith_resume.pdf" "Safari - Jun 18, 2019 at 1_05 PM.pdf" "dont_steal_me20190306.kdbx" "1104fc1.pdf" "Aaron_Yao-Smith_resume (1).pdf" "Solana Details - Fundraising - June 2019 (1).pdf" "./" "CoinFUND (3).pdf" "image.png" "Aaron_SubletAgreement.pdf" "Aaron_Yao-Smith_CL.pdf" "1104fc1.odt" "Zoom/" "Makefile" "../" "pubsub.txt" "Aaron_Yao-Smith_CL_coinfund.pdf" "1104fc3.odt" "DS11_Complete.pdf" "Cracking the Coding Interview - 6th Edition (2).pdf" "image2.png" "24415952_OfficialeTranscript.pdf" "dont_steal_me20190124.kdbx")
+
+ ("/home/aaron/org/notes/pitch/" (23887 23764 377256 892000) "behavioral.org" "resume.org" "./" "../")
+
+ ("/home/aaron/workspace/kafka-rxpy/" (23889 38174 933786 233000) "setup.py" ".git/" "__pycache__/" "rxkafka.py" "requirements.txt" "./" "../")
+
+ ("/home/aaron/workspace/rxpy/" (23889 44093 927636 770000) "test.py" "script.py" "kafka.py" "__pycache__/" "async.py" "obv.py" "./" "custom_stream.py" "../")
+
+ ("/home/aaron/code/work/" (23874 62896 387297 107000) "resumes/" "external/" "jekyll-site/" "lein-proj/" "website/" "./" "recruiting/" "challenges/" "../")
+
+ ("/home/aaron/code/courses/" (23715 62833 782402 696000) "latex_hw_finished/" "3410/" "latex_hw/" "4820/" "./" "4850/" "../")
+
+ ("/home/aaron/org/journal/" (23874 62820 910498 269000) "2019-05-29.org" "2019-06-16.org" "2019-05-28.org" "2019-03-26.org" "2019-01-03.org" "2019-04-10.org" "2019-05-24.org" "2018-09-29.org" "2019-06-17.org" "2019-06-03.org" "2018-09-30.org" "2018-09-22.org" "./" "2019-03-20.org" "2018-10-27.org" "2018-09-02.org" "2019-08-01.org" "2019-04-21.org" "interactions.org" "../" "2019-05-31.org")
+
+ ("/home/aaron/org/notes/" (23827 30965 401830 61000) "reading_list.org" "pitch/" "papers/" "writing/" "./" "meetings/" "../" "books/" "coursework/")
+
+ ("/home/aaron/workspace/float/cmd/cli/" (23880 36113 287618 322000) "main.go" "cli" "./" "../")
+
+ ("/home/aaron/dotfiles/emacs/.emacs.d/" (23876 45604 818615 37000) "snippets/" "themes/" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
+
+ ("/home/aaron/workspace/bot/" (23880 30978 260410 756000) "main.go" "./" "../" "bot.go")
+
+ ("/home/aaron/workspace/rxgo/observable/" (23875 19023 199418 52000) "observable_test.go" "create.go" "create_test.go" "options.go" "./" "options_test.go" "flatmap.go" "observable.go" "../" "flatmap_test.go")
+
+ ("/usr/share/info/" (23863 5885 247308 6000) "web2c.info.gz" "bc.info.gz" "dir.old" "speech-dispatcher.info.gz" "gnupg-module-overview.png" "rluserman.info.gz" "ssip.info.gz" "latex2man.info.gz" "autosprintf.info.gz" "find-maint.info.gz" "kpathsea.info.gz" "find.info.gz" "gnupg.info-1.gz" "gnupg-card-architecture.png" "sharutils.info.gz" "./" "screen.info-5.gz" "gnupg.info.gz" "screen.info-2.gz" "fontname.info.gz" "libconfig.info.gz" "emacs-25/" "tds.info.gz" "coreutils.info.gz" "eplain.info.gz" "gzip.info.gz" "m4.info.gz" "stow.info.gz" "screen.info-4.gz" "libffi.info.gz" "diffutils.info.gz" "screen.info-1.gz" "screen.info-6.gz" "nano.info.gz" "automake-1.15.info-2.gz" "automake-1.15.info-1.gz" "screen.info.gz" "ed.info.gz" "mtools.info.gz" "screen.info-3.gz" "grep.info.gz" "grub-dev.info.gz" "gnupg.info-2.gz" "m4.info-1.gz" "tlbuild.info.gz" "m4.info-2.gz" "dvips.info.gz" "automake-1.15.info.gz" "dc.info.gz" "../" "wget.info.gz" "time.info.gz" "gettext.info.gz" "sed.info.gz" "spd-say.info.gz" "dir" "grub.info.gz")
+
+ ("/home/" (23581 9983 192162 258000) "aaron/" "./" "lost+found/" "../")
+
+ ("/home/aaron/workspace/rxgo/observer/" (23872 27615 775203 83000) "observer_mock.go" "observer.go" "./" "observer_test.go" "../")
+
+ ("/home/aaron/workspace/rxgo/" (23873 62951 534351 427000) "subscription/" "observer/" "handlers/" "go.sum" ".git/" "eventhandler.go" "README.md" "LICENSE" "go.mod" "CONTRIBUTING.md" "connectable/" "fx/" "errors/" "observable/" ".gitignore" "./" "examples/" "../" "iterable/" "iterator.go" ".travis.yml")
+
+ ("/home/aaron/workspace/kafka-stream/.circleci/" (23872 41517 800620 338000) "config.yml" "./" "../")
+
+ ("/home/aaron/workspace/autotrader/exchange-simulator/.circleci/" (23865 60708 399889 662000) "config.yml" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/pkg/bitmex/" (23871 4289 293536 907000) "source.go" "bitmex.go" "types.go" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/scripts/" (23871 4291 137370 218000) "kafka_start.sh" "./" "../")
+
+ ("/home/aaron/workspace/cfexec/cmd/cfexec/" (23871 4289 581510 985000) "main.go" "./" "../")
+
+ ("/home/aaron/workspace/autotrader/order-execution/config/" (23871 17193 230250 343000) "config.yml" "./" "../" "config.go")
+
+ ("/home/aaron/workspace/autotrader/order-execution/" (23871 17236 626659 455000) "main.go" "go.sum" ".git" "README.md" "go.mod" ".dockerignore" "Dockerfile" ".gitignore" "config/" "./" "../" "coinbase/")
+
+ ("/home/aaron/workspace/autotrader/order-execution/coinbase/" (23871 17191 602235 20000) "./" "coinbase.go" "../")
+
+ ("/home/aaron/workspace/autotrader/order-execution/exchanges/" (23871 14836 781644 597000) "./" "coinbase.go" "../")
 
  ("/home/aaron/workspace/pricing-data/cmd/" (23815 62883 833018 861000) "pricingd.go" "./" "../")
-
- ("/home/aaron/workspace/autotrader/" (23871 14399 428409 222000) ".git/" ".gitmodules" "docker-compose.yml" "cfexec/" "order-execution/" ".gitignore" ".#docker-compose.yml" "./" "exchange-simulator/" "Makefile" "../")
-
- ("/home/aaron/workspace/rxgo/" (23871 4042 253122 837000) "subscription/" "observer/" "handlers/" ".git/" "eventhandler.go" "README.md" "LICENSE" "go.mod" "CONTRIBUTING.md" "connectable/" "fx/" "errors/" "observable/" ".gitignore" "./" "examples/" "../" "iterable/" "iterator.go" ".travis.yml")
 
  ("/home/aaron/workspace/cfexec/pkg/kafka/" (23871 5512 657158 315000) "kafka.go" "types.go" "./" "../")
 
  ("/home/aaron/workspace/autotrader/cfexec/" (23865 60770 40959 271000) "scripts/" "go.sum" ".git" "cmd/" "docker-compose.yml" "go.mod" "Dockerfile" ".gitignore" "./" "pkg/" "Makefile" "../" "configs/")
 
- ("/home/aaron/workspace/cfexec/" (23871 5930 962854 142000) "scripts/" "go.sum" ".git/" "cmd/" "docker-compose.yml" "go.mod" "Dockerfile" ".gitignore" "./" "pkg/" "Makefile" "../" "configs/")
-
- ("/home/aaron/workspace/order-execution/" (23871 5684 684296 559000) "main.go" "go.sum" ".git/" "README.md" "go.mod" ".dockerignore" "Dockerfile" ".gitignore" "./" "../" "exchanges/")
-
- ("/home/aaron/workspace/order-execution/exchanges/" (23871 4937 847897 208000) ".#coinbase.go" "./" "coinbase.go" "../")
-
- ("/home/aaron/workspace/cfexec/cmd/test/" (23871 4289 793491 902000) "main.go" "test" "./" "../")
-
- ("/home/aaron/workspace/cfexec/cmd/order/" (23871 4289 581510 985000) "main.go" "config.yml" "config.json" "types.go" "./" "order" "../" "app.go")
-
  ("/home/aaron/workspace/cfexec/pkg/actor/" (23871 4289 289537 268000) "actor.go" "./" "../")
 
  ("/home/aaron/workspace/cfexec/pkg/ledger/" (23871 4289 289537 268000) "./" "ledger.go" "../")
-
- ("/home/aaron/dotfiles/emacs/.emacs.d/" (23870 56820 212524 124000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
 
  ("/home/aaron/code/work/lein-proj/" (23870 56811 876452 755000) "CHANGELOG.md" "doc/" "test/" "target/" "README.md" "LICENSE" "project.clj" "resources/" ".gitignore" ".lein-repl-history" ".hgignore" "./" "src/" "../")
 
  ("/home/aaron/code/work/lein-proj/src/lein_proj/" (23870 56808 956427 755000) "core.clj" "./" "../")
 
- ("/home/aaron/.emacs.d/" (23870 56820 212524 124000) "snippets/" "themes/" "ido.last~" "tramp" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "../" "custom.el")
-
- ("/home/aaron/org/notes/meetings/" (23867 28851 733741 171000) "cf_grassfed.org" "cf_intro.org" "cf_orders.org" "./" "coding_practice.org" "../")
-
  ("/home/aaron/workspace/autotrader/exchange-simulator/" (23871 3469 680003 98000) "main.go" "go.sum" ".git" "README.md" "go.mod" "Dockerfile" "exchange_simulator_test.go" "./" ".circleci/" "exchange_simulator_suite_test.go" "../")
-
- ("/home/aaron/workspace/" (23867 8448 986885 259000) "script.py" "docker-curriculum/" "order-framework/" "autotrader/" "data/" "idk.go" "grassfed-live/" "rxgo/" "pricing-data/" "cfexec/" "orderbook/" "pricing/" "order-execution/" "steemarb/" "grassfed-cli/" "nock/" "./" "wiki.wiki/" "pricingd-deployment/" "bittrex/" "streisand/" "coinbase-pro/" "frp-sandbox/" "kafka/" "sandbox/" "pricing_dump.sql" "secp256k1/" "../" "pricing_dump_201906181358")
 
  ("/home/aaron/workspace/data/" (23864 53601 373547 676000) "bitmex_XBTU19.csv" "bitmex_XBTUSD.csv" "bitmex_.BXBT_2019.csv" "bitmex.py" "bitmex_.BXBT.csv" "./" "bitmex_XBTM19.csv" "scraping.go" "bitmex_XBTZ19.csv" "../" "bitmex_XBTUSD_2019.csv")
 
  ("/home/aaron/workspace/kafka/bin/" (23684 6152 0 0) "kafka-reassign-partitions.sh" "kafka-consumer-perf-test.sh" "kafka-streams-application-reset.sh" "kafka-topics.sh" "kafka-server-stop.sh" "zookeeper-security-migration.sh" "kafka-delegation-tokens.sh" "kafka-preferred-replica-election.sh" "windows/" "kafka-console-consumer.sh" "kafka-broker-api-versions.sh" "kafka-replica-verification.sh" "kafka-mirror-maker.sh" "zookeeper-server-stop.sh" "kafka-consumer-groups.sh" "connect-distributed.sh" "kafka-acls.sh" "trogdor.sh" "kafka-delete-records.sh" "kafka-log-dirs.sh" "kafka-configs.sh" "./" "kafka-producer-perf-test.sh" "kafka-server-start.sh" "kafka-dump-log.sh" "zookeeper-shell.sh" "kafka-console-producer.sh" "zookeeper-server-start.sh" "../" "kafka-verifiable-producer.sh" "kafka-run-class.sh" "kafka-verifiable-consumer.sh" "connect-standalone.sh")
-
- ("/home/aaron/workspace/sandbox/" (23864 39192 568840 756000) "main.go" "cmd/" "docker_sandbox/" "LICENSE" "orderbook.go" "repo/" "livepeerjs/" "./" "graph-node/" "../")
 
  ("/home/aaron/workspace/sandbox/repo/" (23864 39192 568840 756000) "./" ".circleci/" "../")
 
  ("/home/aaron/workspace/sandbox/repo/.circleci/" (23864 39192 576842 174000) "config.yml" "./" "../")
 
  ("/home/aaron/org/agenda/" (23861 51603 186393 612000) "CoinFund.org" "./" "../")
-
- ("/home/aaron/workspace/cfexec/pkg/bitmex/" (23863 12383 282627 762000) "source.go" "bitmex.go" "types.go" "./" "../")
-
- ("/home/aaron/workspace/cfexec/scripts/" (23863 12383 286628 208000) "kafka_start.sh" "./" "../")
-
- ("/home/aaron/workspace/cfexec/cmd/cfexec/" (23863 13111 63991 59000) "main.go" "./" "../")
 
  ("/home/aaron/workspace/cfexec/cmd/" (23863 12383 102607 694000) "test/" "cfexec/" "./" "order/" "../")
 
@@ -303,8 +391,6 @@
 
  ("/home/aaron/code/work/lein-proj/src/" (23845 9194 731319 687000) "lein_proj/" "./" "../")
 
- ("/home/aaron/code/work/" (23845 9194 727319 616000) "resumes/" "jekyll-site/" "lein-proj/" "website/" "./" "recruiting/" "challenges/" "../")
-
  ("/home/aaron/code/" (23793 39635 876259 644000) "courses/" "./" "../" "work/")
 
  ("/home/aaron/workspace/grassfed-cli/" (23844 53840 113544 755000) "go.sum" "test/" ".git/" "cmd/" "README.md" "build/" "go.mod" "networks/" ".gitignore" "config/" "./" "Makefile" "../" "exchanges/")
@@ -318,86 +404,6 @@
  ("/home/aaron/go/src/github.com/coinfund/cfexec/pkg/kafka/" (23844 60178 30585 578000) "kafka.go" "./" "../")
 
  ("/home/aaron/workspace/orderbook/" (23843 20638 751691 167000) "original_output.txt" "mocks.go" "order.go" "go.sum" "metrics.go" "provider.go" ".git/" "side.go" "metrics_test.go" "updated_output.html" "README.md" "go.mod" "orderbook.go" "original_output.html" "list.go" "execution_test.go" "execution.go" "updated_output.txt" "side_test.go" ".gitignore" "./" "message.go" "orderbook_suite_test.go" "../" "orderbook_test.go" "list_test.go")
-
- ("/home/aaron/workspace/order-framework/" (23844 36751 702084 88000) "./" "../")
-
- ("/home/aaron/go/src/github.com/coinfund/" (23844 58681 333475 207000) "cfexec/" "./" "../")
-
- ("/home/aaron/go/src/github.com/coinfund/cfexec/cmd/cfexec/" (23844 58788 110388 100000) "main.go" "./" "../")
-
- ("/home/aaron/go/src/github.com/coinfund/cfexec/" (23844 58788 110388 100000) ".git/" "cmd/" ".gitignore" "./" "pkg/" "../" "configs/")
-
- ("/home/aaron/go/src/github.com/coinfund/cfexec/cmd/" (23844 37057 732152 865000) "cfexec/" "./" "../")
-
- ("/home/aaron/go/src/cfexec/" (23844 43506 103604 468000) "test.go" ".git/" "cmd/" ".gitignore" "./" "pkg/" "../" "configs/")
-
- ("/home/aaron/go/src/cfexec/cmd/cfexec/" (23844 37120 284569 278000) "main.go" "./" "../")
-
- ("/home/aaron/go/src/cfexec/cmd/" (23844 37057 732152 865000) "cfexec/" "./" "../")
-
- ("/home/aaron/go/src/cfexec/pkg/aoledger/" (23844 38694 494014 379000) "aoledger.go" "./" "../")
-
- ("/home/aaron/go/src/cfexec/pkg/" (23844 36804 542445 865000) "aoledger/" "./" "../")
-
- ("/home/aaron/workspace/frp-sandbox/" (23843 34487 85529 477000) "bitmex_data.csv" "package-lock.json" ".git/" "bitmex_data.ts" "package.json" "test.ts" "node_modules/" "sandbox.ts" "server.ts" "bitmex_data_bak.csv" ".gitignore" "./" "bitmex_futures_spot.csv" "../" "bitmex.ts" "output.log")
-
- ("/home/aaron/workspace/coinbase-pro/" (23837 515 678683 597000) "main.go" "go.sum" ".git/" "go.mod" "./" "orderbook-gdax" "../")
-
- ("/home/aaron/org/" (23834 13678 709231 803000) "archive/" "notes/" "stuff.org" "./" "journal/" "agenda/" "../" "uncategorized/")
-
- ("/home/aaron/workspace/orderbook-gdax/" (23835 53472 453831 897000) "main.go" "go.sum" "go.mod" "./" "orderbook-gdax" "../")
-
- ("/home/aaron/workspace/pricing-data/types/" (23790 41538 378278 196000) "candles.go" "window.go" "./" "../")
-
- ("/home/aaron/workspace/pricing/config/" (23779 3258 992564 211000) "config.json" "./" "../")
-
- ("/home/aaron/workspace/bittrex/bittrex_cli/" (23834 25169 107500 579000) "main.go" "bittrex_cli" "./" "../")
-
- ("/home/aaron/dotfiles/wpg/" (23582 29808 826878 594000) ".config/" "./" "../")
-
- ("/home/aaron/dotfiles/wpg/.config/" (23582 29812 134907 943000) "./" "wpg/" "../")
-
- ("/home/aaron/dotfiles/wpg/.config/wpg/" (23582 29890 27589 249000) "./" "wpg.conf" "../" "templates/")
-
- ("/home/aaron/.config/wpg/" (23834 226 480484 423000) ".current" "samples/" "wp_init.sh" "wallpapers/" "./" "wpg.conf" "sequences" "formats/" "../" "templates/" "schemes/")
-
- ("/home/aaron/workspace/bittrex/" (23834 7269 63459 9000) "go.sum" "client.go" ".git/" "bittrex_cli/" "messages.go" "README.md" "bittrex_test.go" "msg_number.go" "go.mod" "execution.go" "orderfuncs.go" "./" "bittrex_suite_test.go" "../")
-
- ("/tmp/hsandbox-YN3UW8/" (23834 29136 170783 188000) "./" ".hsandbox-editor-running" "sandbox.go" "../")
-
- ("/home/aaron/workspace/pricing/" (23834 6404 885043 317000) "candles.go" "plugins/" "pricing.go" "go.sum" "request.go" "provider.go" ".git/" "granularity.go" "price.go" "daemon.go" "README.md" "price/" "go.mod" "request_test.go" "resolution.go" "resolved_request.go" "pair_test.go" "resolution_test.go" ".gitignore" "config/" "./" "pair.go" "plugins.go" "Makefile" "../" "pricing_suite_test.go" "config.go" "parsing.go")
-
- ("/home/aaron/workspace/pricing/plugins/bitmex/" (23817 24811 202612 667000) "bitmexProvider.go" "./" "../")
-
- ("/home/aaron/bin/" (23830 26238 365922 332000) "cu_vpn" ".disable_mouse_accel.un~" "disable_mouse_accel~" "betterlockscreen" "start_cu_vpn~" "duplicity_filelist" "disable_mouse_accel" "i3exit" "kbdbacklight" "start_cu_vpn" "hsandbox" "quit_cu_vpn" ".duplicity_backup.un~" "duplicity_backup" "monitor" ".start_cu_vpn.un~" ".cu_vpn.un~" "terraform" "packer" ".colors.un~" "./" ".quit_cu_vpn.un~" "colors" "../" "whitespace_cleanup" "duplicity_backup~")
-
- ("/home/aaron/code/work/jekyll-site/_posts/" (23832 3898 26412 535000) "2019-06-29-welcome-to-jekyll.markdown" "2019-06-28-aaron.md" "./" "../")
-
- ("/home/aaron/code/work/website/" (23831 50907 197348 454000) "config.toml" ".git/" ".gitmodules" "themes/" "static/" "package.json" ".gitignore" "./" "content/" "public/" "../")
-
- ("/home/aaron/org/uncategorized/" (23831 54722 669412 101000) "thoughts20190629.org" "./" "../")
-
- ("/home/aaron/code/work/jekyll-site/" (23832 3501 483337 38000) "about.md" "js/" "_site/" "css/" "_posts/" "_layouts/" "_sass/" "feed.xml" "_includes/" "./" ".sass-cache/" "_config.yml" "index.html" "../")
-
- ("/home/aaron/org/notes/papers/" (23828 60161 390518 391000) "su_articles.org" "cf_articles.org" "comet.org" "./" "../" "cf_prearrival.org")
-
- ("/home/aaron/org/notes/" (23827 30965 401830 61000) "reading_list.org" "pitch/" "papers/" "writing/" "./" "meetings/" "../" "books/" "coursework/")
-
- ("/home/aaron/workspace/pricing/plugins/datastore/" (23818 17701 936566 799000) "datastoreProvider.go" "./" "../")
-
- ("/home/aaron/workspace/pricing/price/" (23818 24368 41169 463000) "main.go" "README.md" "./" "../")
-
- ("/home/aaron/org/notes/books/" (23784 1723 747722 703000) "the_lean_startup.org" "zero_to_one.org" "./" "../")
-
- ("/home/aaron/workspace/pricing-data/daemon/" (23817 15672 609128 657000) "pricing.go" "./" "../")
-
- ("/home/aaron/.vim/" (23809 18569 136796 182000) ".netrwhist" "vimrc" "bundle/" "./" "../")
-
- ("/home/aaron/.ssh/" (23811 55307 395837 471000) "id_rsa" "staging-pricingd.pem" "config" "known_hosts" "./" "id_rsa.pub" "../")
-
- ("/home/aaron/workspace/pricing-data/db/" (23815 62883 833018 861000) "types.go" "postgres.go" "./" "../")
-
- ("/home/aaron/workspace/grassfed-live/ansible/templates/decred/etc/systemd/system/" (23808 5253 26262 182000) "dcrstakepool.service.j2" "dcrwallet.service.j2" "stakepoold.service.j2" "dcrd.service.j2" "./" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -1,8 +1,8 @@
 [colors]
 background = ${xrdb:color8:#403a3a}
 foreground = ${xrdb:color15:#d7fffd}
-active = #6c9556
-inactive = #4a663b
+active = #667648
+inactive = #465131
 highlight = ${xrdb:color2:#6c855f}
 error = ${xrdb:color9:#cb644b}
 
@@ -12,7 +12,7 @@ width = 100%
 height = 18
 offset-y = 0%
 radius = 0.0
-fixed-center = true
+fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -29,7 +29,7 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = "InputSansCondensed:style=Regular:pixelsize=10;2"
+font-0 = "InputSansNarrow:style=Light:pixelsize=9;2"
 font-1 = "FontAwesome5Free:style=Solid:pixelsize=11;2"
 font-2 = "FontAwesome5Brands:style=Solid:pixelsize=11;2"
 font-3 = "Noto Sans CJK SC:style=Regular:size=10;2"
@@ -38,8 +38,8 @@ font-5 = "Noto Sans CJK JP:style=Regular:size=10;2"
 font-6 = "Noto Sans CJK KR:style=Regular:size=10;2"
 
 modules-left = i3 xwindow
-modules-center = date
-modules-right = spotify mpd volume wlan eth filesystem memory cpu battery
+modules-center = 
+modules-right = spotify mpd volume wlan eth filesystem memory cpu battery date
 
 tray-position = none
 tray-padding = 0
@@ -258,7 +258,7 @@ format-background = ${colors.active}
 ;   %gb_swap_free%
 ;   %gb_swap_used%
 
-label = " "
+label = " MEM"
 
 ; Only applies if <bar-used> is used
 bar-used-indicator =
@@ -272,14 +272,32 @@ bar-used-empty = ▐
 bar-used-empty-foreground = #444444
 
 ; Only applies if <ramp-used> is used
-ramp-used-0 = ▁
-ramp-used-1 = ▂
-ramp-used-2 = ▃
-ramp-used-3 = ▄
-ramp-used-4 = ▅
-ramp-used-5 = ▆
-ramp-used-6 = ▇
-ramp-used-7 = █
+ramp-used-0 = 0
+ramp-used-1 = 1
+ramp-used-2 = 2
+ramp-used-3 = 3
+ramp-used-4 = 4
+ramp-used-5 = 5
+ramp-used-6 = 6
+ramp-used-7 = 7
+ramp-used-8 = 8
+ramp-used-9 = 9
+ramp-used-10 = A
+ramp-used-11 = B
+ramp-used-12 = C
+ramp-used-13 = D
+ramp-used-14 = E
+ramp-used-15 = F
+
+
+;ramp-used-0 = ▁
+;ramp-used-1 = ▂
+;ramp-used-2 = ▃
+;ramp-used-3 = ▄
+;ramp-used-4 = ▅
+;ramp-used-5 = ▆
+;ramp-used-6 = ▇
+;ramp-used-7 = █
 
 ; Only applies if <ramp-free> is used
 ramp-free-0 = ▁
@@ -310,21 +328,38 @@ format = <label> <ramp-coreload>
 ;   %percentage-sum% (unreleased) - Cumulative load on all cores
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
-label = 
+label = "CPU"
 
 format-background = ${colors.active}
 format-padding = 1
 
 ; Spacing between individual per-core ramps (unreleased)
-ramp-coreload-spacing = 1
-ramp-coreload-0 = ▁
-ramp-coreload-1 = ▂
-ramp-coreload-2 = ▃
-ramp-coreload-3 = ▄
-ramp-coreload-4 = ▅
-ramp-coreload-5 = ▆
-ramp-coreload-6 = ▇
-ramp-coreload-7 = █
+ramp-coreload-spacing = 0
+ramp-coreload-0 = 0
+ramp-coreload-1 = 1
+ramp-coreload-2 = 2
+ramp-coreload-3 = 3
+ramp-coreload-4 = 4
+ramp-coreload-5 = 5
+ramp-coreload-6 = 6
+ramp-coreload-7 = 7
+ramp-coreload-8 = 8
+ramp-coreload-9 = 9
+ramp-coreload-10 = A
+ramp-coreload-11 = B
+ramp-coreload-12 = C
+ramp-coreload-13 = D
+ramp-coreload-14 = E
+ramp-coreload-15 = F
+
+;ramp-coreload-0 = ▁
+;ramp-coreload-1 = ▂
+;ramp-coreload-2 = ▃
+;ramp-coreload-3 = ▄
+;ramp-coreload-4 = ▅
+;ramp-coreload-5 = ▆
+;ramp-coreload-6 = ▇
+;ramp-coreload-7 = █
 
 [module/battery]
 type = internal/battery
@@ -340,8 +375,8 @@ format-full = <ramp-capacity> <label-full>
 format-full-padding = 1
 format-full-background = ${colors.active}
 
-label-charging = CHR %percentage%%
-label-discharging = DIS %percentage%%
+label-charging = %percentage% CHR
+label-discharging = %percentage% DIS
 label-full = FULL
 
 ramp-capacity-0 = 
@@ -365,7 +400,7 @@ format-discharging-background = ${colors.active}
 type = custom/script
 interval = 1
 format = <label>
-exec = python ~/.config/polybar/spotify_status.py -f '{artist} - {song}'
+exec = python ~/.config/polybar/spotify_status.py -f ' {artist} - {song}'
 format-underline = #1db954
 format-background = ${colors.active}
 format-padding = 1
