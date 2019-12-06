@@ -172,6 +172,11 @@
   :config
   (global-whitespace-cleanup-mode 1))
 #+END_SRC
+** ESS
+#+begin_src emacs-lisp
+(setq ess-style 'RStudio)
+(setq ess-eval-visibly 'nowait)
+#+end_src
 * Keybindings
 ** magit
 #+BEGIN_SRC emacs-lisp
@@ -208,8 +213,15 @@
       kpept-old-versions 2)   ; and some old ones, too
 #+END_SRC
 * Behavior
-#+BEGIN_SRC emacs-lisp
+** Default browser
+#+begin_src emacs-lisp
 (setq browse-url-browser-function 'browse-url-chrome)
-;; Always show column numbers.
+#+end_src
+** Always show column numbers
+#+BEGIN_SRC emacs-lisp
 (setq-default column-number-mode t)
 #+END_SRC
+** TRAMP path
+#+begin_src emacs-lisp
+(add-to-list 'tramp-remote-path 'tramp-own-remote-path)
+#+end_src

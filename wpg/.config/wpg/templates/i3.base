@@ -170,8 +170,10 @@ bindsym $mod+F5 exec light -U -r 1
 bindsym $mod+Shift+F6 exec light -S 100
 bindsym $mod+Shift+F5 exec light -S -r 1
 bindsym XF86TouchpadToggle exec ~/.config/i3/toggletouchpad.sh
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
+# bindsym XF86AudioPlay exec playerctl play
+bindsym $mod+p exec playerctl play
+# bindsym XF86AudioPause exec playerctl pause
+bindsym $mod+o exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86KbdBrightnessUp exec ~/bin/kbdbacklight up

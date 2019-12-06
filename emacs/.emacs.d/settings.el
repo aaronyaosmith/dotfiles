@@ -127,6 +127,9 @@
   :config
   (global-whitespace-cleanup-mode 1))
 
+(setq ess-style 'RStudio)
+(setq ess-eval-visibly 'nowait)
+
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (global-set-key "\M-n" 'scroll-up-line)
@@ -153,5 +156,7 @@
       kpept-old-versions 2)   ; and some old ones, too
 
 (setq browse-url-browser-function 'browse-url-chrome)
-;; Always show column numbers.
+
 (setq-default column-number-mode t)
+
+(add-to-list 'tramp-remote-path 'tramp-own-remote-path)

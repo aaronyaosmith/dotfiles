@@ -1,10 +1,8 @@
-;; -*- emacs-lisp -*- <19/08/01 17:31:14 /home/aaron/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <19/11/08 15:01:30 /home/aaron/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["ssh" "aty25" "ugclinux.cs.cornell.edu" nil nil]
-  nil)
- (["ssh" "ubuntu" "ec2-34-228-39-126.compute-1.amazonaws.com" nil nil]
+((["ssh" "ubuntu" "ec2-34-228-39-126.compute-1.amazonaws.com" nil nil]
   ("uname" "Linux 4.4.0-1084-aws")
   ("locale" "LC_ALL=en_US.utf8")
   ("test" "test")
@@ -47,5 +45,44 @@
   ("tmpdir" "/tmp")
   ("touch-t" t)
   ("touch" "\\touch"))
+ (["ssh" "aty25" "cbsuvlaminck2.biohpc.cornell.edu" nil nil]
+  ("uname" "Linux 3.10.0-957.12.1.el7.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-shell" "/bin/sh")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl5")
+  ("id" "/usr/bin/id")
+  ("gid-string" "aty25")
+  ("gid-integer" 5967)
+  ("readlink" "\\readlink")
+  ("file-exists" "test -e")
+  ("bzr" nil)
+  ("git" "\\git")
+  ("hg" "\\hg"))
+ (["ssh" nil "Cornell_BioHPC" nil nil]
+  ("uname" "Linux 3.10.0-957.12.1.el7.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-shell" "/bin/sh")
+  ("file-exists" "test -e")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl5")
+  ("id" "/usr/bin/id")
+  ("gid-string" "aty25")
+  ("gid-integer" 5967)
+  ("readlink" "\\readlink")
+  ("bzr" nil)
+  ("git" "\\git")
+  ("hg" "\\hg")
+  ("ls" "/usr/bin/ls --color=never")
+  ("ls-dired" t)
+  ("uid-integer" 5967))
  (["scp" nil "ssh" nil nil]
+  nil)
+ (["ssh" nil "18.215.233.146" nil nil]
   nil))
