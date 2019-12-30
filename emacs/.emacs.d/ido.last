@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/aaron/workspace/seurat_annotated/" . "src/")
+ ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/mm2937/chicken/" . "robjs/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/fs/cbsuvlaminck3/workdir/mm2937/RotaVirusPhase2/" . "scripts/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/fs/cbsuvlaminck3/workdir/mm2937/" . "RotaVirusPhase2/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/fs/cbsuvlaminck3/workdir/" . "mm2937/")
@@ -9,7 +11,7 @@
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/fs/" . "cbsuvlaminck3/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/mm2937/Rotavirus/" . "10X_counts/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/home/" . "aty25/")
- ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/mm2937/" . "Rotavirus/")
+ ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/mm2937/" . "chicken/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/rotavirus/" . "scripts/")
  ("/home/aaron/workspace/python/" . "leetcode/")
  ("/home/aaron/code/courses/4320/" . "hw1/")
@@ -26,9 +28,9 @@
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/chicken_data/D4/outs/" . "analysis/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/chicken_data/D4/" . "outs/")
  ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/chicken_data/" . "D4/")
- ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/" . "rotavirus/")
- ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/" . "mm2937/")
- ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/" . "fs/")
+ ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/" . "dense/")
+ ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/" . "aty25/")
+ ("/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/" . "workdir/")
  ("/home/aaron/workspace/devlaminck/" . "ess_test/")
  ("/home/aaron/code/courses/4820/ps4/" . "public_test_cases/")
  ("/home/aaron/code/courses/4820/" . "ps4/")
@@ -103,7 +105,7 @@
  ("/home/aaron/workspace/grassfed-cli/exchanges/" . "binance/")
  ("/home/aaron/workspace/grassfed-cli/cmd/" . "grassfed/")
  ("/home/aaron/workspace/grassfed-cli/" . "test/")
- ("/home/aaron/workspace/" . "python/")
+ ("/home/aaron/workspace/" . "seurat_annotated/")
  ("/home/aaron/go/src/" . "github.com/")
  ("/home/aaron/go/" . "src/")
  ("/home/" . "aaron/")
@@ -144,7 +146,7 @@
  ("/home/aaron/code/aguaclara/tests/" . "design/")
  ("/usr/share/" . "i3blocks/")
  ("/usr/" . "share/")
- ("/" . "etc/")
+ ("/" . "home/")
  ("/home/aaron/.cache/" . "i3lock/")
  ("/home/aaron/Downloads/cuair_test/auto-correct/" . "ac/")
  ("/home/aaron/Downloads/cuair_test/" . "auto-correct/")
@@ -162,11 +164,11 @@
  ("/home/aaron/code/resumes/" . "resumes/")
  ("/home/aaron/code/cs3110/cs3110-a1/" . "a1/")
  ("/home/aaron/.config/" . "i3/")
- ("/home/aaron/org/" . "notes/")
+ ("/home/aaron/org/" . "agenda/")
  ("/home/aaron/code/cs3110/" . "cs3110-a9/")
  ("/home/aaron/.emacs.d/" . "lisp/")
  ("/home/aaron/Documents/" . "work/")
- ("/home/aaron/" . "code/")
+ ("/home/aaron/" . "workspace/")
  ("/home/aaron/code/hgmd/HG_marker_detection/" . "docs/")
  ("/home/aaron/code/hgmd/" . "HG_marker_detection/")
  ("/home/aaron/code/" . "courses/")
@@ -174,6 +176,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/dense/"
+ "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:"
+ "/home/aaron/workspace/seurat_annotated/src/"
+ "/home/aaron/workspace/seurat_annotated/R/"
+ "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/rotavirus/scripts/"
+ "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/"
+ "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/mm2937/chicken/robjs/"
+ "/home/aaron/org/agenda/"
+ "/home/aaron/.emacs.d/"
  "/home/aaron/code/courses/latex_hw/"
  "/home/aaron/code/courses/4820/ps9/"
  "/home/aaron/code/courses/4820/ps4/"
@@ -183,11 +194,8 @@
  "/home/aaron/bin/"
  "/home/aaron/org/notes/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/fs/cbsuvlaminck3/workdir/mm2937/RotaVirusPhase2/scripts/"
- "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/rotavirus/scripts/"
- "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/home/aty25/"
  "/ssh:cbsuvlaminck2.biohpc.cornell.edu:"
- "/home/aaron/.emacs.d/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/mm2937/Rotavirus/"
  "/home/aaron/workspace/python/"
  "/home/aaron/Documents/"
@@ -206,7 +214,6 @@
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/home/aty25/workspace/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/home/aty25/workspace/chicken/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/chicken_data/D4/outs/"
- "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/"
  "/home/aaron/"
  "/home/aaron/workspace/devlaminck/ess_test/"
  "/home/aaron/code/courses/4820/ps4/public_test_cases/"
@@ -219,46 +226,50 @@
  "/home/aaron/workspace/ctas-website/hello-css/"
  "/home/aaron/org/notes/meetings/ctas/"
  "/home/aaron/workspace/ctas-website/links-and-images/"
- "/home/aaron/workspace/ctas-website/"
- "/home/aaron/workspace/ctas-website/content/posts/"
- "/home/aaron/workspace/ctas-new/"
- "/home/aaron/code/interview-prep/"
- "/home/aaron/org/notes/coursework/aem3249/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "4320_hw5.tex"
- "4320_hw4.tex"
- "collaborators.txt"
- "4820_ps9-3.tex"
- "4820_ps9-2.tex"
- "4820_ps7-1.tex"
- "Main.java"
- "easy.py"
- "jimi.py"
- "stuff.py"
+ "test_script.R"
+ "data_manipulation.cpp"
+ "preprocessing.R"
+ "output.log"
+ "Rotavirus.10x.exp.R"
+ "rota10x_aaron.r"
+ "dense"
+ "Cornell.org"
+ "SWE.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/aaron/code/courses/latex_hw/" (24040 36788 202780 745000) "4820_ps2-3.tex" "4820_ps4-2.tex" "4820_ps9-2.tex" "collaborators.tex" "4820_ps7-1.tex" "4820_ps6-2.tex" "4820_ps6-3.tex" "4820_ps2-2.tex" "4320_hw2.tex" "4820_ps5-1.tex" "4320_hw3.tex" "4820_ps7-2.tex" "build/" "4820_ps4-3.tex" "4820_ps5-2.tex" "4820_ps5-3.tex" "4320_hw4.tex" "4820_ps8.tex" "collaborators.txt" "4820_ps1-3.tex" "4820_ps1_notes.org" "graph.jpg" "4820_ps3-3.tex" "./" "4820_ps3-2.tex" "4820_ps1-2.tex" "Makefile" "../" "4820_ps9-3.tex")
+ ("/home/aaron/" (24058 29710 259891 323000) ".Renviron" "pydrivecreds.json" ".Rprofile" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".Rpackages/" ".m2/" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".docker/" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" ".nvm/" "Dropbox/" ".selected_editor" ".node_repl_history" ".FreeCAD/" "test" ".themes/" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" "wget-log" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".jenv/" ".test.un~" ".config/" ".hsandbox/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "get.php?md5=3797A842080D0DA2D99B99763984024D&key=6ITFAOEODD9HT0KC" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" ".fltk/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".ssh/" ".eclipse/" "node_modules/" ".vnc/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gem/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".order_execution.yml" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".clojure_history" ".thunderbird/" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".pyenv/" ".runelite/" "pydrive.conf" ".clojure/" ".icons/" "org/" ".cache/" ".pricingd/" ".cpanm/" ".lein/" "Documents/" ".Renviron.bak" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" ".xmodmap" "dotfiles/" "go/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
 
- ("/home/aaron/" (24040 36897 720300 584000) ".Renviron" "pydrivecreds.json" ".Rprofile" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".Rpackages/" ".m2/" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".docker/" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" ".nvm/" "Dropbox/" ".selected_editor" ".node_repl_history" "test" ".themes/" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" "wget-log" ".lesshsQ" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".jenv/" ".test.un~" ".config/" ".hsandbox/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "get.php?md5=3797A842080D0DA2D99B99763984024D&key=6ITFAOEODD9HT0KC" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" ".fltk/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".ssh/" ".eclipse/" "node_modules/" ".vnc/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gem/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".order_execution.yml" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".clojure_history" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".pyenv/" ".runelite/" "pydrive.conf" ".clojure/" ".icons/" "org/" ".cache/" ".pricingd/" ".cpanm/" ".lein/" "Documents/" ".Renviron.bak" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" ".xmodmap" "dotfiles/" "go/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
+ ("/home/aaron/workspace/seurat_annotated/src/" (24058 22396 33303 9000) "ModularityOptimizer.cpp" "integration.cpp" "RcppExports.cpp" "snn.h" "RModularityOptimizer.cpp" "integration.h" "./" "snn.cpp" "ModularityOptimizer.h" "data_manipulation.h" "../" "Makevars" "data_manipulation.cpp")
+
+ ("/home/aaron/workspace/seurat_annotated/R/" (24058 22394 829289 59000) "unknown.old" "differential_expression.R" "visualization.R" "objects.R" "tree.R" "zfRenderSeurat.old" "utilities.R" "clustering.R" "RcppExports.R" "dimensional_reduction.R" "generics.R" "data.R" "preprocessing.R" "./" "convenience.R" "plotting.old" "zzz.R" "../" "integration.R")
+
+ ("/home/aaron/workspace/seurat_annotated/" (24042 29531 62528 241000) "DESCRIPTION" "cran-comments.md" ".github/" "appveyor.yml" ".gitattributes" ".git/" "data/" "README.md" ".Rbuildignore" "NAMESPACE" "LICENSE" "inst/" "travis_setup.sh" "NEWS.md" "man/" ".gitignore" "azure-pipelines.yml" "R/" "./" "CODE_OF_CONDUCT.md" "tests/" "src/" "../" ".travis.yml")
+
+ ("/home/aaron/workspace/" (24042 29704 984277 986000) "aarons-scripts.zip" "java/" "oee-coinbase/" "python/" "autotrader/" "ramzy_a1/" "cornelltaiwan.github.io/" "clj-proj/" "top-of-book/" "float/" "devlaminck/" "ctas-website/" "idk/" "./" "seurat_annotated/" "kafka/" "../" "aarons-scripts/")
+
+ ("/home/aaron/dotfiles/emacs/.emacs.d/" (24058 22390 281236 330000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
+
+ ("/home/aaron/Documents/" (24057 37738 74012 449000) "dont_steal_me20190101.kdbx" "dont_steal_me20190122.kdbx" "oee_lib.txt" "sample.pdf" "mann4.png" "1104fc2.odt" "transcript.pdf" "pseudo.txt" "1104fc3.pdf" "signature.jpg" "1104fc2.pdf" "Written_Consent_Form.pdf" "Libra.pdf" "pubsub2.txt" "Archive.zip" "bulkin.txt" "Internship Agreement - Aaron Yao-Smith countersigned.pdf" "mann3.png" "mann5.xcf" "retreat_absence.tex" "build/" "Talking+to+Humans+10+tips.pdf" "Aaron_SubletAgreement_countersigned.pdf" "PairContract_P5.txt" "dont_steal_me20190303.kdbx" "mann2.png" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "mann3.xcf" "Safari - Jun 18, 2019 at 1_05 PM.pdf" "dont_steal_me20190306.kdbx" "ctas_shirt.png" "1104fc1.pdf" "Solana Details - Fundraising - June 2019 (1).pdf" "./" "CoinFUND (3).pdf" "coding books/" "image.png" "mann5.png" "pumpkin.png" "Aaron_SubletAgreement.pdf" "Aaron_Yao-Smith_CL.pdf" "1104fc1.odt" "mann.png" "adrianna.org" "Makefile" "../" "pubsub.txt" "Aaron_Yao-Smith_CL_coinfund.pdf" "work/" "1104fc3.odt" "DS11_Complete.pdf" "mannbig.png" "big_red_gondola.org" "image2.png" "24415952_OfficialeTranscript.pdf" "dont_steal_me20190124.kdbx")
+
+ ("/home/aaron/.emacs.d/" (24058 22390 281236 330000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
+
+ ("/home/aaron/org/agenda/" (24058 22406 561424 838000) "Cornell.org" "behavioral.org" "CoinFund.org" "SWE.org" "./" ".#Cornell.org" "../")
+
+ ("/home/aaron/workspace/idk/" (24030 53893 844265 951000) "__pycache__/" "Main.java" "jimi.py" "Main.class" "./" "../")
+
+ ("/home/aaron/code/courses/latex_hw/" (24041 49092 352372 623000) "4820_ps2-3.tex" "4820_ps4-2.tex" "4820_ps9-2.tex" "4320_hw5.tex" "collaborators.tex" "4820_ps7-1.tex" "4820_ps6-2.tex" "4820_ps6-3.tex" "4820_ps2-2.tex" "4320_hw2.tex" "4820_ps5-1.tex" "4320_hw3.tex" "4820_ps7-2.tex" "build/" "4820_ps4-3.tex" "4820_ps5-2.tex" "4820_ps5-3.tex" "4320_hw4.tex" "4820_ps8.tex" "collaborators.txt" "4820_ps1-3.tex" "4820_ps1_notes.org" "graph.jpg" "4820_ps3-3.tex" "./" "4820_ps3-2.tex" "4820_ps1-2.tex" "Makefile" "../" "4820_ps9-3.tex")
 
  ("/home/aaron/code/courses/4820/" (24040 24902 908199 520000) "ps3/" "hw3/" "ps2/" "hw2/" "hw1/" "collaborators.txt" "ps4/" "ps9/" "./" "ps1/" "ps6/" "../")
 
  ("/home/aaron/code/courses/4820/ps9/" (24040 26802 318950 914000) "Main.java" "Main.class" "Item.class" "./" "Item$1.class" "../" "Item$2.class")
 
  ("/home/aaron/code/courses/4820/ps6/" (23993 59465 170342 174000) "Test1out.txt" "Test2in.txt" "Test0out.txt" "Test4out.txt" "Test5out.txt" "Main.java" "Test2out.txt" "Test4in.txt" "Test5in.txt" "Main.class" "Test3out.txt" "Test1in.txt" "./" "Test3in.txt" "../" "Test0in.txt")
-
- ("/home/aaron/workspace/" (24030 22422 212251 479000) "aarons-scripts.zip" "java/" "oee-coinbase/" "python/" "autotrader/" "ramzy_a1/" "cornelltaiwan.github.io/" "clj-proj/" "top-of-book/" "float/" "devlaminck/" "ctas-website/" "idk/" "./" "kafka/" "../" "aarons-scripts/")
-
- ("/home/aaron/workspace/idk/" (24030 23464 557417 562000) "__pycache__/" "Main.java" "jimi.py" "Main.class" ".#Main.java" "./" "../")
-
- ("/home/aaron/dotfiles/emacs/.emacs.d/" (24030 22414 432184 452000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
-
- ("/home/aaron/.emacs.d/" (24030 22414 432184 452000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
 
  ("/home/aaron/bin/" (24030 1166 809891 456000) "cu_vpn" ".disable_mouse_accel.un~" "betterlockscreen" "lein" "socks_chromium.sh" "duplicity_filelist" "disable_mouse_accel" "i3exit" "kbdbacklight" "start_cu_vpn" "hsandbox" "quit_cu_vpn" ".duplicity_backup.un~" "duplicity_backup" "monitor" "streisand_socks.sh" "socks_chrome.sh" ".start_cu_vpn.un~" ".cu_vpn.un~" ".colors.un~" "./" ".quit_cu_vpn.un~" "colors" "../" "whitespace_cleanup")
 
@@ -271,8 +282,6 @@
  ("/home/aaron/Documents/work/" (23995 6021 790859 447000) "resume.org" "Aaron_Yao-Smith_resume.pdf" "./" "Aaron_Yao-Smith_transcript.pdf" "../")
 
  ("/home/aaron/code/work/resumes/" (23995 6407 106917 369000) "resume_datasci.tex" "2020_tech_new.tex" "tabto.sty" "ideas.org" ".git/" "fontawesome.sty" "cv_4.tex" "2020_tech.tex" "README.md" "build/" "res.cls" ".gitignore" "./" "examples/" "resume_backend.tex" "Makefile" "resume.cls" "../" "resume.tex")
-
- ("/home/aaron/Documents/" (24001 52302 467592 52000) "dont_steal_me20190101.kdbx" "dont_steal_me20190122.kdbx" "oee_lib.txt" "sample.pdf" "1104fc2.odt" "transcript.pdf" "pseudo.txt" "1104fc3.pdf" "signature.jpg" "1104fc2.pdf" "Written_Consent_Form.pdf" "Libra.pdf" "pubsub2.txt" "Archive.zip" "bulkin.txt" "Internship Agreement - Aaron Yao-Smith countersigned.pdf" "retreat_absence.tex" "build/" "Talking+to+Humans+10+tips.pdf" "Aaron_SubletAgreement_countersigned.pdf" "PairContract_P5.txt" "dont_steal_me20190303.kdbx" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "Safari - Jun 18, 2019 at 1_05 PM.pdf" "dont_steal_me20190306.kdbx" "ctas_shirt.png" "1104fc1.pdf" "Solana Details - Fundraising - June 2019 (1).pdf" "./" "CoinFUND (3).pdf" "coding books/" "image.png" "pumpkin.png" "Aaron_SubletAgreement.pdf" "Aaron_Yao-Smith_CL.pdf" "1104fc1.odt" "adrianna.org" "Makefile" "../" "pubsub.txt" "Aaron_Yao-Smith_CL_coinfund.pdf" "work/" "1104fc3.odt" "DS11_Complete.pdf" "image2.png" "24415952_OfficialeTranscript.pdf" "dont_steal_me20190124.kdbx")
 
  ("/home/aaron/org/notes/pitch/" (23995 4947 873025 149000) "behavioral.org" "resume.org" "technical.org" "./" "../" "williams.org")
 

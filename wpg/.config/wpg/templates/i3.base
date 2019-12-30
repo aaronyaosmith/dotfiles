@@ -178,7 +178,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86KbdBrightnessUp exec ~/bin/kbdbacklight up
 bindsym XF86KbdBrightnessDown exec ~/bin/kbdbacklight down
-bindsym $mod+Shift+b exec chromium-browser
+bindsym $mod+Shift+b exec google-chrome
 bindsym $mod+Shift+m exec ~/bin/monitor
 
 # STARTUP

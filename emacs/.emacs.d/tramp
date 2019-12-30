@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <19/11/08 15:01:30 /home/aaron/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <19/12/18 14:18:59 /home/aaron/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -61,7 +61,14 @@
   ("file-exists" "test -e")
   ("bzr" nil)
   ("git" "\\git")
-  ("hg" "\\hg"))
+  ("hg" "\\hg")
+  ("~" "/home/aty25")
+  ("ls" "/usr/bin/ls --color=never")
+  ("ls-dired" t)
+  ("tmpdir" "/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")
+  ("uid-integer" 5967))
  (["ssh" nil "Cornell_BioHPC" nil nil]
   ("uname" "Linux 3.10.0-957.12.1.el7.x86_64")
   ("locale" "LC_ALL=en_US.utf8")
@@ -83,6 +90,4 @@
   ("ls-dired" t)
   ("uid-integer" 5967))
  (["scp" nil "ssh" nil nil]
-  nil)
- (["ssh" nil "18.215.233.146" nil nil]
   nil))
