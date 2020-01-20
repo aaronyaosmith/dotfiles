@@ -164,11 +164,11 @@
  ("/home/aaron/code/resumes/" . "resumes/")
  ("/home/aaron/code/cs3110/cs3110-a1/" . "a1/")
  ("/home/aaron/.config/" . "wpg/")
- ("/home/aaron/org/" . "agenda/")
+ ("/home/aaron/org/" . "notes/")
  ("/home/aaron/code/cs3110/" . "cs3110-a9/")
  ("/home/aaron/.emacs.d/" . "lisp/")
  ("/home/aaron/Documents/" . "work/")
- ("/home/aaron/" . ".config/")
+ ("/home/aaron/" . "org/")
  ("/home/aaron/code/hgmd/HG_marker_detection/" . "docs/")
  ("/home/aaron/code/hgmd/" . "HG_marker_detection/")
  ("/home/aaron/code/" . "courses/")
@@ -176,7 +176,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/aaron/org/notes/"
  "/home/aaron/dotfiles/wpg/.config/wpg/templates/"
+ "/home/aaron/dotfiles/polybar/.config/polybar/"
  "/home/aaron/.config/wpg/templates/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/workdir/aty25/dense/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:"
@@ -194,7 +196,6 @@
  "/home/aaron/workspace/python/leetcode/"
  "/home/aaron/workspace/idk/"
  "/home/aaron/bin/"
- "/home/aaron/org/notes/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/fs/cbsuvlaminck3/workdir/mm2937/RotaVirusPhase2/scripts/"
  "/ssh:aty25@cbsuvlaminck2.biohpc.cornell.edu:/home/aty25/"
  "/ssh:cbsuvlaminck2.biohpc.cornell.edu:"
@@ -225,26 +226,47 @@
  "/home/aaron/workspace/ctas-website/floats/"
  "/home/aaron/workspace/ctas-website/css-selectors/"
  "/home/aaron/workspace/ctas-website/css-box/"
- "/home/aaron/workspace/ctas-website/hello-css/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "regiment.org"
+ "reading_list.org"
+ "polybar"
+ "polybar.base"
+ "launch.sh"
  "i3.base"
+ "spotify_status.py"
  "i3"
  "test_script.R"
  "data_manipulation.cpp"
- "preprocessing.R"
- "output.log"
- "Rotavirus.10x.exp.R"
- "rota10x_aaron.r"
- "dense"
- "Cornell.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/aaron/dotfiles/wpg/.config/wpg/templates/" (23951 30785 16081 907000) "Xresources" "Xresources.base~" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" ".Xresources.base.un~" "dunstrc")
+ ("/home/aaron/org/notes/" (24085 9915 204484 17000) "quotes.org" "reading_list.org" "dsa_prep.org" "pitch/" "regiment.org" "papers/" "writing/" "./" "meetings/" "../" "books/" "coursework/")
+
+ ("/home/aaron/org/agenda/" (24085 22239 810569 448000) "Cornell.org" "reading_list.org" "behavioral.org" "CoinFund.org" "SWE.org" "./" "../")
+
+ ("/home/aaron/" (24096 59399 850696 459000) ".Renviron" "pydrivecreds.json" ".Rprofile" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".Rpackages/" ".m2/" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".docker/" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" ".nvm/" "Dropbox/" ".selected_editor" ".node_repl_history" ".FreeCAD/" "test" ".themes/" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" "wget-log" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".jenv/" ".test.un~" ".config/" ".hsandbox/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "get.php?md5=3797A842080D0DA2D99B99763984024D&key=6ITFAOEODD9HT0KC" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" ".fltk/" ".android/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".ssh/" ".eclipse/" "node_modules/" ".vnc/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gem/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".order_execution.yml" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".clojure_history" ".thunderbird/" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".pyenv/" ".runelite/" "pydrive.conf" ".clojure/" ".icons/" "org/" ".cache/" ".pricingd/" ".cpanm/" ".lein/" "Documents/" ".Renviron.bak" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" ".xmodmap" "dotfiles/" "go/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
+
+ ("/home/aaron/org/uncategorized/" (24046 42722 139057 217000) "thoughts20190629.org" "winter_break_2020.org" "./" "../")
+
+ ("/home/aaron/dotfiles/wpg/.config/wpg/templates/" (24078 11530 743793 976000) "Xresources" "Xresources.base~" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" ".Xresources.base.un~" "dunstrc")
+
+ ("/home/aaron/dotfiles/emacs/.emacs.d/" (24078 11034 111400 597000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
+
+ ("/home/aaron/.emacs.d/" (24078 11034 111400 597000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
+
+ ("/home/aaron/dotfiles/polybar/" (23582 30141 917686 752000) ".config/" "./" "../")
+
+ ("/home/aaron/dotfiles/polybar/.config/" (23582 30151 65760 494000) "polybar/" "./" "../")
+
+ ("/home/aaron/dotfiles/polybar/.config/polybar/" (24078 11271 161482 499000) "launch.sh" "spotify_status.py~" "spotify_status.py" "config" "./" "../" ".spotify_status.py.un~")
+
+ ("/home/aaron/.config/wpg/templates/" (24078 10987 766998 118000) "Xresources" "Xresources.base~" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" ".Xresources.base.un~" "dunstrc")
+
+ ("/home/aaron/.config/wpg/" (24077 30490 197657 647000) ".current" "samples/" "wp_init.sh" "wallpapers/" "./" "wpg.conf" "sequences" "formats/" "../" "templates/" "schemes/")
 
  ("/home/aaron/dotfiles/wpg/.config/wpg/" (23853 53848 26917 853000) "./" "wpg.conf" "../" "templates/")
 
@@ -258,13 +280,7 @@
 
  ("/home/aaron/dotfiles/i3/.config/i3/" (23951 30808 468545 510000) ".config.un~" "toggletouchpad.sh" "config~" "config" "./" "../")
 
- ("/home/aaron/.config/wpg/templates/" (23951 30785 16081 907000) "Xresources" "Xresources.base~" "rofi" "gtk2" "i3" "polybar" ".i3.base.un~" "gtk3.0.base" "gtk3.20.base" "gtk2.base" "dunstrc.base" "./" "i3.base" "Xresources.base" "gtk3.20" "gtk3.0" "i3.base~" "polybar.base" "../" "rofi.base" ".Xresources.base.un~" "dunstrc")
-
- ("/home/aaron/.config/wpg/" (24074 7021 783942 298000) ".current" "samples/" "wp_init.sh" "wallpapers/" "./" "wpg.conf" "sequences" "formats/" "../" "templates/" "schemes/")
-
  ("/home/aaron/.config/" (24065 4929 445856 636000) "update-notifier/" "chromium/" "gnome-session/" "pulse.old/" "dconf/" "lxpanel/" "menus/" "spotify/" "configstore/" "keepassxc/" "hexchat/" "rofi/" "deluge/" "i3/" "Sqlectron/" "matplotlib/" "mimeapps.list" "polybar/" "pavucontrol.ini" "cef_user_data/" "autostart/" "gtk-3.0/" "goa-1.0/" "gtk-4.0/" "FreeCAD/" "evolution/" "pcmanfm/" "gtk-2.0/" "EgoSoft/" "dlv/" "QtProject.conf" "libreoffice/" "pulse/" "blender/" "gnome-initial-setup-done" "mopidy/" "xfce4/" "google-chrome/" "dunst/" "user-dirs.locale" "zoomus.conf" "lutris/" "eog/" "ibus/" "user-dirs.dirs" "VirtualBox/" "opera/" "./" "mpv/" "environment.d/" "wal/" "enchant/" "Thunar/" "evince/" "calibre/" "gqrx/" "nautilus/" "gedit/" "wpg/" "../" "gpick/" "lxsession/" "Trolltech.conf" "Slack/" "Signal/")
-
- ("/home/aaron/" (24068 61097 6073 172000) ".Renviron" "pydrivecreds.json" ".Rprofile" ".pgpass" ".dropbox-dist/" "winehq.key" ".streisand/" ".Rpackages/" ".m2/" ".volk/" ".jupyter/" "Videos/" ".gdfuse/" ".lesshst" ".docker/" ".wget-hsts" ".vim_files/" ".local/" ".macromedia/" ".nvm/" "Dropbox/" ".selected_editor" ".node_repl_history" ".FreeCAD/" "test" ".themes/" ".xsession-errors" ".terraform.d/" "bin/" ".ansible/" ".cabal/" ".gore/" ".thumbnails/" "snap/" ".ghc/" "wget-log" ".gr_fftw_wisdom" ".bash_history" ".Xresources" "core" "games/" ".psql_history" ".jenv/" ".test.un~" ".config/" ".hsandbox/" "aty25@ugclinux.cs.cornell.edu/" ".bash_logout" ".gtkrc-2.0" "wallpapers/" ".gnuradio/" ".ICEauthority" "workspace/" "Music/" ".dropbox/" ".ncmpcpp/" "Public/" ".mozilla/" "Desktop/" ".zoom/" ".bashrc" ".Xauthority" ".sudo_as_admin_successful" ".pricing_config" "code/" ".wine/" "get.php?md5=3797A842080D0DA2D99B99763984024D&key=6ITFAOEODD9HT0KC" "Templates/" ".steam/" ".anyconnect" "scratch.org" ".gnupg/" ".fltk/" ".android/" "perl5/" ".cat_installer/" ".gimp-2.8/" ".swt/" ".ssh/" ".eclipse/" "node_modules/" ".vnc/" ".vim/" "Pictures/" ".ipython/" ".profile" ".java/" ".dbeaver4/" ".ansible_galaxy" ".ansible.cfg" ".irssi/" ".aws/" ".gem/" ".gr_fftw_wisdom.lock" ".gnome/" ".texlive2017/" ".order_execution.yml" "docker_volumes/" ".gitconfig" ".dbus/" "pgadmin.log" ".viminfo" ".dbeaver-drivers/" ".packer.d/" "./" ".fehbg" ".clojure_history" ".thunderbird/" ".steampid" ".adobe/" ".emacs.d/" ".python_history" ".pyenv/" ".runelite/" "pydrive.conf" ".clojure/" ".icons/" "org/" ".cache/" ".pricingd/" ".cpanm/" ".lein/" "Documents/" ".Renviron.bak" ".fonts/" "programs/" ".pki/" "Downloads/" "../" "cloud/" ".lyrics/" ".ssh.zip" "books/" ".xmodmap" "dotfiles/" "go/" "random.dat" ".grassfed-cli/" ".npm/" ".bashrc.swp")
 
  ("/home/aaron/workspace/seurat_annotated/src/" (24058 22396 33303 9000) "ModularityOptimizer.cpp" "integration.cpp" "RcppExports.cpp" "snn.h" "RModularityOptimizer.cpp" "integration.h" "./" "snn.cpp" "ModularityOptimizer.h" "data_manipulation.h" "../" "Makevars" "data_manipulation.cpp")
 
@@ -274,13 +290,7 @@
 
  ("/home/aaron/workspace/" (24042 29704 984277 986000) "aarons-scripts.zip" "java/" "oee-coinbase/" "python/" "autotrader/" "ramzy_a1/" "cornelltaiwan.github.io/" "clj-proj/" "top-of-book/" "float/" "devlaminck/" "ctas-website/" "idk/" "./" "seurat_annotated/" "kafka/" "../" "aarons-scripts/")
 
- ("/home/aaron/dotfiles/emacs/.emacs.d/" (24058 22390 281236 330000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
-
  ("/home/aaron/Documents/" (24057 37738 74012 449000) "dont_steal_me20190101.kdbx" "dont_steal_me20190122.kdbx" "oee_lib.txt" "sample.pdf" "mann4.png" "1104fc2.odt" "transcript.pdf" "pseudo.txt" "1104fc3.pdf" "signature.jpg" "1104fc2.pdf" "Written_Consent_Form.pdf" "Libra.pdf" "pubsub2.txt" "Archive.zip" "bulkin.txt" "Internship Agreement - Aaron Yao-Smith countersigned.pdf" "mann3.png" "mann5.xcf" "retreat_absence.tex" "build/" "Talking+to+Humans+10+tips.pdf" "Aaron_SubletAgreement_countersigned.pdf" "PairContract_P5.txt" "dont_steal_me20190303.kdbx" "mann2.png" "Internship Agreement - Aaron Yao-Smith - Modified-5-1-2019 - countersigned.pdf" "mann3.xcf" "Safari - Jun 18, 2019 at 1_05 PM.pdf" "dont_steal_me20190306.kdbx" "ctas_shirt.png" "1104fc1.pdf" "Solana Details - Fundraising - June 2019 (1).pdf" "./" "CoinFUND (3).pdf" "coding books/" "image.png" "mann5.png" "pumpkin.png" "Aaron_SubletAgreement.pdf" "Aaron_Yao-Smith_CL.pdf" "1104fc1.odt" "mann.png" "adrianna.org" "Makefile" "../" "pubsub.txt" "Aaron_Yao-Smith_CL_coinfund.pdf" "work/" "1104fc3.odt" "DS11_Complete.pdf" "mannbig.png" "big_red_gondola.org" "image2.png" "24415952_OfficialeTranscript.pdf" "dont_steal_me20190124.kdbx")
-
- ("/home/aaron/.emacs.d/" (24058 22390 281236 330000) "snippets/" "themes/" "settings.tex" "ido.last~" "tramp" "url/" "settings.org" "./" "ido.last" "settings.el" "lisp/" "opam-user-setup.el" "init.el" "elpa/" "transient/" "../" "custom.el")
-
- ("/home/aaron/org/agenda/" (24058 22406 561424 838000) "Cornell.org" "behavioral.org" "CoinFund.org" "SWE.org" "./" ".#Cornell.org" "../")
 
  ("/home/aaron/workspace/idk/" (24030 53893 844265 951000) "__pycache__/" "Main.java" "jimi.py" "Main.class" "./" "../")
 
@@ -297,8 +307,6 @@
  ("/home/aaron/workspace/python/" (24022 55918 333581 0) "imc.py" "ryan.java" "ryan.class" "py.pyc" "leetcode/" "leetcode.py" "__pycache__/" "twitter.py" "emails.txt" "ch5.py" "akuna.c" "amz.py" "gusto.py" "bel.pyc" "prac.py" "bel.py" "py.py" "boba.csv" "amzn.py" "google.py" "drw.py" "goldman.py" "algo.py" "airbnb.py" "ryan.py" "ts.py" "./" "duo.py" "main.java" "preprocess.py" "akuna.py" "roblox.py" "akuna.cpp" "quora.py" "python2.py" "goldman.pyc" "../" "goog.py" "imc.pyc")
 
  ("/home/aaron/workspace/python/leetcode/" (24012 25371 163201 695000) "p739.py" "__pycache__/" "easy.py" "p739.java" "practice.py" "./" "739.py" "../")
-
- ("/home/aaron/org/notes/" (24012 25374 335267 623000) "quotes.org" "reading_list.org" "dsa_prep.org" "pitch/" "regiment.org" "papers/" "writing/" "./" "meetings/" "../" "books/" "coursework/")
 
  ("/home/aaron/Documents/work/" (23995 6021 790859 447000) "resume.org" "Aaron_Yao-Smith_resume.pdf" "./" "Aaron_Yao-Smith_transcript.pdf" "../")
 

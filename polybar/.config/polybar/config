@@ -39,7 +39,7 @@ font-6 = "Noto Sans CJK KR:style=Regular:size=10;2"
 
 modules-left = i3 xwindow
 modules-center = 
-modules-right = spotify mpd volume wlan eth filesystem memory cpu battery date
+modules-right = spotify volume wlan eth filesystem memory cpu battery date
 
 tray-position = none
 tray-padding = 0
