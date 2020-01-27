@@ -11,6 +11,16 @@
                                           emacs-start-time))))
   (message "Loaded packages in %.3fs" elapsed))
 
+;;; install packages specified by package list
+(setq packages-file "~/.emacs.d/packages.el")
+(when (file-exists-p packages-file)
+  (load packages-file))
+(package-refresh-contents)
+;; install the missing packages
+(dolist (package package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
+
 ;; Load other lisp files
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 

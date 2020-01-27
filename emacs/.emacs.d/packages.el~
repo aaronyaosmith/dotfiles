@@ -1,0 +1,1 @@
+(setq package-list '("hideshow-org" "org-journal" "org-ref" "interleave" "org-capture" "whitespace-cleanup-mode" "magit"))

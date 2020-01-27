@@ -38,7 +38,7 @@
   (setq org-todo-keywords
     (quote ((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
       (sequence "WAITING(w@/!)" "HOLD(h@/!)" "|" "CANCELLED(c@/!)" "PHONE" "MEETING"))))
-  (add-hook 'org-mode-hook #'visual-line-mode))
+  (add-hook 'org-mode-hook #'visual-line-mode)))
 #+END_SRC
 *** org-journal
 #+BEGIN_SRC emacs-lisp
@@ -54,7 +54,7 @@
 #+BEGIN_SRC emacs-lisp
 (use-package org-ref
   :config
-  (setq org-ref-bibliography-notes (concat org-root-dir "refs/refs.org")
+  (setq org-ref-bibliography-notes (concat org-root-dir "refs/refs.org"
   org-ref-default-bibliography '((concat org-root-dir "refs/refs.bib"))
   org-ref-pdf-directory (concat org-root-dir "refs/pdfs/")))
 #+END_SRC
@@ -118,7 +118,5 @@
 #+END_SRC
 ** TRAMP path
 #+begin_src emacs-lisp
-(use-package tramp
-:config
-  (add-to-list 'tramp-remote-path 'tramp-own-remote-path))
+(add-to-list 'tramp-remote-path 'tramp-own-remote-path)
 #+end_src
