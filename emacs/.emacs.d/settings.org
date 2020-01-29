@@ -27,7 +27,7 @@
 (setq org-root-dir "~/documents/org/")
 (use-package org
   :config
-  (setq org-agenda-files (concat org-root-dir "agenda/"))
+  (setq org-agenda-files (file-expand-wildcards (concat org-root-dir "agenda/*.org")))
   (setq org-startup-indented t)
   (setq org-directory org-root-dir)
   (global-set-key "\C-cl" 'org-store-link)
@@ -71,6 +71,12 @@
 (use-package whitespace-cleanup-mode
   :config
   (global-whitespace-cleanup-mode 1))
+#+END_SRC
+** lineker-mode
+#+BEGIN_SRC emacs-lisp
+(use-package lineker
+  :config
+  (add-hook 'java-mode-hook 'lineker-mode))
 #+END_SRC
 * Keybindings
 ** magit

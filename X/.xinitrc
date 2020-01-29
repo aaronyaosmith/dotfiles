@@ -1,2 +1,3 @@
-exec xmodmap ~/.Xmodmap
+setxkbmap -option "ctrl:swapcaps"
 exec i3
+

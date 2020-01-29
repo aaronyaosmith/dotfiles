@@ -48,17 +48,17 @@ bindsym $mod+Shift+Return exec urxvt
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show run
 
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
-bindsym $mod+h split h
+bindsym $mod+b split b
 bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 bindsym $mod+s layout stacking
@@ -132,6 +132,22 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+# system actions
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id ~/bin/i3exit lock, mode "default"
+    bindsym e exec --no-startup-id ~/bin/i3exit logout, mode "default"
+    bindsym s exec --no-startup-id ~/bin/i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id ~/bin/i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id ~/bin/i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id ~/bin/i3exit shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Pause mode "$mode_system"
 
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
