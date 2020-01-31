@@ -31,6 +31,12 @@ AUDIO_LOW_SYMBOL=VOL
 ## SUBSCRIBE=1 requires interval=persist and always uses LONG_FORMAT
 #SUBSCRIBE=0
 
+[disk]
+command=./disk
+DIR=/
+#ALERT_LOW=10
+interval=30
+
 [battery]
 command=./battery
 interval=30
