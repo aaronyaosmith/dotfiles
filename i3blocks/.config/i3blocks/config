@@ -1,0 +1,41 @@
+# Guess the weather every 10 mins
+[weather]
+command=curl -Ss 'https://wttr.in?0&T&Q' | cut -c 16- | head -2 | xargs echo
+interval=600
+
+
+# Spotify
+[spotify]
+command=./spotify
+interval=1
+
+[volume-pulseaudio]
+command=./volume-pulseaudio
+interval=once
+signal=1
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+##exposed format variables: ${SYMB}, ${VOL}, ${INDEX}, ${NAME}
+LONG_FORMAT="${SYMB} ${VOL}%"
+#SHORT_FORMAT="${SYMB} ${VOL}% [${INDEX}]"
+AUDIO_HIGH_SYMBOL=VOL
+AUDIO_MED_THRESH=50
+AUDIO_MED_SYMBOL=VOL
+AUDIO_LOW_THRESH=0
+AUDIO_LOW_SYMBOL=VOL
+#AUDIO_DELTA=5
+#DEFAULT_COLOR="#ffffff"
+#MUTED_COLOR="#a0a0a0"
+#USE_ALSA_NAME=0
+#USE_DESCRIPTION=0
+## SUBSCRIBE=1 requires interval=persist and always uses LONG_FORMAT
+#SUBSCRIBE=0
+
+[battery]
+command=./battery
+interval=30
+
+# Update time
+[time]
+command=date "+%b %d %H:%M"
+interval=1
