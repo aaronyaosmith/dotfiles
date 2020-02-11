@@ -176,3 +176,4 @@ bar {
 # screen before suspend. Use loginctl lock-session to lock your screen.
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id redshift
+exec --no-startup-id exec ~/.dropbox-dist/dropboxd
