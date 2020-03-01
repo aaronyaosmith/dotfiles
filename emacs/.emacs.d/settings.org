@@ -82,6 +82,11 @@
   :config
   (add-hook 'java-mode-hook 'lineker-mode))
 #+END_SRC
+** xi (CS 4120)
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'auto-mode-alist '("\\.xi\\'" . javascript-mode))
+(add-to-list 'auto-mode-alist '("\\.parsedsol\\'" . lisp-mode))
+#+END_SRC
 * Keybindings
 ** magit
 #+BEGIN_SRC emacs-lisp
