@@ -7,7 +7,7 @@ PACKAGES=$(sort $(dir $(wildcard */)))
 
 .PHONY: install
 install:
-	stow -t ~ $(PACKAGES)
+	stow --override=^.*$ -t ~ $(PACKAGES)
 
 .PHONY: uninstall
 uninstall:
