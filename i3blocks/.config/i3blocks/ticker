@@ -1,0 +1,54 @@
+#!/usr/bin/perl
+# Simple script to pull SPY price from alphavantage
+use strict;
+use warnings;
+use utf8;
+
+my $symbol = $ARGV[0];
+my @result=`curl -Ss 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=$symbol&apikey=Q8DF5RJ62724AYQ3'`;
+my $price = "...";
+my $percent = "";
+($price) = ($result[6] =~ /.*"(.*)",$/);
+($percent) = ($result[11] =~ /.*"(.*)%"$/);
+# take off last 2 digits
+$price = substr $price, 0, -2;
+$percent = substr $percent, 0, -2;
+
+my $full_text = "$symbol $price $percent%";
+my $short_text = "$symbol $price";
+
+my $color;
+if ($percent =~ /-.*$/) {
+    $color = "#FF0000";
+} elsif ($percent eq "0.00") {
+    $color = "#000000";
+} else {
+    $color = "#00FF00";
+}
+
+print "$full_text\n$short_text\n$color\n";
+exit(0);
+
+=begin comment
+[aaron@pine ~]$ curl -Ss 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=SPY&apikey=Q8DF5RJ62724AYQ3'
+{
+    "Global Quote": {
+	"01. symbol": "SPY",
+	"02. open": "280.9800",
+	"03. high": "284.0000",
+	"04. low": "279.9100",
+	"05. price": "283.6800",
+	"06. volume": "83092276",
+	"07. latest trading day": "2020-04-14",
+	"08. previous close": "275.6600",
+	"09. change": "8.0200",
+	"10. change percent": "2.9094%"
+    }
+}[aaron@pine ~]$ curl -Ss 'https://ttr.in?0&T&Q'
+    \  /       Partly cloudy
+  _ /"".-.     35..42 °F
+    \_(   ).   ↘ 10 mph
+    /(___(__)  9 mi
+	       0.0 in
+[aaron@pine ~]$
+=cut

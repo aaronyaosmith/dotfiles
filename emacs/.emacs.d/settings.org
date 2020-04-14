@@ -87,6 +87,14 @@
 (add-to-list 'auto-mode-alist '("\\.xi\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.parsedsol\\'" . lisp-mode))
 #+END_SRC
+** OCaml
+#+BEGIN_SRC emacs-lisp
+(use-package tuareg
+  :config
+  (show-paren-mode 1)
+  (add-to-list 'auto-mode-alist '("\\.ml[iylp]?$" . tuareg-mode))
+  (add-to-list 'auto-mode-alist '("\\.topml$" . tuareg-mode)))
+#+END_SRC
 * Keybindings
 ** magit
 #+BEGIN_SRC emacs-lisp
