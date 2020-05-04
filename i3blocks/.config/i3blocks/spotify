@@ -16,4 +16,4 @@ j = loads(r.data.decode('UTF-8'))
 
 title = j['item']['name']
 artist = j['item']['artists'][0]['name']
-print('{} - {}'.format(title, artist))
+print('{} - {}'.format(artist, title))
