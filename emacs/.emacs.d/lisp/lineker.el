@@ -87,7 +87,8 @@
   :group 'editing)
 
 ;; CS 3110 limit is 80
-(defcustom lineker-column-limit 80
+;; changed to 120 for Amazon
+(defcustom lineker-column-limit 120
   "The column limit after which lineker starts producing warnings."
   :group 'lineker
   :type 'number)
