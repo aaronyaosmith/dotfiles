@@ -33,7 +33,7 @@
 #+END_SRC
 ** org
 #+BEGIN_SRC emacs-lisp
-(setq org-root-dir "~/documents/org/")
+(setq org-root-dir "~/workspace/org/")
 (use-package org
   :config
   (setq org-agenda-files (file-expand-wildcards (concat org-root-dir "agenda/*.org")))
@@ -138,12 +138,19 @@
   (add-to-list 'auto-mode-alist '("\\.ml[iylp]?$" . tuareg-mode))
   (add-to-list 'auto-mode-alist '("\\.topml$" . tuareg-mode)))
 #+END_SRC
+** Scheme
+#+begin_src emacs-lisp
+(use-package geiser
+  :config
+  (setq geiser-mit-binary "/usr/local/bin/scheme")
+  (setq geiser-active-implementations '(mit)))
+#+end_src
 * Keybindings
 ** Mac-specific
 #+BEGIN_SRC emacs-lisp
 (when (eq system-type 'darwin) ;; darwin is MacOS
-  (setq mac-command-modifier 'control)
-  (setq mac-control-modifier 'super)
+  (setq mac-command-modifier 'super)
+  (setq mac-control-modifier 'control)
   (setq mac-option-modifier 'meta))
 #+END_SRC
 ** magit
